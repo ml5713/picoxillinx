@@ -1,0 +1,6 @@
+Error getting parents for "/org/ayatana/bamf/window/73400356" QDBusError("org.freedesktop.DBus.Error.UnknownMethod", "No such interface 'org.ayatana.bamf.view' on object at path /org/ayatana/bamf/window/73400356") 
+Error getting parents for "/org/ayatana/bamf/window/73401615" QDBusError("org.freedesktop.DBus.Error.UnknownMethod", "No such interface 'org.ayatana.bamf.view' on object at path /org/ayatana/bamf/window/73401615") 
+Error getting parents for "/org/ayatana/bamf/window/73400356" QDBusError("org.freedesktop.DBus.Error.UnknownMethod", "No such interface 'org.ayatana.bamf.view' on object at path /org/ayatana/bamf/window/73400356") 
+Error getting parents for "/org/ayatana/bamf/window/73401588" QDBusError("org.freedesktop.DBus.Error.UnknownMethod", "No such interface 'org.ayatana.bamf.view' on object at path /org/ayatana/bamf/window/73401588") 
+Error getting parents for "/org/ayatana/bamf/window/73400356" QDBusError("org.freedesktop.DBus.Error.UnknownMethod", "No such interface 'org.ayatana.bamf.view' on object at path /org/ayatana/bamf/window/73400356") 
+Error getting parents for "/org/ayatana/bamf/window/65011748" QDBusError("org.freedesktop.DBus.Error.UnknownMethod", "No such interface 'org.ayatana.bamf.view' on object at path /org/ayatana/bamf/window/65011748") 

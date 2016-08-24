@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="coregen_fifo_32x128_synth_1" LaunchDir="/home/micron/emanuele/emanueleExample/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.runs/coregen_fifo_32x128_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="pcie3_ultrascale_0_synth_1" LaunchDir="/home/micron/emanuele/emanueleExample/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.runs/pcie3_ultrascale_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

@@ -1,0 +1,179 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Fri Aug 19 16:58:04 2016
+# Process ID: 2243
+# Current directory: /home/micron/StreamLoopback128/software
+# Command line: vivado
+# Log file: /home/micron/StreamLoopback128/software/vivado.log
+# Journal file: /home/micron/StreamLoopback128/software/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:05 . Memory (MB): peak = 5998.008 ; gain = 211.074 ; free physical = 30309 ; free virtual = 38843
+update_compile_order -fileset sources_1
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 60 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.2
+INFO: [Device 21-403] Loading part xcku060-ffva1156-2-e
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/micron/StreamLoopback128/software/.Xil/Vivado-2243-micron-ubuntu/dcp/Pico_Toplevel_early.xdc]
+Finished Parsing XDC File [/home/micron/StreamLoopback128/software/.Xil/Vivado-2243-micron-ubuntu/dcp/Pico_Toplevel_early.xdc]
+Parsing XDC File [/home/micron/StreamLoopback128/software/.Xil/Vivado-2243-micron-ubuntu/dcp/Pico_Toplevel.xdc]
+WARNING: [Constraints 18-4434] Global Clock Buffer 'PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/phy_clk_i/bufg_gt_pclk' is LOCed to site 'BUFG_GT_X1Y36'. Using a LOC constraint to assign the placement of a Global Clock Buffer can result in sub-optimal placement results in UltraScale. [/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/m510/src/M510_KU060_FFVA1156_E.xdc:118]
+Resolution: Remove the LOC constraint and use the CLOCK_REGION constraint to assign a Global Clock Buffer to a CLOCK_REGION.
+WARNING: [Constraints 18-4434] Global Clock Buffer 'PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/phy_clk_i/bufg_gt_userclk' is LOCed to site 'BUFG_GT_X1Y37'. Using a LOC constraint to assign the placement of a Global Clock Buffer can result in sub-optimal placement results in UltraScale. [/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/m510/src/M510_KU060_FFVA1156_E.xdc:119]
+Resolution: Remove the LOC constraint and use the CLOCK_REGION constraint to assign a Global Clock Buffer to a CLOCK_REGION.
+WARNING: [Constraints 18-4434] Global Clock Buffer 'PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/phy_clk_i/bufg_gt_coreclk' is LOCed to site 'BUFG_GT_X1Y38'. Using a LOC constraint to assign the placement of a Global Clock Buffer can result in sub-optimal placement results in UltraScale. [/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/m510/src/M510_KU060_FFVA1156_E.xdc:120]
+Resolution: Remove the LOC constraint and use the CLOCK_REGION constraint to assign a Global Clock Buffer to a CLOCK_REGION.
+Finished Parsing XDC File [/home/micron/StreamLoopback128/software/.Xil/Vivado-2243-micron-ubuntu/dcp/Pico_Toplevel.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 6559.676 ; gain = 7.672 ; free physical = 29404 ; free virtual = 38329
+Restored from archive | CPU: 2.130000 secs | Memory: 16.052299 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 6559.676 ; gain = 7.672 ; free physical = 29404 ; free virtual = 38329
+WARNING: [Constraints 18-4434] Global Clock Buffer 'PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/phy_clk_i/bufg_gt_coreclk' is LOCed to site 'BUFG_GT_X1Y38'. Using a LOC constraint to assign the placement of a Global Clock Buffer can result in sub-optimal placement results in UltraScale.
+Resolution: Remove the LOC constraint and use the CLOCK_REGION constraint to assign a Global Clock Buffer to a CLOCK_REGION.
+WARNING: [Constraints 18-4434] Global Clock Buffer 'PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/phy_clk_i/bufg_gt_pclk' is LOCed to site 'BUFG_GT_X1Y36'. Using a LOC constraint to assign the placement of a Global Clock Buffer can result in sub-optimal placement results in UltraScale.
+Resolution: Remove the LOC constraint and use the CLOCK_REGION constraint to assign a Global Clock Buffer to a CLOCK_REGION.
+WARNING: [Constraints 18-4434] Global Clock Buffer 'PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/phy_clk_i/bufg_gt_userclk' is LOCed to site 'BUFG_GT_X1Y37'. Using a LOC constraint to assign the placement of a Global Clock Buffer can result in sub-optimal placement results in UltraScale.
+Resolution: Remove the LOC constraint and use the CLOCK_REGION constraint to assign a Global Clock Buffer to a CLOCK_REGION.
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 59 instances were transformed.
+  DSP48E2 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_M_DATA, DSP_MULTIPLIER, DSP_OUTPUT, DSP_PREADD, DSP_PREADD_DATA): 3 instances
+  IBUFGDS => IBUFDS (DIFFINBUF, IBUFCTRL): 1 instances
+  RAM32M16 => RAM32M16 (RAMS32, RAMS32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32): 43 instances
+  RAM64M8 => RAM64M8 (RAMD64E, RAMD64E, RAMD64E, RAMD64E, RAMD64E, RAMD64E, RAMD64E, RAMD64E): 4 instances
+  RAM64X1D => RAM64X1D (RAMD64E, RAMD64E): 8 instances
+
+open_run: Time (s): cpu = 00:00:32 ; elapsed = 00:00:15 . Memory (MB): peak = 6952.594 ; gain = 940.578 ; free physical = 29035 ; free virtual = 37943
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+close_design
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Fri Aug 19 16:59:43 2016] Launched impl_1...
+Run output will be captured here: /home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 60 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/micron/StreamLoopback128/software/.Xil/Vivado-2243-micron-ubuntu/dcp/Pico_Toplevel_early.xdc]
+Finished Parsing XDC File [/home/micron/StreamLoopback128/software/.Xil/Vivado-2243-micron-ubuntu/dcp/Pico_Toplevel_early.xdc]
+Parsing XDC File [/home/micron/StreamLoopback128/software/.Xil/Vivado-2243-micron-ubuntu/dcp/Pico_Toplevel.xdc]
+WARNING: [Constraints 18-4434] Global Clock Buffer 'PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/phy_clk_i/bufg_gt_pclk' is LOCed to site 'BUFG_GT_X1Y36'. Using a LOC constraint to assign the placement of a Global Clock Buffer can result in sub-optimal placement results in UltraScale. [/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/m510/src/M510_KU060_FFVA1156_E.xdc:118]
+Resolution: Remove the LOC constraint and use the CLOCK_REGION constraint to assign a Global Clock Buffer to a CLOCK_REGION.
+WARNING: [Constraints 18-4434] Global Clock Buffer 'PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/phy_clk_i/bufg_gt_userclk' is LOCed to site 'BUFG_GT_X1Y37'. Using a LOC constraint to assign the placement of a Global Clock Buffer can result in sub-optimal placement results in UltraScale. [/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/m510/src/M510_KU060_FFVA1156_E.xdc:119]
+Resolution: Remove the LOC constraint and use the CLOCK_REGION constraint to assign a Global Clock Buffer to a CLOCK_REGION.
+WARNING: [Constraints 18-4434] Global Clock Buffer 'PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/phy_clk_i/bufg_gt_coreclk' is LOCed to site 'BUFG_GT_X1Y38'. Using a LOC constraint to assign the placement of a Global Clock Buffer can result in sub-optimal placement results in UltraScale. [/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/m510/src/M510_KU060_FFVA1156_E.xdc:120]
+Resolution: Remove the LOC constraint and use the CLOCK_REGION constraint to assign a Global Clock Buffer to a CLOCK_REGION.
+Finished Parsing XDC File [/home/micron/StreamLoopback128/software/.Xil/Vivado-2243-micron-ubuntu/dcp/Pico_Toplevel.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 7554.492 ; gain = 0.000 ; free physical = 28153 ; free virtual = 37224
+Restored from archive | CPU: 2.090000 secs | Memory: 16.185455 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 7554.492 ; gain = 0.000 ; free physical = 28153 ; free virtual = 37224
+WARNING: [Constraints 18-4434] Global Clock Buffer 'PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/phy_clk_i/bufg_gt_coreclk' is LOCed to site 'BUFG_GT_X1Y38'. Using a LOC constraint to assign the placement of a Global Clock Buffer can result in sub-optimal placement results in UltraScale.
+Resolution: Remove the LOC constraint and use the CLOCK_REGION constraint to assign a Global Clock Buffer to a CLOCK_REGION.
+WARNING: [Constraints 18-4434] Global Clock Buffer 'PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/phy_clk_i/bufg_gt_pclk' is LOCed to site 'BUFG_GT_X1Y36'. Using a LOC constraint to assign the placement of a Global Clock Buffer can result in sub-optimal placement results in UltraScale.
+Resolution: Remove the LOC constraint and use the CLOCK_REGION constraint to assign a Global Clock Buffer to a CLOCK_REGION.
+WARNING: [Constraints 18-4434] Global Clock Buffer 'PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/phy_clk_i/bufg_gt_userclk' is LOCed to site 'BUFG_GT_X1Y37'. Using a LOC constraint to assign the placement of a Global Clock Buffer can result in sub-optimal placement results in UltraScale.
+Resolution: Remove the LOC constraint and use the CLOCK_REGION constraint to assign a Global Clock Buffer to a CLOCK_REGION.
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 59 instances were transformed.
+  DSP48E2 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_M_DATA, DSP_MULTIPLIER, DSP_OUTPUT, DSP_PREADD, DSP_PREADD_DATA): 3 instances
+  IBUFGDS => IBUFDS (DIFFINBUF, IBUFCTRL): 1 instances
+  RAM32M16 => RAM32M16 (RAMS32, RAMS32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32): 43 instances
+  RAM64M8 => RAM64M8 (RAMD64E, RAMD64E, RAMD64E, RAMD64E, RAMD64E, RAMD64E, RAMD64E, RAMD64E): 4 instances
+  RAM64X1D => RAM64X1D (RAMD64E, RAMD64E): 8 instances
+
+open_run: Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 7617.578 ; gain = 63.086 ; free physical = 28111 ; free virtual = 37155
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+close_design
+close_project
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source /home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Aug 19 17:48:02 2016...
+create_project project_jim /home/micron/jim/project_jim -part xc7vx485tffg1157-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2016.2/data/ip'.
+add_files /home/micron/StreamLoopback128
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+close_project
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source /home/micron/jim/project_jim/project_jim.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Aug 19 18:23:17 2016...
+open_project /home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2016.2/data/ip'.
+update_compile_order -fileset sources_1
+close_project
+open_project /home/micron/emanuele/emanueleExample/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2016.2/data/ip'.
+update_compile_order -fileset sources_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Fri Aug 19 18:24:24 2016] Launched impl_1...
+Run output will be captured here: /home/micron/emanuele/emanueleExample/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 57 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/micron/StreamLoopback128/software/.Xil/Vivado-2243-micron-ubuntu/dcp/Pico_Toplevel_early.xdc]
+Finished Parsing XDC File [/home/micron/StreamLoopback128/software/.Xil/Vivado-2243-micron-ubuntu/dcp/Pico_Toplevel_early.xdc]
+Parsing XDC File [/home/micron/StreamLoopback128/software/.Xil/Vivado-2243-micron-ubuntu/dcp/Pico_Toplevel.xdc]
+WARNING: [Constraints 18-4434] Global Clock Buffer 'PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/phy_clk_i/bufg_gt_pclk' is LOCed to site 'BUFG_GT_X1Y36'. Using a LOC constraint to assign the placement of a Global Clock Buffer can result in sub-optimal placement results in UltraScale. [/home/micron/emanuele/emanueleExample/firmware/M510_KU060_StreamLoopback128/firmware/m510/src/M510_KU060_FFVA1156_E.xdc:118]
+Resolution: Remove the LOC constraint and use the CLOCK_REGION constraint to assign a Global Clock Buffer to a CLOCK_REGION.
+WARNING: [Constraints 18-4434] Global Clock Buffer 'PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/phy_clk_i/bufg_gt_userclk' is LOCed to site 'BUFG_GT_X1Y37'. Using a LOC constraint to assign the placement of a Global Clock Buffer can result in sub-optimal placement results in UltraScale. [/home/micron/emanuele/emanueleExample/firmware/M510_KU060_StreamLoopback128/firmware/m510/src/M510_KU060_FFVA1156_E.xdc:119]
+Resolution: Remove the LOC constraint and use the CLOCK_REGION constraint to assign a Global Clock Buffer to a CLOCK_REGION.
+WARNING: [Constraints 18-4434] Global Clock Buffer 'PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/phy_clk_i/bufg_gt_coreclk' is LOCed to site 'BUFG_GT_X1Y38'. Using a LOC constraint to assign the placement of a Global Clock Buffer can result in sub-optimal placement results in UltraScale. [/home/micron/emanuele/emanueleExample/firmware/M510_KU060_StreamLoopback128/firmware/m510/src/M510_KU060_FFVA1156_E.xdc:120]
+Resolution: Remove the LOC constraint and use the CLOCK_REGION constraint to assign a Global Clock Buffer to a CLOCK_REGION.
+Finished Parsing XDC File [/home/micron/StreamLoopback128/software/.Xil/Vivado-2243-micron-ubuntu/dcp/Pico_Toplevel.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 7788.980 ; gain = 0.000 ; free physical = 25845 ; free virtual = 35332
+Restored from archive | CPU: 2.060000 secs | Memory: 17.641342 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 7788.980 ; gain = 0.000 ; free physical = 25843 ; free virtual = 35329
+WARNING: [Constraints 18-4434] Global Clock Buffer 'PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/phy_clk_i/bufg_gt_coreclk' is LOCed to site 'BUFG_GT_X1Y38'. Using a LOC constraint to assign the placement of a Global Clock Buffer can result in sub-optimal placement results in UltraScale.
+Resolution: Remove the LOC constraint and use the CLOCK_REGION constraint to assign a Global Clock Buffer to a CLOCK_REGION.
+WARNING: [Constraints 18-4434] Global Clock Buffer 'PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/phy_clk_i/bufg_gt_pclk' is LOCed to site 'BUFG_GT_X1Y36'. Using a LOC constraint to assign the placement of a Global Clock Buffer can result in sub-optimal placement results in UltraScale.
+Resolution: Remove the LOC constraint and use the CLOCK_REGION constraint to assign a Global Clock Buffer to a CLOCK_REGION.
+WARNING: [Constraints 18-4434] Global Clock Buffer 'PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/phy_clk_i/bufg_gt_userclk' is LOCed to site 'BUFG_GT_X1Y37'. Using a LOC constraint to assign the placement of a Global Clock Buffer can result in sub-optimal placement results in UltraScale.
+Resolution: Remove the LOC constraint and use the CLOCK_REGION constraint to assign a Global Clock Buffer to a CLOCK_REGION.
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 56 instances were transformed.
+  IBUFGDS => IBUFDS (DIFFINBUF, IBUFCTRL): 1 instances
+  RAM32M16 => RAM32M16 (RAMS32, RAMS32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32): 43 instances
+  RAM64M8 => RAM64M8 (RAMD64E, RAMD64E, RAMD64E, RAMD64E, RAMD64E, RAMD64E, RAMD64E, RAMD64E): 4 instances
+  RAM64X1D => RAM64X1D (RAMD64E, RAMD64E): 8 instances
+
+open_run: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 7788.980 ; gain = 0.000 ; free physical = 25721 ; free virtual = 35180

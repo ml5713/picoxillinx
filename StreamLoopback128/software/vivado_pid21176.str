@@ -1,0 +1,213 @@
+/*
+
+Vivado v2016.2 (64-bit)
+SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+Process ID: 21176
+
+Current time: 	8/12/16 6:55:44 PM BST
+Time zone: 	Greenwich Mean Time (Europe/London)
+
+OS: DISTRIB_ID=Ubuntu
+Version: 3.13.0-46-generic
+Architecture: amd64
+Available processors (cores): 12
+
+DISPLAY: localhost:10.0
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	/opt/Xilinx/Vivado/2016.2/tps/lnx64/jre
+
+User name: 	root
+User home directory: /root
+User working directory: /home/micron/StreamLoopback128/software
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI Base root directory: /opt/Xilinx/Vivado
+RDI Data directory: /opt/Xilinx/Vivado/2016.2/data
+RDI Bin directory: /opt/Xilinx/Vivado/2016.2/bin
+
+Vivado preferences path: /home/micron/.Xilinx/Vivado/2016.2/vivado.ini
+Vivado layouts directory: /home/micron/.Xilinx/Vivado/2016.2/layouts
+
+GUI allocated memory:	184 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 4,883 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// [GUI Memory]: 61 MB (+61874kb) [00:00:05]
+// [Engine Memory]: 4,883 MB (+4968925kb) [00:00:05]
+// HMemoryUtils.trashcanNow. Engine heap size: 4,923 MB. GUI used memory: 21 MB. Current time: 8/12/16 6:55:46 PM BST
+selectList(PAResourceEtoH.GettingStartedView_RECENT_PROJECTS, "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.xpr", 0); // q:v (JViewport:JComponent, cv:JFrame)
+// bL:g (cv:JFrame):  Open Project : addNotify
+// Opening Vivado Project: /home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.xpr. Version: Vivado v2016.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// Tcl Message: open_project /home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.xpr 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project /home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2016.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 5,132 MB (+4676kb) [00:00:14]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: M510_KU060_StreamLoopback128; location: /home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128; part: xcku060-ffva1156-2-e
+// Tcl Message: open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:05 . Memory (MB): peak = 6003.586 ; gain = 193.832 ; free physical = 28490 ; free virtual = 38749 
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Pico_Toplevel (Pico_Toplevel.v)]", 2); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pico_dma_interconnect (PicoInterfaces.sv)]", 9, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Pico_Toplevel (Pico_Toplevel.v)]", 2, true); // z:k (G:JPanel, cv:JFrame) - Node
+// TclEventType: FILE_SET_CHANGE
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Pico_Toplevel (Pico_Toplevel.v), PicoFramework - PicoFrameworkM510_KU060 (PicoFramework.v)]", 3); // z:k (G:JPanel, cv:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Pico_Toplevel (Pico_Toplevel.v), PicoFramework - PicoFrameworkM510_KU060 (PicoFramework.v)]", 3); // z:k (G:JPanel, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, AXIBuffer (AXIBuffer.v)]", 7); // z:k (G:JPanel, cv:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, AXIBuffer (AXIBuffer.v)]", 7); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Pico_Toplevel (Pico_Toplevel.v)]", 2); // z:k (G:JPanel, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Pico_Toplevel (Pico_Toplevel.v)]", 2); // z:k (G:JPanel, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Pico_Toplevel (Pico_Toplevel.v), PicoFramework - PicoFrameworkM510_KU060 (PicoFramework.v)]", 3); // z:k (G:JPanel, cv:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Pico_Toplevel (Pico_Toplevel.v), PicoFramework - PicoFrameworkM510_KU060 (PicoFramework.v)]", 3); // z:k (G:JPanel, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Pico_Toplevel (Pico_Toplevel.v), UserWrapper - UserWrapper (UserWrapper.v)]", 4); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Pico_Toplevel (Pico_Toplevel.v), UserWrapper - UserWrapper (UserWrapper.v), UserModule - StreamLoopback128 (StreamLoopback128.v)]", 11, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Pico_Toplevel (Pico_Toplevel.v), UserWrapper - UserWrapper (UserWrapper.v), UserModule - StreamLoopback128 (StreamLoopback128.v)]", 11, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("StreamLoopback128.v", 211, 335); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 41 seconds
+selectCodeEditor("StreamLoopback128.v", 288, 310); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "StreamLoopback128.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// [GUI Memory]: 68 MB (+3496kb) [00:01:33]
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// aV:y (cv:JFrame): Save Project: addNotify
+// [GUI Memory]: 73 MB (+2193kb) [00:01:38]
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aV:y)
+// bL:g (cv:JFrame):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// G:be (cv:JFrame): Synthesis is Out-of-date: addNotify
+dismissDialog("Save Project"); // aV:y (cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // G:be (cv:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// 'ck' command handler elapsed time: 7 seconds
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 6 
+// Tcl Message: [Fri Aug 12 18:57:23 2016] Launched synth_1... Run output will be captured here: /home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.runs/synth_1/runme.log [Fri Aug 12 18:57:23 2016] Launched impl_1... Run output will be captured here: /home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.runs/impl_1/runme.log 
+// HMemoryUtils.trashcanNow. Engine heap size: 5,153 MB. GUI used memory: 38 MB. Current time: 8/12/16 6:57:26 PM BST
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// [GUI Memory]: 78 MB (+568kb) [00:04:02]
+// [GUI Memory]: 85 MB (+3330kb) [00:04:05]
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 373 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:G)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bL:g (cv:JFrame):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// [Engine Memory]: 5,537 MB (+156209kb) [00:08:02]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,556 MB. GUI used memory: 40 MB. Current time: 8/12/16 7:03:41 PM BST
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: POWER_CNS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PHY_BLOCK_NEW
+// TclEventType: PHY_BLOCK_ADD_INST
+// TclEventType: PHY_RECT_SELECT
+// TclEventType: PHY_BLOCK_MODIFY
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: PHY_RECT_SELECT
+// TclEventType: PHY_BLOCK_MODIFY
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: PHY_RECT_SELECT
+// TclEventType: PHY_BLOCK_MODIFY
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: PHY_RECT_SELECT
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 5,638 MB. GUI used memory: 40 MB. Current time: 8/12/16 7:03:46 PM BST
+// [GUI Memory]: 101 MB (+12289kb) [00:08:08]
+// [Engine Memory]: 5,986 MB (+180111kb) [00:08:08]
+// Xgd.load filename: /opt/Xilinx/Vivado/2016.2/data/parts/xilinx/kintexu/devint/kintexu/xcku060/xcku060.xgd; ZipEntry: xcku060_detail.xgd elapsed time: 1.3s
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 2.5s
+// [GUI Memory]: 106 MB (+128kb) [00:08:10]
+// Device: addNotify
+// [GUI Memory]: 111 MB (+362kb) [00:08:10]
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 57 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2016.2 INFO: [Device 21-403] Loading part xcku060-ffva1156-2-e INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [/home/micron/StreamLoopback128/software/.Xil/Vivado-21176-micron-ubuntu/dcp/Pico_Toplevel_early.xdc] Finished Parsing XDC File [/home/micron/StreamLoopback128/software/.Xil/Vivado-21176-micron-ubuntu/dcp/Pico_Toplevel_early.xdc] Parsing XDC File [/home/micron/StreamLoopback128/software/.Xil/Vivado-21176-micron-ubuntu/dcp/Pico_Toplevel.xdc] 
+// Tcl Message: Finished Parsing XDC File [/home/micron/StreamLoopback128/software/.Xil/Vivado-21176-micron-ubuntu/dcp/Pico_Toplevel.xdc] Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 6553.895 ; gain = 15.004 ; free physical = 27924 ; free virtual = 38211 
+// Tcl Message: Restored from archive | CPU: 2.260000 secs | Memory: 17.554054 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 6553.895 ; gain = 15.004 ; free physical = 27924 ; free virtual = 38211 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary:   A total of 56 instances were transformed.   IBUFGDS => IBUFDS (DIFFINBUF, IBUFCTRL): 1 instances   RAM32M16 => RAM32M16 (RAMS32, RAMS32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32): 43 instances   RAM64M8 => RAM64M8 (RAMD64E, RAMD64E, RAMD64E, RAMD64E, RAMD64E, RAMD64E, RAMD64E, RAMD64E): 4 instances   RAM64X1D => RAM64X1D (RAMD64E, RAMD64E): 8 instances  
+// 'dG' command handler elapsed time: 14 seconds
+// Elapsed time: 14 seconds
+dismissDialog("Open Implemented Design"); // bL:g (cv:JFrame)
+// bL:g (cv:JFrame):  Open Report Power : addNotify
+// Device view-level: 0.0
+// TclEventType: POWER_UPDATED
+// [GUI Memory]: 117 MB (+260kb) [00:08:12]
+// [GUI Memory]: 125 MB (+1458kb) [00:08:12]
+// [GUI Memory]: 143 MB (+12869kb) [00:08:13]
+// [GUI Memory]: 151 MB (+307kb) [00:08:13]
+// [GUI Memory]: 158 MB (+209kb) [00:08:13]
+dismissDialog("Open Report Power"); // bL:g (cv:JFrame)
+// [GUI Memory]: 170 MB (+4146kb) [00:08:14]
+// TclEventType: TIMING_SUMMARY_UPDATED
+// bL:g (cv:JFrame):  Open Timing Summary : addNotify
+dismissDialog("Open Timing Summary"); // bL:g (cv:JFrame)
+// [Engine Memory]: 6,642 MB (+374352kb) [00:08:21]
+// RouteApi::initDelayMediator elapsed time: 11.2s
+// HMemoryUtils.trashcanNow. Engine heap size: 6,634 MB. GUI used memory: 136 MB. Current time: 8/12/16 7:04:02 PM BST

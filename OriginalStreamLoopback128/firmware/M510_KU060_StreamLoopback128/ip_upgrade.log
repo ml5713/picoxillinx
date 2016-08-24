@@ -1,0 +1,401 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Fri Aug 19 18:22:56 2016
+| Host         : micron-ubuntu running 64-bit Ubuntu 14.04.2 LTS
+| Command      : upgrade_ip
+| Device       : xcku060-ffva1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'pcie3_ultrascale_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of pcie3_ultrascale_0 from xilinx.com:ip:pcie3_ultrascale:4.0 (Rev. 1) to xilinx.com:ip:pcie3_ultrascale:4.2 (Rev. 1)
+
+After upgrade, an IP may have parameter differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality.
+
+2. Upgrade messages
+-------------------
+
+Added parameter ins_loss_profile with value Backplane (source 'default')
+Set parameter ins_loss_profile to value Backplane (source 'default')
+Set parameter PF0_LINK_STATUS_SLOT_CLOCK_CONFIG to value true (source 'default')
+
+3. Customization warnings
+-------------------------
+
+An attempt to modify the value of disabled parameter 'select_quad' from 'GTH_Quad_225' to 'GTH_Quad_224' has been ignored for IP 'pcie3_ultrascale_0'
+
+
+4. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  You may consult any warnings from within this upgrade, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv xilinx.com:ip:pcie3_ultrascale:4.2 -user_name pcie3_ultrascale_0
+set_property -dict "\
+  CONFIG.AXISTEN_IF_RC_STRADDLE false \
+  CONFIG.Component_Name pcie3_ultrascale_0 \
+  CONFIG.INS_LOSS_NYQ 20 \
+  CONFIG.PF0_AER_CAP_ECRC_CHECK_CAPABLE false \
+  CONFIG.PF0_AER_CAP_ECRC_GEN_CAPABLE false \
+  CONFIG.PF0_CLASS_CODE 058000 \
+  CONFIG.PF0_DEVICE_ID 0510 \
+  CONFIG.PF0_DEV_CAP2_128B_CAS_ATOMIC_COMPLETER_SUPPORT false \
+  CONFIG.PF0_DEV_CAP2_32B_ATOMIC_COMPLETER_SUPPORT false \
+  CONFIG.PF0_DEV_CAP2_64B_ATOMIC_COMPLETER_SUPPORT false \
+  CONFIG.PF0_DEV_CAP2_OBFF_SUPPORT 00_Not_Supported \
+  CONFIG.PF0_DEV_CAP2_TPH_COMPLETER_SUPPORT false \
+  CONFIG.PF0_DEV_CAP_FUNCTION_LEVEL_RESET_CAPABLE false \
+  CONFIG.PF0_INTERRUPT_PIN INTA \
+  CONFIG.PF0_LINK_STATUS_SLOT_CLOCK_CONFIG true \
+  CONFIG.PF0_MSIX_CAP_PBA_BIR BAR_0 \
+  CONFIG.PF0_MSIX_CAP_PBA_OFFSET 00000000 \
+  CONFIG.PF0_MSIX_CAP_TABLE_BIR BAR_0 \
+  CONFIG.PF0_MSIX_CAP_TABLE_OFFSET 00000000 \
+  CONFIG.PF0_MSIX_CAP_TABLE_SIZE 000 \
+  CONFIG.PF0_MSI_CAP_MULTIMSGCAP 1_vector \
+  CONFIG.PF0_PM_CAP_PMESUPPORT_D0 false \
+  CONFIG.PF0_PM_CAP_PMESUPPORT_D1 false \
+  CONFIG.PF0_PM_CAP_PMESUPPORT_D3HOT false \
+  CONFIG.PF0_PM_CAP_SUPP_D1_STATE false \
+  CONFIG.PF0_REVISION_ID 05 \
+  CONFIG.PF0_SRIOV_CAP_INITIAL_VF 0 \
+  CONFIG.PF0_SRIOV_FIRST_VF_OFFSET N/A \
+  CONFIG.PF0_SRIOV_FUNC_DEP_LINK 0000 \
+  CONFIG.PF0_SRIOV_SUPPORTED_PAGE_SIZE 00000553 \
+  CONFIG.PF0_SRIOV_VF_DEVICE_ID 0000 \
+  CONFIG.PF0_SUBSYSTEM_ID 2060 \
+  CONFIG.PF0_SUBSYSTEM_VENDOR_ID 19DE \
+  CONFIG.PF0_Use_Class_Code_Lookup_Assistant false \
+  CONFIG.PF1_AER_CAP_ECRC_CHECK_CAPABLE false \
+  CONFIG.PF1_AER_CAP_ECRC_GEN_CAPABLE false \
+  CONFIG.PF1_CLASS_CODE 058000 \
+  CONFIG.PF1_DEVICE_ID 8011 \
+  CONFIG.PF1_INTERRUPT_PIN NONE \
+  CONFIG.PF1_MSIX_CAP_PBA_BIR BAR_0 \
+  CONFIG.PF1_MSIX_CAP_PBA_OFFSET 00000000 \
+  CONFIG.PF1_MSIX_CAP_TABLE_BIR BAR_0 \
+  CONFIG.PF1_MSIX_CAP_TABLE_OFFSET 00000000 \
+  CONFIG.PF1_MSIX_CAP_TABLE_SIZE 000 \
+  CONFIG.PF1_MSI_CAP_MULTIMSGCAP 1_vector \
+  CONFIG.PF1_REVISION_ID 00 \
+  CONFIG.PF1_SRIOV_CAP_INITIAL_VF 0 \
+  CONFIG.PF1_SRIOV_CAP_VER 0 \
+  CONFIG.PF1_SRIOV_FIRST_VF_OFFSET N/A \
+  CONFIG.PF1_SRIOV_FUNC_DEP_LINK 0001 \
+  CONFIG.PF1_SRIOV_SUPPORTED_PAGE_SIZE 00000553 \
+  CONFIG.PF1_SRIOV_VF_DEVICE_ID 0000 \
+  CONFIG.PF1_SUBSYSTEM_ID 0007 \
+  CONFIG.PF1_Use_Class_Code_Lookup_Assistant false \
+  CONFIG.PHY_LP_TXPRESET 4 \
+  CONFIG.PL_LINK_CAP_MAX_LINK_SPEED 5.0_GT/s \
+  CONFIG.PL_LINK_CAP_MAX_LINK_WIDTH X8 \
+  CONFIG.REF_CLK_FREQ 100_MHz \
+  CONFIG.RX_PPM_OFFSET 0 \
+  CONFIG.RX_SSC_PPM 0 \
+  CONFIG.SRIOV_CAP_ENABLE false \
+  CONFIG.SRIOV_CAP_ENABLE_EXT false \
+  CONFIG.Shared_Logic 1 \
+  CONFIG.TL_PF_ENABLE_REG false \
+  CONFIG.VF0_MSIX_CAP_PBA_BIR BAR_0 \
+  CONFIG.VF0_MSIX_CAP_PBA_OFFSET 00000000 \
+  CONFIG.VF0_MSIX_CAP_TABLE_BIR BAR_0 \
+  CONFIG.VF0_MSIX_CAP_TABLE_OFFSET 00000000 \
+  CONFIG.VF0_MSIX_CAP_TABLE_SIZE 000 \
+  CONFIG.VF0_MSI_CAP_MULTIMSGCAP 1_vector \
+  CONFIG.VF1_MSIX_CAP_PBA_BIR BAR_0 \
+  CONFIG.VF1_MSIX_CAP_PBA_OFFSET 00000000 \
+  CONFIG.VF1_MSIX_CAP_TABLE_BIR BAR_0 \
+  CONFIG.VF1_MSIX_CAP_TABLE_OFFSET 00000000 \
+  CONFIG.VF1_MSIX_CAP_TABLE_SIZE 000 \
+  CONFIG.VF1_MSI_CAP_MULTIMSGCAP 1_vector \
+  CONFIG.VF2_MSIX_CAP_PBA_BIR BAR_0 \
+  CONFIG.VF2_MSIX_CAP_PBA_OFFSET 00000000 \
+  CONFIG.VF2_MSIX_CAP_TABLE_BIR BAR_0 \
+  CONFIG.VF2_MSIX_CAP_TABLE_OFFSET 00000000 \
+  CONFIG.VF2_MSIX_CAP_TABLE_SIZE 000 \
+  CONFIG.VF2_MSI_CAP_MULTIMSGCAP 1_vector \
+  CONFIG.VF3_MSIX_CAP_PBA_BIR BAR_0 \
+  CONFIG.VF3_MSIX_CAP_PBA_OFFSET 00000000 \
+  CONFIG.VF3_MSIX_CAP_TABLE_BIR BAR_0 \
+  CONFIG.VF3_MSIX_CAP_TABLE_OFFSET 00000000 \
+  CONFIG.VF3_MSIX_CAP_TABLE_SIZE 000 \
+  CONFIG.VF3_MSI_CAP_MULTIMSGCAP 1_vector \
+  CONFIG.VF4_MSIX_CAP_PBA_BIR BAR_0 \
+  CONFIG.VF4_MSIX_CAP_PBA_OFFSET 00000000 \
+  CONFIG.VF4_MSIX_CAP_TABLE_BIR BAR_0 \
+  CONFIG.VF4_MSIX_CAP_TABLE_OFFSET 00000000 \
+  CONFIG.VF4_MSIX_CAP_TABLE_SIZE 000 \
+  CONFIG.VF4_MSI_CAP_MULTIMSGCAP 1_vector \
+  CONFIG.VF5_MSIX_CAP_PBA_BIR BAR_0 \
+  CONFIG.VF5_MSIX_CAP_PBA_OFFSET 00000000 \
+  CONFIG.VF5_MSIX_CAP_TABLE_BIR BAR_0 \
+  CONFIG.VF5_MSIX_CAP_TABLE_OFFSET 00000000 \
+  CONFIG.VF5_MSIX_CAP_TABLE_SIZE 000 \
+  CONFIG.VF5_MSI_CAP_MULTIMSGCAP 1_vector \
+  CONFIG.alignment_mode DWORD_Aligned \
+  CONFIG.aspm_support No_ASPM \
+  CONFIG.axisten_freq 250 \
+  CONFIG.axisten_if_enable_client_tag true \
+  CONFIG.axisten_if_width 128_bit \
+  CONFIG.cfg_ctl_if true \
+  CONFIG.cfg_ext_if true \
+  CONFIG.cfg_fc_if true \
+  CONFIG.cfg_mgmt_if true \
+  CONFIG.cfg_status_if true \
+  CONFIG.cfg_tx_msg_if true \
+  CONFIG.coreclk_freq 250 \
+  CONFIG.dedicate_perst true \
+  CONFIG.device_port_type PCI_Express_Endpoint_device \
+  CONFIG.dis_gt_wizard false \
+  CONFIG.en_ext_ch_gt_drp false \
+  CONFIG.en_ext_clk true \
+  CONFIG.en_gt_selection false \
+  CONFIG.en_msi_per_vec_masking false \
+  CONFIG.en_pcie_conf false \
+  CONFIG.en_pcie_drp false \
+  CONFIG.en_pl_ifc false \
+  CONFIG.en_transceiver_status_ports false \
+  CONFIG.ext_pcie_cfg_space_enabled false \
+  CONFIG.ext_startup_primitive false \
+  CONFIG.extended_tag_field true \
+  CONFIG.gen_x0y0 true \
+  CONFIG.gen_x0y1 false \
+  CONFIG.gen_x0y2 false \
+  CONFIG.gen_x0y3 false \
+  CONFIG.gen_x0y4 false \
+  CONFIG.gen_x0y5 false \
+  CONFIG.ins_loss_profile Backplane \
+  CONFIG.mcap_enablement None \
+  CONFIG.mode_selection Advanced \
+  CONFIG.pcie_blk_locn X0Y0 \
+  CONFIG.per_func_status_if true \
+  CONFIG.perf_level Extreme \
+  CONFIG.pf0_aer_enabled true \
+  CONFIG.pf0_ari_enabled false \
+  CONFIG.pf0_bar0_64bit false \
+  CONFIG.pf0_bar0_enabled true \
+  CONFIG.pf0_bar0_prefetchable false \
+  CONFIG.pf0_bar0_scale Megabytes \
+  CONFIG.pf0_bar0_size 1 \
+  CONFIG.pf0_bar0_type Memory \
+  CONFIG.pf0_bar1_64bit false \
+  CONFIG.pf0_bar1_enabled false \
+  CONFIG.pf0_bar1_prefetchable false \
+  CONFIG.pf0_bar1_scale Kilobytes \
+  CONFIG.pf0_bar1_size 2 \
+  CONFIG.pf0_bar1_type N/A \
+  CONFIG.pf0_bar2_64bit false \
+  CONFIG.pf0_bar2_enabled true \
+  CONFIG.pf0_bar2_prefetchable false \
+  CONFIG.pf0_bar2_scale Megabytes \
+  CONFIG.pf0_bar2_size 1 \
+  CONFIG.pf0_bar2_type Memory \
+  CONFIG.pf0_bar3_64bit false \
+  CONFIG.pf0_bar3_enabled false \
+  CONFIG.pf0_bar3_prefetchable false \
+  CONFIG.pf0_bar3_scale Kilobytes \
+  CONFIG.pf0_bar3_size 2 \
+  CONFIG.pf0_bar3_type N/A \
+  CONFIG.pf0_bar4_64bit false \
+  CONFIG.pf0_bar4_enabled true \
+  CONFIG.pf0_bar4_prefetchable false \
+  CONFIG.pf0_bar4_scale Megabytes \
+  CONFIG.pf0_bar4_size 1 \
+  CONFIG.pf0_bar4_type Memory \
+  CONFIG.pf0_bar5_enabled false \
+  CONFIG.pf0_bar5_prefetchable false \
+  CONFIG.pf0_bar5_scale Kilobytes \
+  CONFIG.pf0_bar5_size 2 \
+  CONFIG.pf0_bar5_type N/A \
+  CONFIG.pf0_base_class_menu Simple_communication_controllers \
+  CONFIG.pf0_class_code_base 05 \
+  CONFIG.pf0_class_code_interface 00 \
+  CONFIG.pf0_class_code_sub 80 \
+  CONFIG.pf0_dev_cap_max_payload 512_bytes \
+  CONFIG.pf0_dpa_enabled false \
+  CONFIG.pf0_dsn_enabled true \
+  CONFIG.pf0_expansion_rom_enabled false \
+  CONFIG.pf0_expansion_rom_scale Kilobytes \
+  CONFIG.pf0_expansion_rom_size 2 \
+  CONFIG.pf0_ltr_enabled false \
+  CONFIG.pf0_msi_enabled true \
+  CONFIG.pf0_msix_enabled false \
+  CONFIG.pf0_pb_enabled false \
+  CONFIG.pf0_rbar_enabled false \
+  CONFIG.pf0_sriov_bar0_64bit false \
+  CONFIG.pf0_sriov_bar0_enabled true \
+  CONFIG.pf0_sriov_bar0_prefetchable false \
+  CONFIG.pf0_sriov_bar0_scale Kilobytes \
+  CONFIG.pf0_sriov_bar0_size 2 \
+  CONFIG.pf0_sriov_bar0_type Memory \
+  CONFIG.pf0_sriov_bar1_64bit false \
+  CONFIG.pf0_sriov_bar1_enabled false \
+  CONFIG.pf0_sriov_bar1_prefetchable false \
+  CONFIG.pf0_sriov_bar1_scale Kilobytes \
+  CONFIG.pf0_sriov_bar1_size 2 \
+  CONFIG.pf0_sriov_bar1_type N/A \
+  CONFIG.pf0_sriov_bar2_64bit false \
+  CONFIG.pf0_sriov_bar2_enabled false \
+  CONFIG.pf0_sriov_bar2_prefetchable false \
+  CONFIG.pf0_sriov_bar2_scale Kilobytes \
+  CONFIG.pf0_sriov_bar2_size 2 \
+  CONFIG.pf0_sriov_bar2_type N/A \
+  CONFIG.pf0_sriov_bar3_64bit false \
+  CONFIG.pf0_sriov_bar3_enabled false \
+  CONFIG.pf0_sriov_bar3_prefetchable false \
+  CONFIG.pf0_sriov_bar3_scale Kilobytes \
+  CONFIG.pf0_sriov_bar3_size 2 \
+  CONFIG.pf0_sriov_bar3_type N/A \
+  CONFIG.pf0_sriov_bar4_64bit false \
+  CONFIG.pf0_sriov_bar4_enabled false \
+  CONFIG.pf0_sriov_bar4_prefetchable false \
+  CONFIG.pf0_sriov_bar4_scale Kilobytes \
+  CONFIG.pf0_sriov_bar4_size 2 \
+  CONFIG.pf0_sriov_bar4_type N/A \
+  CONFIG.pf0_sriov_bar5_enabled false \
+  CONFIG.pf0_sriov_bar5_prefetchable false \
+  CONFIG.pf0_sriov_bar5_scale Kilobytes \
+  CONFIG.pf0_sriov_bar5_size 2 \
+  CONFIG.pf0_sriov_bar5_type N/A \
+  CONFIG.pf0_sriov_cap_ver 0 \
+  CONFIG.pf0_sub_class_interface_menu Generic_XT_compatible_serial_controller \
+  CONFIG.pf0_tphr_enable false \
+  CONFIG.pf0_vc_cap_enabled false \
+  CONFIG.pf1_aer_enabled true \
+  CONFIG.pf1_ari_enabled false \
+  CONFIG.pf1_bar0_64bit false \
+  CONFIG.pf1_bar0_enabled false \
+  CONFIG.pf1_bar0_prefetchable false \
+  CONFIG.pf1_bar0_scale Kilobytes \
+  CONFIG.pf1_bar0_size 2 \
+  CONFIG.pf1_bar0_type N/A \
+  CONFIG.pf1_bar1_64bit false \
+  CONFIG.pf1_bar1_enabled false \
+  CONFIG.pf1_bar1_prefetchable false \
+  CONFIG.pf1_bar1_scale Kilobytes \
+  CONFIG.pf1_bar1_size 2 \
+  CONFIG.pf1_bar1_type N/A \
+  CONFIG.pf1_bar2_64bit false \
+  CONFIG.pf1_bar2_enabled false \
+  CONFIG.pf1_bar2_prefetchable false \
+  CONFIG.pf1_bar2_scale Kilobytes \
+  CONFIG.pf1_bar2_size 2 \
+  CONFIG.pf1_bar2_type N/A \
+  CONFIG.pf1_bar3_64bit false \
+  CONFIG.pf1_bar3_enabled false \
+  CONFIG.pf1_bar3_prefetchable false \
+  CONFIG.pf1_bar3_scale Kilobytes \
+  CONFIG.pf1_bar3_size 2 \
+  CONFIG.pf1_bar3_type N/A \
+  CONFIG.pf1_bar4_64bit false \
+  CONFIG.pf1_bar4_enabled false \
+  CONFIG.pf1_bar4_prefetchable false \
+  CONFIG.pf1_bar4_scale Kilobytes \
+  CONFIG.pf1_bar4_size 2 \
+  CONFIG.pf1_bar4_type N/A \
+  CONFIG.pf1_bar5_enabled false \
+  CONFIG.pf1_bar5_prefetchable false \
+  CONFIG.pf1_bar5_scale Kilobytes \
+  CONFIG.pf1_bar5_size 2 \
+  CONFIG.pf1_bar5_type N/A \
+  CONFIG.pf1_base_class_menu Simple_communication_controllers \
+  CONFIG.pf1_class_code_base 05 \
+  CONFIG.pf1_class_code_interface 00 \
+  CONFIG.pf1_class_code_sub 80 \
+  CONFIG.pf1_dev_cap_max_payload 512_bytes \
+  CONFIG.pf1_dpa_enabled false \
+  CONFIG.pf1_dsn_enabled false \
+  CONFIG.pf1_expansion_rom_enabled false \
+  CONFIG.pf1_expansion_rom_scale Kilobytes \
+  CONFIG.pf1_expansion_rom_size 2 \
+  CONFIG.pf1_msi_enabled true \
+  CONFIG.pf1_msix_enabled false \
+  CONFIG.pf1_pb_enabled false \
+  CONFIG.pf1_rbar_enabled false \
+  CONFIG.pf1_sriov_bar0_64bit false \
+  CONFIG.pf1_sriov_bar0_enabled true \
+  CONFIG.pf1_sriov_bar0_prefetchable false \
+  CONFIG.pf1_sriov_bar0_scale Kilobytes \
+  CONFIG.pf1_sriov_bar0_size 2 \
+  CONFIG.pf1_sriov_bar0_type Memory \
+  CONFIG.pf1_sriov_bar1_64bit false \
+  CONFIG.pf1_sriov_bar1_enabled false \
+  CONFIG.pf1_sriov_bar1_prefetchable false \
+  CONFIG.pf1_sriov_bar1_scale Kilobytes \
+  CONFIG.pf1_sriov_bar1_size 2 \
+  CONFIG.pf1_sriov_bar1_type N/A \
+  CONFIG.pf1_sriov_bar2_64bit false \
+  CONFIG.pf1_sriov_bar2_enabled false \
+  CONFIG.pf1_sriov_bar2_prefetchable false \
+  CONFIG.pf1_sriov_bar2_scale Kilobytes \
+  CONFIG.pf1_sriov_bar2_size 2 \
+  CONFIG.pf1_sriov_bar2_type N/A \
+  CONFIG.pf1_sriov_bar3_64bit false \
+  CONFIG.pf1_sriov_bar3_enabled false \
+  CONFIG.pf1_sriov_bar3_prefetchable false \
+  CONFIG.pf1_sriov_bar3_scale Kilobytes \
+  CONFIG.pf1_sriov_bar3_size 2 \
+  CONFIG.pf1_sriov_bar3_type N/A \
+  CONFIG.pf1_sriov_bar4_64bit false \
+  CONFIG.pf1_sriov_bar4_enabled false \
+  CONFIG.pf1_sriov_bar4_prefetchable false \
+  CONFIG.pf1_sriov_bar4_scale Kilobytes \
+  CONFIG.pf1_sriov_bar4_size 2 \
+  CONFIG.pf1_sriov_bar4_type N/A \
+  CONFIG.pf1_sriov_bar5_enabled false \
+  CONFIG.pf1_sriov_bar5_prefetchable false \
+  CONFIG.pf1_sriov_bar5_scale Kilobytes \
+  CONFIG.pf1_sriov_bar5_size 2 \
+  CONFIG.pf1_sriov_bar5_type N/A \
+  CONFIG.pf1_sub_class_interface_menu Generic_XT_compatible_serial_controller \
+  CONFIG.pf1_tphr_enable false \
+  CONFIG.pipe_sim false \
+  CONFIG.plltype QPLL1 \
+  CONFIG.rcv_msg_if true \
+  CONFIG.select_quad GTH_Quad_224 \
+  CONFIG.sys_reset_polarity ACTIVE LOW \
+  CONFIG.tandem_mode None \
+  CONFIG.tl_pf0_enable_reg true \
+  CONFIG.tx_fc_if true \
+  CONFIG.vendor_id 19DE \
+  CONFIG.xlnx_ref_board None " [get_ips pcie3_ultrascale_0]
+
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Fri Aug 19 18:22:08 2016
+| Host         : micron-ubuntu running 64-bit Ubuntu 14.04.2 LTS
+| Command      : upgrade_ip
+| Device       : xcku060-ffva1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'coregen_fifo_32x128'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of coregen_fifo_32x128 from xilinx.com:ip:fifo_generator:12.0 (Rev. 4) to xilinx.com:ip:fifo_generator:13.1 (Rev. 1)
+
+2. Upgrade messages
+-------------------
+
+Added parameter Output_Register_Type with value Embedded_Reg (source 'default')
+Added parameter Enable_Safety_Circuit with value false (source 'default')
+Added parameter Enable_ECC_Type with value Hard_ECC (source 'default')
+Set parameter Slave_interface_Clock_enable_memory_mapped to value false (source 'default')
+Set parameter Master_interface_Clock_enable_memory_mapped to value false (source 'default')
+

@@ -1,0 +1,168 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2014 Altera Corporation. All rights reserved.
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, the Altera Quartus II License Agreement,
+# the Altera MegaCore Function License Agreement, or other 
+# applicable license agreement, including, without limitation, 
+# that your use is for the sole purpose of programming logic 
+# devices manufactured by Altera and sold by Altera or its 
+# authorized distributors.  Please refer to the applicable 
+# agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 14.0.0 Build 200 06/17/2014 SJ Full Version
+# Date created = 22:36:13  May 26, 2016
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		M506_A3_StreamLoopback128_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Stratix V"
+set_global_assignment -name DEVICE 5SGXMA3E3H29C2
+set_global_assignment -name TOP_LEVEL_ENTITY Pico_Toplevel
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 14.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "22:36:13  MAY 26, 2016"
+set_global_assignment -name LAST_QUARTUS_VERSION 14.0
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_global_assignment -name SYNTH_TIMING_DRIVEN_SYNTHESIS ON
+set_global_assignment -name AUTO_SHIFT_REGISTER_RECOGNITION OFF
+set_global_assignment -name ALLOW_SHIFT_REGISTER_MERGING_ACROSS_HIERARCHIES OFF
+set_global_assignment -name TIMEQUEST_MULTICORNER_ANALYSIS ON
+set_global_assignment -name FLOW_ENABLE_IO_ASSIGNMENT_ANALYSIS ON
+set_global_assignment -name PHYSICAL_SYNTHESIS_REGISTER_DUPLICATION ON
+set_global_assignment -name SMART_RECOMPILE ON
+set_global_assignment -name VERILOG_INPUT_VERSION SYSTEMVERILOG_2005
+set_global_assignment -name VERILOG_SHOW_LMF_MAPPING_MESSAGES OFF
+set_global_assignment -name ENABLE_SIGNALTAP OFF
+set_global_assignment -name OPTIMIZATION_TECHNIQUE SPEED
+set_global_assignment -name OPTIMIZE_HOLD_TIMING "ALL PATHS"
+set_global_assignment -name OPTIMIZE_MULTI_CORNER_TIMING ON
+set_global_assignment -name ROUTER_REGISTER_DUPLICATION ON
+set_global_assignment -name USE_CONFIGURATION_DEVICE OFF
+set_global_assignment -name CRC_ERROR_OPEN_DRAIN ON
+set_global_assignment -name STRATIXV_CONFIGURATION_SCHEME "PASSIVE SERIAL"
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -fall
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -fall
+set_global_assignment -name ACTIVE_SERIAL_CLOCK FREQ_100MHZ
+set_global_assignment -name ON_CHIP_BITSTREAM_DECOMPRESSION OFF
+set_global_assignment -name GENERATE_RBF_FILE ON
+set_location_assignment PIN_AH11 -to sys_reset_n
+set_location_assignment PIN_R22 -to sys_clk_p
+set_location_assignment PIN_AE5 -to extra_clk_p
+set_location_assignment PIN_AE27 -to pci_exp_rxp[0]
+set_location_assignment PIN_AC27 -to pci_exp_rxp[1]
+set_location_assignment PIN_AA27 -to pci_exp_rxp[2]
+set_location_assignment PIN_W27 -to pci_exp_rxp[3]
+set_location_assignment PIN_R27 -to pci_exp_rxp[4]
+set_location_assignment PIN_N27 -to pci_exp_rxp[5]
+set_location_assignment PIN_L27 -to pci_exp_rxp[6]
+set_location_assignment PIN_J27 -to pci_exp_rxp[7]
+set_location_assignment PIN_AF25 -to pci_exp_txp[0]
+set_location_assignment PIN_AD25 -to pci_exp_txp[1]
+set_location_assignment PIN_AB25 -to pci_exp_txp[2]
+set_location_assignment PIN_Y25 -to pci_exp_txp[3]
+set_location_assignment PIN_T25 -to pci_exp_txp[4]
+set_location_assignment PIN_P25 -to pci_exp_txp[5]
+set_location_assignment PIN_M25 -to pci_exp_txp[6]
+set_location_assignment PIN_K25 -to pci_exp_txp[7]
+set_global_assignment -name SEED 23411
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to sys_clk_p
+set_instance_assignment -name IO_STANDARD LVDS -to extra_clk_p
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to pci_exp_rxp[0]
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to pci_exp_rxp[1]
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to pci_exp_rxp[2]
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to pci_exp_rxp[3]
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to pci_exp_rxp[4]
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to pci_exp_rxp[5]
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to pci_exp_rxp[6]
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to pci_exp_rxp[7]
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to pci_exp_txp[0]
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to pci_exp_txp[1]
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to pci_exp_txp[2]
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to pci_exp_txp[3]
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to pci_exp_txp[4]
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to pci_exp_txp[5]
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to pci_exp_txp[6]
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to pci_exp_txp[7]
+set_global_assignment -name SEARCH_PATH firmware
+set_global_assignment -name SEARCH_PATH firmware/src/pcie_axi/
+set_global_assignment -name VERILOG_FILE firmware/m506/src/altera_pcie_axis2st.v
+set_global_assignment -name VERILOG_FILE firmware/m506/src/altera_pcie_st2axis.v
+set_global_assignment -name VERILOG_FILE firmware/m506/src/altera_pcie.v
+set_global_assignment -name VERILOG_FILE firmware/m506/src/coregen_fifo_32x128.v
+set_global_assignment -name VERILOG_FILE firmware/m506/src/fifo_512x128.v
+set_global_assignment -name VERILOG_FILE firmware/m506/src/altera_reset_synchronizer.v
+set_global_assignment -name VERILOG_FILE firmware/m506/src/altpcierd_hip_rs.v
+set_global_assignment -name VERILOG_FILE firmware/m506/src/asyncFifoBRAM.v
+set_global_assignment -name VERILOG_FILE firmware/src/pcie_axi/AXIBuffer.v
+set_global_assignment -name VERILOG_FILE firmware/src/pcie_axi/AXIToHMC.v
+set_global_assignment -name VERILOG_FILE firmware/src/pcie_axi/AXIToHMCWrapper.v
+set_global_assignment -name VERILOG_FILE firmware/src/pcie_axi/CardInfo32.v
+set_global_assignment -name VERILOG_FILE firmware/src/pcie_axi/HMCReorder.v
+set_global_assignment -name VERILOG_FILE firmware/src/pcie_axi/HMCTagManager.v
+set_global_assignment -name VERILOG_FILE firmware/src/pcie_axi/pcie_app_v6.v
+set_global_assignment -name VERILOG_FILE firmware/src/pcie_axi/PCIeHdrAlignSplit.v
+set_global_assignment -name VERILOG_FILE firmware/src/pcie_axi/PicoFramework.v
+set_global_assignment -name VERILOG_FILE firmware/src/pcie_axi/PicoStreamIn.v
+set_global_assignment -name VERILOG_FILE firmware/src/pcie_axi/PicoStreamOut.v
+set_global_assignment -name VERILOG_FILE firmware/src/pcie_axi/Pico_Toplevel.v
+set_global_assignment -name VERILOG_FILE firmware/src/pcie_axi/PIO_128_RX_ENGINE.v
+set_global_assignment -name VERILOG_FILE firmware/src/pcie_axi/PIO_128_TX_ENGINE.v
+set_global_assignment -name VERILOG_FILE firmware/src/pcie_axi/PIO_EP.v
+set_global_assignment -name VERILOG_FILE firmware/src/pcie_axi/Reorder.v
+set_global_assignment -name VERILOG_FILE firmware/src/pcie_axi/Stream2PicoBus.v
+set_global_assignment -name VERILOG_FILE firmware/src/pcie_axi/StreamToPicoBus.v
+set_global_assignment -name VERILOG_FILE firmware/src/pcie_axi/CounterClkGen.v
+set_global_assignment -name VERILOG_FILE firmware/src/pcie_axi/StreamWidthConversion.v
+set_global_assignment -name VERILOG_FILE firmware/src/pcie_axi/SystemMonitor32.v
+set_global_assignment -name VERILOG_FILE firmware/src/pcie_axi/TagFIFO.v
+set_global_assignment -name VERILOG_FILE firmware/src/pcie_axi/TestCounter32.v
+set_global_assignment -name VERILOG_FILE firmware/src/pcie_axi/PicoAXIDownsizer.v
+set_global_assignment -name VERILOG_FILE firmware/src/pcie_axi/PicoAXIUpsizer.v
+set_global_assignment -name VERILOG_FILE firmware/src/pcie_axi/PicoStreamToAXI.v
+set_global_assignment -name VERILOG_FILE firmware/src/pcie_axi/PicoStreamToHMC.v
+set_global_assignment -name VERILOG_FILE firmware/src/pcie_axi/StreamAXICtrl.v
+set_global_assignment -name VERILOG_FILE firmware/src/pcie_axi/UserWrapper.v
+set_global_assignment -name VERILOG_FILE firmware/src/pcie_axi/RGBBlink.v
+set_global_assignment -name VERILOG_FILE firmware/altera/src/FIFO.v
+set_global_assignment -name VERILOG_FILE ../StreamLoopback128.v
+set_global_assignment -name SYSTEMVERILOG_FILE firmware/src/PicoInterfaces.sv
+set_global_assignment -name SYSTEMVERILOG_FILE firmware/src/UtilFunc.sv
+set_global_assignment -name SYSTEMVERILOG_FILE firmware/altera/src/AlteraInterfaces.sv
+set_global_assignment -name QIP_FILE firmware/altera/stratix_v/pcie_s5_v13_0_8lane_gen3/pcie_s5_v13_0_8lane_gen3.qip
+set_global_assignment -name SDC_FILE firmware/m506/src/M506_PCIE.sdc
+set_global_assignment -name SDC_FILE firmware/m506/src/clocks.sdc
+set_global_assignment -name VERILOG_INCLUDE_FILE firmware/src/pcie_axi/BasePicoDefines.v
+set_global_assignment -name VERILOG_INCLUDE_FILE firmware/src/pcie_axi/axi_defines.v
+set_global_assignment -name VERILOG_INCLUDE_FILE firmware/PicoDefines.v

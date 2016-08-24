@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Aug 17 14:38:36 2016
+# Process ID: 23714
+# Current directory: /home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.runs/impl_1
+# Command line: vivado -log Pico_Toplevel.vdi -applog -messageDb vivado.pb -mode batch -source Pico_Toplevel.tcl -notrace
+# Log file: /home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.runs/impl_1/Pico_Toplevel.vdi
+# Journal file: /home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source Pico_Toplevel.tcl -notrace

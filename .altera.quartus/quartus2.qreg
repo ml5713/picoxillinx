@@ -1,0 +1,22 @@
+[14.1]
+Registry_version=16
+Messages\id_column_in_quartus_12_1_and_later=true
+Programmer\Selected_hardware=1
+Altera_Foundation_Class\quartus_pgmwHardware_SetupDialogGeometry=@ByteArray(\x1\xd9\xd0\xcb\0\x1\0\0\0\0\0\x8b\0\0\0\xb5\0\0\x2\xa0\0\0\x2?\0\0\0\x8b\0\0\0\xb5\0\0\x2\xa0\0\0\x2?\0\0\0\0\0\0)
+Altera_Foundation_Class\quartus_pgmwSelect_Programming_FileFileDialogGeometry=@ByteArray(\x1\xd9\xd0\xcb\0\x1\0\0\0\0\0h\0\0\0\xf1\0\0\x2\xd0\0\0\x2\x8c\0\0\0h\0\0\0\xf1\0\0\x2\xd0\0\0\x2\x8c\0\0\0\0\0\0)
+Quartus_UI_Framework\quartus_pgmwQuartus_II_64-Bit_Programmerdock_widget0=true
+Quartus_UI_Framework\quartus_pgmwQuartus_II_64-Bit_Programmerdock_widget0Area=8
+Quartus_UI_Framework\quartus_pgmwQuartus_II_64-Bit_Programmerdock_widget0Floating=false
+Quartus_UI_Framework\quartus_pgmwQuartus_II_64-Bit_Programmerdock_widget0Pinned=true
+Quartus_UI_Framework\quartus_pgmwQuartus_II_64-Bit_Programmerdock_widget0Minimized=false
+Quartus_UI_Framework\quartus_pgmwQuartus_II_64-Bit_Programmerdock_widget0Closed=false
+Quartus_UI_Framework\current_project=
+Quartus_UI_Framework\quartus_pgmwpgm_pgmwqmainGeometry="@ByteArray(\x1\xd9\xd0\xcb\0\x1\0\0\0\0\0\x4\0\0\0\x45\0\0\x4;\0\0\x4-\0\0\0\x6\0\0\0[\0\0\x4\x39\0\0\x4)\0\0\0\0\0\0)"
+Quartus_UI_Framework\quartus_pgmwpgm_pgmwqmainState=@ByteArray(\0\0\0\xff\0\0\0\0\xfd\0\0\0\x1\0\0\0\x3\0\0\x4\x34\0\0\x1u\xfc\x2\0\0\0\x1\xfb\0\0\0\x10\0M\0\x65\0s\0s\0\x61\0g\0\x65\0s\x1\0\0\x2\x45\0\0\x1u\0\0\0o\0\xff\xff\xff\0\0\x4\x34\0\0\x2$\0\0\0\x4\0\0\0\x4\0\0\0\b\0\0\0\b\xfc\0\0\0\x5\0\0\0\0\0\0\0\x1\0\0\0&\0L\0\x65\0\x66\0t\0 \0\x42\0u\0t\0t\0o\0n\0 \0T\0o\0o\0l\0\x62\0\x61\0r\x2\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0\0\0\0\x1\0\0\0\x1\0\0\0(\0R\0i\0g\0h\0t\0 \0\x42\0u\0t\0t\0o\0n\0 \0T\0o\0o\0l\0\x62\0\x61\0r\x2\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0\0\0\0\x2\0\0\0\x3\0\0\0$\0T\0o\0p\0 \0\x42\0u\0t\0t\0o\0n\0 \0T\0o\0o\0l\0\x62\0\x61\0r\0\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0\0\0\0\b\0\x46\0i\0l\0\x65\0\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0\0\0\0\x10\0\x46\0\x65\0\x65\0\x64\0\x62\0\x61\0\x63\0k\0\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0\0\0\0\x2\0\0\0\x1\0\0\0\x1e\0U\0t\0i\0l\0i\0t\0y\0 \0W\0i\0n\0\x64\0o\0w\0s\0\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0\0\0\0\x3\0\0\0\x1\0\0\0*\0\x42\0o\0t\0t\0o\0m\0 \0\x42\0u\0t\0t\0o\0n\0 \0T\0o\0o\0l\0\x62\0\x61\0r\0\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0)
+Quartus_UI_Framework\quartus_pgmwQuartus_II_64-Bit_Programmerdock_widgetMessages=true
+Quartus_UI_Framework\quartus_pgmwQuartus_II_64-Bit_Programmerdock_widgetMessagesArea=8
+Quartus_UI_Framework\quartus_pgmwQuartus_II_64-Bit_Programmerdock_widgetMessagesFloating=false
+Quartus_UI_Framework\quartus_pgmwQuartus_II_64-Bit_Programmerdock_widgetMessagesPinned=true
+Quartus_UI_Framework\quartus_pgmwQuartus_II_64-Bit_Programmerdock_widgetMessagesMinimized=false
+Quartus_UI_Framework\quartus_pgmwQuartus_II_64-Bit_Programmerdock_widgetMessagesClosed=false
+Altera_Foundation_Class\quartus_pgmwSelect_DeviceDialogGeometry=@ByteArray(\x1\xd9\xd0\xcb\0\x1\0\0\0\0\x1Z\0\0\x1\x10\0\0\x2\xe5\0\0\x3\x1\0\0\x1Z\0\0\x1\x10\0\0\x2\xe5\0\0\x3\x1\0\0\0\0\0\0)

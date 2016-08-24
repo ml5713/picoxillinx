@@ -1,0 +1,23 @@
+logrotate state -- version 2
+"/home/micron/.cache/upstart/unity-panel-service.log" 2016-7-22-15:54:8
+"/home/micron/.cache/upstart/ssh-agent.log" 2016-7-22-15:54:8
+"/home/micron/.cache/upstart/indicator-application.log" 2016-7-22-15:54:8
+"/home/micron/.cache/upstart/indicator-power.log" 2016-7-22-2:29:32
+"/home/micron/.cache/upstart/indicator-printers.log" 2016-7-22-15:54:8
+"/home/micron/.cache/upstart/upstart-dbus-system-bridge.log" 2015-12-14-20:25:4
+"/home/micron/.cache/upstart/gnome-keyring-ssh.log" 2016-7-22-15:54:8
+"/home/micron/.cache/upstart/indicator-sound.log" 2016-7-22-15:54:8
+"/home/micron/.cache/upstart/unity7.log" 2016-7-22-15:54:8
+"/home/micron/.cache/upstart/update-notifier-release.log" 2016-7-22-15:54:8
+"/home/micron/.cache/upstart/dbus.log" 2016-7-22-15:54:8
+"/home/micron/.cache/upstart/unity-panel-service-lockscreen.log" 2016-3-17-6:50:37
+"/home/micron/.cache/upstart/gnome-session-Unity.log" 2016-7-22-15:54:8
+"/home/micron/.cache/upstart/window-stack-bridge.log" 2016-7-22-15:54:8
+"/home/micron/.cache/upstart/im-config.log" 2016-7-22-15:54:8
+"/home/micron/.cache/upstart/unity-settings-daemon.log" 2016-7-22-15:54:8
+"/home/micron/.cache/upstart/hud.log" 2016-7-22-15:54:8
+"/home/micron/.cache/upstart/at-spi2-registryd.log" 2016-7-22-15:54:8
+"/home/micron/.cache/upstart/gnome-keyring-gpg.log" 2016-7-22-15:54:8
+"/home/micron/.cache/upstart/indicator-bluetooth.log" 2016-7-22-15:54:8
+"/home/micron/.cache/upstart/upstart-event-bridge.log" 2015-12-14-20:25:4
+"/home/micron/.cache/upstart/indicator-session.log" 2016-7-22-2:29:32

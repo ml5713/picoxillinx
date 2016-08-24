@@ -1,0 +1,7 @@
+Running: xsim.dir/Pico_Toplevel_behav/xsimk -simmode gui -wdb Pico_Toplevel_behav.wdb -simrunnum 0 -socket 41823
+Design successfully loaded
+Design Loading Memory Usage: 473400 KB (Peak: 505628 KB)
+Design Loading CPU Usage: 960 ms
+Simulation completed
+Simulation Memory Usage: 684668 KB (Peak: 684668 KB)
+Simulation CPU Usage: 1980 ms

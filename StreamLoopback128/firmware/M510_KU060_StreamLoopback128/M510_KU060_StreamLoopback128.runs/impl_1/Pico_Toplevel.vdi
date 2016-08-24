@@ -1,0 +1,89 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Fri Aug 19 16:59:43 2016
+# Process ID: 2547
+# Current directory: /home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.runs/impl_1
+# Command line: vivado -log Pico_Toplevel.vdi -applog -messageDb vivado.pb -mode batch -source Pico_Toplevel.tcl -notrace
+# Log file: /home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.runs/impl_1/Pico_Toplevel.vdi
+# Journal file: /home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source Pico_Toplevel.tcl -notrace
+Command: open_checkpoint Pico_Toplevel_routed.dcp
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 961.582 ; gain = 0.000 ; free physical = 28043 ; free virtual = 37063
+INFO: [Netlist 29-17] Analyzing 60 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.2
+INFO: [Device 21-403] Loading part xcku060-ffva1156-2-e
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.runs/impl_1/.Xil/Vivado-2547-micron-ubuntu/dcp/Pico_Toplevel_early.xdc]
+Finished Parsing XDC File [/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.runs/impl_1/.Xil/Vivado-2547-micron-ubuntu/dcp/Pico_Toplevel_early.xdc]
+Parsing XDC File [/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.runs/impl_1/.Xil/Vivado-2547-micron-ubuntu/dcp/Pico_Toplevel.xdc]
+WARNING: [Constraints 18-4434] Global Clock Buffer 'PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/phy_clk_i/bufg_gt_pclk' is LOCed to site 'BUFG_GT_X1Y36'. Using a LOC constraint to assign the placement of a Global Clock Buffer can result in sub-optimal placement results in UltraScale. [/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/m510/src/M510_KU060_FFVA1156_E.xdc:118]
+Resolution: Remove the LOC constraint and use the CLOCK_REGION constraint to assign a Global Clock Buffer to a CLOCK_REGION.
+WARNING: [Constraints 18-4434] Global Clock Buffer 'PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/phy_clk_i/bufg_gt_userclk' is LOCed to site 'BUFG_GT_X1Y37'. Using a LOC constraint to assign the placement of a Global Clock Buffer can result in sub-optimal placement results in UltraScale. [/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/m510/src/M510_KU060_FFVA1156_E.xdc:119]
+Resolution: Remove the LOC constraint and use the CLOCK_REGION constraint to assign a Global Clock Buffer to a CLOCK_REGION.
+WARNING: [Constraints 18-4434] Global Clock Buffer 'PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/phy_clk_i/bufg_gt_coreclk' is LOCed to site 'BUFG_GT_X1Y38'. Using a LOC constraint to assign the placement of a Global Clock Buffer can result in sub-optimal placement results in UltraScale. [/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/m510/src/M510_KU060_FFVA1156_E.xdc:120]
+Resolution: Remove the LOC constraint and use the CLOCK_REGION constraint to assign a Global Clock Buffer to a CLOCK_REGION.
+Finished Parsing XDC File [/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.runs/impl_1/.Xil/Vivado-2547-micron-ubuntu/dcp/Pico_Toplevel.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1570.184 ; gain = 9.672 ; free physical = 27449 ; free virtual = 36497
+Restored from archive | CPU: 2.030000 secs | Memory: 18.250931 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1570.184 ; gain = 9.672 ; free physical = 27449 ; free virtual = 36497
+WARNING: [Constraints 18-4434] Global Clock Buffer 'PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/phy_clk_i/bufg_gt_coreclk' is LOCed to site 'BUFG_GT_X1Y38'. Using a LOC constraint to assign the placement of a Global Clock Buffer can result in sub-optimal placement results in UltraScale.
+Resolution: Remove the LOC constraint and use the CLOCK_REGION constraint to assign a Global Clock Buffer to a CLOCK_REGION.
+WARNING: [Constraints 18-4434] Global Clock Buffer 'PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/phy_clk_i/bufg_gt_pclk' is LOCed to site 'BUFG_GT_X1Y36'. Using a LOC constraint to assign the placement of a Global Clock Buffer can result in sub-optimal placement results in UltraScale.
+Resolution: Remove the LOC constraint and use the CLOCK_REGION constraint to assign a Global Clock Buffer to a CLOCK_REGION.
+WARNING: [Constraints 18-4434] Global Clock Buffer 'PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/phy_clk_i/bufg_gt_userclk' is LOCed to site 'BUFG_GT_X1Y37'. Using a LOC constraint to assign the placement of a Global Clock Buffer can result in sub-optimal placement results in UltraScale.
+Resolution: Remove the LOC constraint and use the CLOCK_REGION constraint to assign a Global Clock Buffer to a CLOCK_REGION.
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 59 instances were transformed.
+  DSP48E2 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_M_DATA, DSP_MULTIPLIER, DSP_OUTPUT, DSP_PREADD, DSP_PREADD_DATA): 3 instances
+  IBUFGDS => IBUFDS (DIFFINBUF, IBUFCTRL): 1 instances
+  RAM32M16 => RAM32M16 (RAMS32, RAMS32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32): 43 instances
+  RAM64M8 => RAM64M8 (RAMD64E, RAMD64E, RAMD64E, RAMD64E, RAMD64E, RAMD64E, RAMD64E, RAMD64E): 4 instances
+  RAM64X1D => RAM64X1D (RAMD64E, RAMD64E): 8 instances
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2016.2 (64-bit) build 1577090
+open_checkpoint: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1570.184 ; gain = 608.602 ; free physical = 27476 ; free virtual = 36496
+Attempting to get a license for feature 'Implementation' and/or device 'xcku060'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xcku060'
+INFO: [Common 17-86] Your Implementation license expires in 2 day(s)
+Running DRC as a precondition to command write_bitstream
+INFO: [DRC 23-27] Running DRC with 8 threads
+WARNING: [DRC 23-20] Rule violation (DPIP-2) Input pipelining - DSP UserWrapper/UserModule/dot1 input UserWrapper/UserModule/dot1/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-2) Input pipelining - DSP UserWrapper/UserModule/dot1 input UserWrapper/UserModule/dot1/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-2) Input pipelining - DSP UserWrapper/UserModule/dot1__0 input UserWrapper/UserModule/dot1__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-2) Input pipelining - DSP UserWrapper/UserModule/dot1__0 input UserWrapper/UserModule/dot1__0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-2) Input pipelining - DSP UserWrapper/UserModule/dot1__1 input UserWrapper/UserModule/dot1__1/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPOP-3) PREG Output pipelining - DSP UserWrapper/UserModule/dot1 output UserWrapper/UserModule/dot1/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-3) PREG Output pipelining - DSP UserWrapper/UserModule/dot1__0 output UserWrapper/UserModule/dot1__0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-3) PREG Output pipelining - DSP UserWrapper/UserModule/dot1__1 output UserWrapper/UserModule/dot1__1/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-4) MREG Output pipelining - DSP UserWrapper/UserModule/dot1 multiplier stage UserWrapper/UserModule/dot1/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC 23-20] Rule violation (DPOP-4) MREG Output pipelining - DSP UserWrapper/UserModule/dot1__0 multiplier stage UserWrapper/UserModule/dot1__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC 23-20] Rule violation (DPOP-4) MREG Output pipelining - DSP UserWrapper/UserModule/dot1__1 multiplier stage UserWrapper/UserModule/dot1__1/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+INFO: [DRC 23-20] Rule violation (PORTPROP-10) Incorrect IOStandard on MCAP reset - The PCI Express reset pin sys_reset_n is driven by an IOB with a 1.8V IO standard.  This is incompatible with the 3.3V signal that is generated by the reset pin of the PCI Express edge connector.  If this pin cannot be driven at 3.3V, your  design will require an external level shifter to convert the incoming 3.3V reset signal from the edge connector to the 1.8V at the FPGA pin.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 11 Warnings, 1 Advisories
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Designutils 20-2272] Running write_bitstream with 8 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Bitstream compression saved 157843488 bits.
+Writing bitstream ./Pico_Toplevel.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-118] WebTalk data collection is enabled (User setting is ON. Install Setting is ON.).
+INFO: [Common 17-186] '/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.runs/impl_1/usage_statistics_webtalk.xml' has been successfully sent to Xilinx on Fri Aug 19 17:00:16 2016. For additional details about this file, please refer to the WebTalk help file at /opt/Xilinx/Vivado/2016.2/doc/webtalk_introduction.html.
+INFO: [Common 17-83] Releasing license: Implementation
+write_bitstream: Time (s): cpu = 00:00:26 ; elapsed = 00:00:18 . Memory (MB): peak = 2180.820 ; gain = 610.637 ; free physical = 26948 ; free virtual = 35985
+INFO: [Vivado_Tcl 4-395] Unable to parse hwdef file Pico_Toplevel.hwdef
+INFO: [Common 17-206] Exiting Vivado at Fri Aug 19 17:00:16 2016...

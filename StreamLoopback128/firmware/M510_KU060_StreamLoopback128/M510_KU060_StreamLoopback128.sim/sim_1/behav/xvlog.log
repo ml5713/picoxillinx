@@ -1,0 +1,206 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/opt/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xpm_cdc_single
+INFO: [VRFC 10-311] analyzing module xpm_cdc_gray
+INFO: [VRFC 10-311] analyzing module xpm_cdc_handshake
+INFO: [VRFC 10-311] analyzing module xpm_cdc_pulse
+INFO: [VRFC 10-311] analyzing module xpm_cdc_array_single
+INFO: [VRFC 10-311] analyzing module xpm_cdc_sync_rst
+INFO: [VRFC 10-311] analyzing module xpm_cdc_async_rst
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/opt/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_base.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xpm_memory_base
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/opt/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_dpdistram.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xpm_memory_dpdistram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/opt/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_dprom.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xpm_memory_dprom
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/opt/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_sdpram.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xpm_memory_sdpram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/opt/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_spram.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xpm_memory_spram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/opt/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_sprom.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xpm_memory_sprom
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/opt/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_tdpram.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xpm_memory_tdpram
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.ip_user_files/ipstatic/fifo_generator_v13_1_1/simulation/fifo_generator_vlog_beh.v" into library fifo_generator_v13_1_1
+INFO: [VRFC 10-311] analyzing module fifo_generator_vlog_beh
+INFO: [VRFC 10-2458] undeclared symbol wr_eop_ad, assumed default net type wire [/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.ip_user_files/ipstatic/fifo_generator_v13_1_1/simulation/fifo_generator_vlog_beh.v:1321]
+INFO: [VRFC 10-2458] undeclared symbol rd_eop_ad, assumed default net type wire [/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.ip_user_files/ipstatic/fifo_generator_v13_1_1/simulation/fifo_generator_vlog_beh.v:1322]
+INFO: [VRFC 10-2458] undeclared symbol wr_rst_busy_axis, assumed default net type wire [/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.ip_user_files/ipstatic/fifo_generator_v13_1_1/simulation/fifo_generator_vlog_beh.v:1561]
+INFO: [VRFC 10-2458] undeclared symbol rd_rst_busy_axis, assumed default net type wire [/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.ip_user_files/ipstatic/fifo_generator_v13_1_1/simulation/fifo_generator_vlog_beh.v:1562]
+INFO: [VRFC 10-2458] undeclared symbol wr_rst_busy_wach, assumed default net type wire [/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.ip_user_files/ipstatic/fifo_generator_v13_1_1/simulation/fifo_generator_vlog_beh.v:2087]
+INFO: [VRFC 10-2458] undeclared symbol rd_rst_busy_wach, assumed default net type wire [/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.ip_user_files/ipstatic/fifo_generator_v13_1_1/simulation/fifo_generator_vlog_beh.v:2088]
+INFO: [VRFC 10-2458] undeclared symbol wr_rst_busy_wdch, assumed default net type wire [/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.ip_user_files/ipstatic/fifo_generator_v13_1_1/simulation/fifo_generator_vlog_beh.v:2307]
+INFO: [VRFC 10-2458] undeclared symbol rd_rst_busy_wdch, assumed default net type wire [/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.ip_user_files/ipstatic/fifo_generator_v13_1_1/simulation/fifo_generator_vlog_beh.v:2308]
+INFO: [VRFC 10-2458] undeclared symbol wr_rst_busy_wrch, assumed default net type wire [/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.ip_user_files/ipstatic/fifo_generator_v13_1_1/simulation/fifo_generator_vlog_beh.v:2474]
+INFO: [VRFC 10-2458] undeclared symbol rd_rst_busy_wrch, assumed default net type wire [/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.ip_user_files/ipstatic/fifo_generator_v13_1_1/simulation/fifo_generator_vlog_beh.v:2475]
+INFO: [VRFC 10-2458] undeclared symbol wr_rst_busy_rach, assumed default net type wire [/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.ip_user_files/ipstatic/fifo_generator_v13_1_1/simulation/fifo_generator_vlog_beh.v:2854]
+INFO: [VRFC 10-2458] undeclared symbol rd_rst_busy_rach, assumed default net type wire [/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.ip_user_files/ipstatic/fifo_generator_v13_1_1/simulation/fifo_generator_vlog_beh.v:2855]
+INFO: [VRFC 10-2458] undeclared symbol wr_rst_busy_rdch, assumed default net type wire [/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.ip_user_files/ipstatic/fifo_generator_v13_1_1/simulation/fifo_generator_vlog_beh.v:3087]
+INFO: [VRFC 10-2458] undeclared symbol rd_rst_busy_rdch, assumed default net type wire [/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.ip_user_files/ipstatic/fifo_generator_v13_1_1/simulation/fifo_generator_vlog_beh.v:3088]
+INFO: [VRFC 10-311] analyzing module fifo_generator_v13_1_1_CONV_VER
+INFO: [VRFC 10-311] analyzing module fifo_generator_v13_1_1_sync_stage
+INFO: [VRFC 10-311] analyzing module fifo_generator_v13_1_1_bhv_ver_as
+INFO: [VRFC 10-311] analyzing module fifo_generator_v13_1_1_beh_ver_ll_afifo
+INFO: [VRFC 10-311] analyzing module fifo_generator_v13_1_1_bhv_ver_ss
+INFO: [VRFC 10-2458] undeclared symbol srst_wrst_busy, assumed default net type wire [/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.ip_user_files/ipstatic/fifo_generator_v13_1_1/simulation/fifo_generator_vlog_beh.v:7752]
+INFO: [VRFC 10-311] analyzing module fifo_generator_v13_1_1_bhv_ver_preload0
+INFO: [VRFC 10-311] analyzing module fifo_generator_v13_1_1_axic_reg_slice
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.ip_user_files/ipstatic/fifo_generator_v13_1_1/hdl/fifo_generator_v13_1_rfs.v" into library fifo_generator_v13_1_1
+INFO: [VRFC 10-311] analyzing module fifo_generator_v13_1_1
+INFO: [VRFC 10-2458] undeclared symbol sleep_i, assumed default net type wire [/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.ip_user_files/ipstatic/fifo_generator_v13_1_1/hdl/fifo_generator_v13_1_rfs.v:519]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/coregen_fifo_32x128/sim/coregen_fifo_32x128.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module coregen_fifo_32x128
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/src/pcie_axi/Reorder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Reorder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/src/pcie_axi/CounterClkGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CounterClkGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/src/pcie_axi/fifo_512x128.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_512x128
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/xilinx/src/FIFO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIFO
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/src/pcie_axi/PCIeHdrAlignSplit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PCIeHdrAlignSplit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/src/pcie_axi/PicoStreamIn.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PicoStreamIn
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/src/pcie_axi/PicoStreamOut.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PicoStreamOut
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/src/pcie_axi/PIO_128_RX_ENGINE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PIO_128_RX_ENGINE
+WARNING: [VRFC 10-756] identifier cpld_tag_reordered is used before its declaration [/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/src/pcie_axi/PIO_128_RX_ENGINE.v:183]
+WARNING: [VRFC 10-756] identifier cpld_tag_reordered is used before its declaration [/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/src/pcie_axi/PIO_128_RX_ENGINE.v:184]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/src/pcie_axi/PIO_128_TX_ENGINE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PIO_128_TX_ENGINE
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/src/pcie_axi/StreamToPicoBus.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module StreamToPicoBus
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/src/pcie_axi/TagFIFO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TagFIFO
+INFO: [VRFC 10-2458] undeclared symbol tag_fifo_almost_empty, assumed default net type wire [/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/src/pcie_axi/TagFIFO.v:172]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.ip_user_files/ipstatic/gtwizard_ultrascale_v1_5_4/hdl/verilog/gtwizard_ultrascale_v1_5_bit_synchronizer.v" into library gtwizard_ultrascale_v1_5_4
+INFO: [VRFC 10-311] analyzing module gtwizard_ultrascale_v1_5_4_bit_synchronizer
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.ip_user_files/ipstatic/gtwizard_ultrascale_v1_5_4/hdl/verilog/gtwizard_ultrascale_v1_5_gthe3_cpll_cal.v" into library gtwizard_ultrascale_v1_5_4
+INFO: [VRFC 10-311] analyzing module gtwizard_ultrascale_v1_5_4_gthe3_cpll_cal
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.ip_user_files/ipstatic/gtwizard_ultrascale_v1_5_4/hdl/verilog/gtwizard_ultrascale_v1_5_gthe3_cpll_cal_freq_counter.v" into library gtwizard_ultrascale_v1_5_4
+INFO: [VRFC 10-311] analyzing module gtwizard_ultrascale_v1_5_4_gthe3_cpll_cal_freq_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.ip_user_files/ipstatic/gtwizard_ultrascale_v1_5_4/hdl/verilog/gtwizard_ultrascale_v1_5_gtwiz_buffbypass_rx.v" into library gtwizard_ultrascale_v1_5_4
+INFO: [VRFC 10-311] analyzing module gtwizard_ultrascale_v1_5_4_gtwiz_buffbypass_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.ip_user_files/ipstatic/gtwizard_ultrascale_v1_5_4/hdl/verilog/gtwizard_ultrascale_v1_5_gtwiz_buffbypass_tx.v" into library gtwizard_ultrascale_v1_5_4
+INFO: [VRFC 10-311] analyzing module gtwizard_ultrascale_v1_5_4_gtwiz_buffbypass_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.ip_user_files/ipstatic/gtwizard_ultrascale_v1_5_4/hdl/verilog/gtwizard_ultrascale_v1_5_gtwiz_reset.v" into library gtwizard_ultrascale_v1_5_4
+INFO: [VRFC 10-311] analyzing module gtwizard_ultrascale_v1_5_4_gtwiz_reset
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.ip_user_files/ipstatic/gtwizard_ultrascale_v1_5_4/hdl/verilog/gtwizard_ultrascale_v1_5_gtwiz_userclk_rx.v" into library gtwizard_ultrascale_v1_5_4
+INFO: [VRFC 10-311] analyzing module gtwizard_ultrascale_v1_5_4_gtwiz_userclk_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.ip_user_files/ipstatic/gtwizard_ultrascale_v1_5_4/hdl/verilog/gtwizard_ultrascale_v1_5_gtwiz_userclk_tx.v" into library gtwizard_ultrascale_v1_5_4
+INFO: [VRFC 10-311] analyzing module gtwizard_ultrascale_v1_5_4_gtwiz_userclk_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.ip_user_files/ipstatic/gtwizard_ultrascale_v1_5_4/hdl/verilog/gtwizard_ultrascale_v1_5_gtwiz_userdata_rx.v" into library gtwizard_ultrascale_v1_5_4
+INFO: [VRFC 10-311] analyzing module gtwizard_ultrascale_v1_5_4_gtwiz_userdata_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.ip_user_files/ipstatic/gtwizard_ultrascale_v1_5_4/hdl/verilog/gtwizard_ultrascale_v1_5_gtwiz_userdata_tx.v" into library gtwizard_ultrascale_v1_5_4
+INFO: [VRFC 10-311] analyzing module gtwizard_ultrascale_v1_5_4_gtwiz_userdata_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.ip_user_files/ipstatic/gtwizard_ultrascale_v1_5_4/hdl/verilog/gtwizard_ultrascale_v1_5_reset_synchronizer.v" into library gtwizard_ultrascale_v1_5_4
+INFO: [VRFC 10-311] analyzing module gtwizard_ultrascale_v1_5_4_reset_synchronizer
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/pcie3_ultrascale_0/ip_0/sim/gtwizard_ultrascale_v1_5_gthe3_channel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gtwizard_ultrascale_v1_5_4_gthe3_channel
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/pcie3_ultrascale_0/ip_0/sim/pcie3_ultrascale_0_gt_gthe3_channel_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcie3_ultrascale_0_gt_gthe3_channel_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/pcie3_ultrascale_0/ip_0/sim/gtwizard_ultrascale_v1_5_gthe3_common.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gtwizard_ultrascale_v1_5_4_gthe3_common
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/pcie3_ultrascale_0/ip_0/sim/pcie3_ultrascale_0_gt_gthe3_common_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcie3_ultrascale_0_gt_gthe3_common_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/pcie3_ultrascale_0/ip_0/sim/pcie3_ultrascale_0_gt_gtwizard_gthe3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcie3_ultrascale_0_gt_gtwizard_gthe3
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/pcie3_ultrascale_0/ip_0/sim/pcie3_ultrascale_0_gt_gtwizard_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcie3_ultrascale_0_gt_gtwizard_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/pcie3_ultrascale_0/ip_0/sim/pcie3_ultrascale_0_gt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcie3_ultrascale_0_gt
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/pcie3_ultrascale_0/source/pcie3_ultrascale_0_tph_tbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcie3_ultrascale_0_tph_tbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/pcie3_ultrascale_0/source/pcie3_ultrascale_0_pipe_lane.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcie3_ultrascale_0_pipe_lane
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/pcie3_ultrascale_0/source/pcie3_ultrascale_0_bram_16k.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcie3_ultrascale_0_bram_16k
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/pcie3_ultrascale_0/source/pcie3_ultrascale_0_bram_rep_8k.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcie3_ultrascale_0_bram_rep_8k
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/pcie3_ultrascale_0/source/pcie3_ultrascale_0_bram_req_8k.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcie3_ultrascale_0_bram_req_8k
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/pcie3_ultrascale_0/source/pcie3_ultrascale_0_gt_channel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcie3_ultrascale_0_gt_channel
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/pcie3_ultrascale_0/source/pcie3_ultrascale_0_pipe_pipeline.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcie3_ultrascale_0_pipe_pipeline
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/pcie3_ultrascale_0/source/pcie3_ultrascale_0_pipe_misc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcie3_ultrascale_0_pipe_misc
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/pcie3_ultrascale_0/source/pcie3_ultrascale_0_init_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcie3_ultrascale_0_init_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/pcie3_ultrascale_0/source/pcie3_ultrascale_0_gt_common.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcie3_ultrascale_0_gt_common
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/pcie3_ultrascale_0/source/pcie3_ultrascale_0_bram_8k.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcie3_ultrascale_0_bram_8k
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/pcie3_ultrascale_0/source/pcie3_ultrascale_0_bram_rep.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcie3_ultrascale_0_bram_rep
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/pcie3_ultrascale_0/source/pcie3_ultrascale_0_bram_req.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcie3_ultrascale_0_bram_req
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/pcie3_ultrascale_0/source/pcie3_ultrascale_0_phy_sync.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcie3_ultrascale_0_phy_sync
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/pcie3_ultrascale_0/source/pcie3_ultrascale_0_bram_cpl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcie3_ultrascale_0_bram_cpl
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/pcie3_ultrascale_0/source/pcie3_ultrascale_0_sys_clk_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcie3_ultrascale_0_sys_clk_gen_ps
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/pcie3_ultrascale_0/source/pcie3_ultrascale_0_phy_rst.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcie3_ultrascale_0_phy_rst
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/pcie3_ultrascale_0/source/pcie3_ultrascale_0_phy_txeq.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcie3_ultrascale_0_phy_txeq
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/pcie3_ultrascale_0/source/pcie3_ultrascale_0_phy_clk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcie3_ultrascale_0_phy_clk
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/pcie3_ultrascale_0/source/pcie3_ultrascale_0_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcie3_ultrascale_0_bram
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/pcie3_ultrascale_0/source/pcie3_ultrascale_0_phy_rxeq.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcie3_ultrascale_0_phy_rxeq
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/pcie3_ultrascale_0/source/pcie3_ultrascale_0_gtwizard_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcie3_ultrascale_0_gtwizard_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/pcie3_ultrascale_0/source/pcie3_ultrascale_0_phy_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcie3_ultrascale_0_phy_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/pcie3_ultrascale_0/source/pcie3_ultrascale_0_pcie3_uscale_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcie3_ultrascale_0_pcie3_uscale_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/pcie3_ultrascale_0/source/pcie3_ultrascale_0_pcie3_uscale_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcie3_ultrascale_0_pcie3_uscale_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/pcie3_ultrascale_0/source/pcie3_ultrascale_0_phy_sync_cell.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcie3_ultrascale_0_phy_sync_cell
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/pcie3_ultrascale_0/source/pcie3_ultrascale_0_rxcdrhold.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcie3_ultrascale_0_rxcdrhold
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/pcie3_ultrascale_0/source/pcie3_ultrascale_0_pcie3_uscale_core_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcie3_ultrascale_0_pcie3_uscale_core_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/pcie3_ultrascale_0/sim/pcie3_ultrascale_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcie3_ultrascale_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/src/pcie_axi/CardInfo32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CardInfo32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/src/pcie_axi/PIO_EP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PIO_EP
+WARNING: [VRFC 10-756] identifier burst_size is used before its declaration [/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/src/pcie_axi/PIO_EP.v:475]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/src/pcie_axi/Stream2PicoBus.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Stream2PicoBus
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/src/pcie_axi/SystemMonitor32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SystemMonitor32
+INFO: [VRFC 10-2458] undeclared symbol busy, assumed default net type wire [/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/src/pcie_axi/SystemMonitor32.v:84]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/src/pcie_axi/TestCounter32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TestCounter32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/xilinx/src/pcie3_7x_to_v1_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcie3_7x_to_v1_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/src/pcie_axi/pcie_app_v6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcie_app_v6
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/src/pcie_axi/StreamWidthConversion.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InStreamWidthConversion
+INFO: [VRFC 10-311] analyzing module OutStreamWidthConversion
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/xilinx/src/xilinx_pcie_3_0_7vx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xilinx_pcie_3_0_7vx
+WARNING: [VRFC 10-756] identifier cfg_ds_bus_number is used before its declaration [/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/xilinx/src/xilinx_pcie_3_0_7vx.v:76]
+WARNING: [VRFC 10-756] identifier cfg_ds_device_number is used before its declaration [/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/xilinx/src/xilinx_pcie_3_0_7vx.v:77]
+WARNING: [VRFC 10-756] identifier cfg_ds_function_number is used before its declaration [/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/xilinx/src/xilinx_pcie_3_0_7vx.v:78]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/StreamLoopback128.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module StreamLoopback128
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/src/pcie_axi/PicoFramework.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PicoFrameworkM510_KU060
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/src/pcie_axi/UserWrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UserWrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/src/pcie_axi/RGBBlink.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RGBBlink
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/src/pcie_axi/Pico_Toplevel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pico_Toplevel
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xcku060-ffva1156-2-e" LaunchTime="1470735779">
+  <File Type="OPT-METHODOLOGY-DRC" Name="Pico_Toplevel_methodology_drc_opted.rpt"/>
+  <File Type="PLACE-CTRL" Name="Pico_Toplevel_control_sets_placed.rpt"/>
+  <File Type="OPT-TIMING" Name="Pico_Toplevel_timing_summary_opted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Pico_Toplevel_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PLACE-IO" Name="Pico_Toplevel_io_placed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Pico_Toplevel_postroute_physopt.dcp"/>
+  <File Type="PA-TCL" Name="Pico_Toplevel.tcl"/>
+  <File Type="PHYSOPT-TIMING" Name="Pico_Toplevel_timing_summary_physopted.rpt"/>
+  <File Type="PLACE-CLK" Name="Pico_Toplevel_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Pico_Toplevel_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Pico_Toplevel_utilization_placed.pb"/>
+  <File Type="PWROPT-DRC" Name="Pico_Toplevel_drc_pwropted.rpt"/>
+  <File Type="BITSTR-SYSDEF" Name="Pico_Toplevel.sysdef"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Pico_Toplevel_timing_summary_routed.rpx"/>
+  <File Type="BG-BGN" Name="Pico_Toplevel.bgn"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Pico_Toplevel_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BITSTR-MMI" Name="Pico_Toplevel.mmi"/>
+  <File Type="ROUTE-TIMING-PB" Name="Pico_Toplevel_timing_summary_routed.pb"/>
+  <File Type="BG-DRC" Name="Pico_Toplevel.drc"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Pico_Toplevel_timing_summary_postroute_physopted.pb"/>
+  <File Type="OPT-DRC" Name="Pico_Toplevel_drc_opted.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Pico_Toplevel_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Pico_Toplevel_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-DCP" Name="Pico_Toplevel_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Pico_Toplevel_routed_bb.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Pico_Toplevel_postplace_pwropt.dcp"/>
+  <File Type="ROUTE-DRC" Name="Pico_Toplevel_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Pico_Toplevel_methodology_drc_routed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Pico_Toplevel_incremental_reuse_placed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Pico_Toplevel_drc_routed.pb"/>
+  <File Type="ROUTE-STATUS-PB" Name="Pico_Toplevel_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Pico_Toplevel_timing_summary_routed.rpt"/>
+  <File Type="BG-BIT" Name="Pico_Toplevel.bit"/>
+  <File Type="PHYSOPT-DCP" Name="Pico_Toplevel_physopt.dcp"/>
+  <File Type="ROUTE-PWR" Name="Pico_Toplevel_power_routed.rpt"/>
+  <File Type="ROUTE-STATUS" Name="Pico_Toplevel_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="Pico_Toplevel_power_routed.rpx"/>
+  <File Type="PHYSOPT-DRC" Name="Pico_Toplevel_drc_physopted.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="Pico_Toplevel_power_summary_routed.pb"/>
+  <File Type="PLACE-TIMING" Name="Pico_Toplevel_timing_summary_placed.rpt"/>
+  <File Type="OPT-HWDEF" Name="Pico_Toplevel.hwdef"/>
+  <File Type="INIT-TIMING" Name="Pico_Toplevel_timing_summary_init.rpt"/>
+  <File Type="OPT-DCP" Name="Pico_Toplevel_opt.dcp"/>
+  <File Type="BITSTR-RBT" Name="Pico_Toplevel.rbt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Pico_Toplevel_timing_summary_postroute_physopted.rpt"/>
+  <File Type="BG-BIN" Name="Pico_Toplevel.bin"/>
+  <File Type="ROUTE-SIMILARITY" Name="Pico_Toplevel_incremental_reuse_routed.rpt"/>
+  <File Type="BITSTR-MSK" Name="Pico_Toplevel.msk"/>
+  <File Type="ROUTE-CLK" Name="Pico_Toplevel_clock_utilization_routed.rpt"/>
+  <File Type="BITSTR-NKY" Name="Pico_Toplevel.nky"/>
+  <File Type="PLACE-DCP" Name="Pico_Toplevel_placed.dcp"/>
+  <File Type="BITSTR-BMM" Name="Pico_Toplevel_bd.bmm"/>
+  <File Type="PWROPT-DCP" Name="Pico_Toplevel_pwropt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Pico_Toplevel_postroute_physopt_bb.dcp"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="RDI-RDI" Name="Pico_Toplevel.vdi"/>
+  <File Type="PWROPT-TIMING" Name="Pico_Toplevel_timing_summary_pwropted.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/firmware/src/pcie_axi/Reorder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/firmware/src/pcie_axi/BasePicoDefines.v">
+      <FileInfo SFType="VHeader">
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/firmware/PicoDefines.v">
+      <FileInfo SFType="VHeader">
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/firmware/src/pcie_axi/CounterClkGen.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/firmware/src/pcie_axi/fifo_512x128.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/firmware/xilinx/src/FIFO.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/firmware/src/pcie_axi/PCIeHdrAlignSplit.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/firmware/src/pcie_axi/PicoStreamIn.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/firmware/src/pcie_axi/PicoStreamOut.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/firmware/src/pcie_axi/PIO_128_RX_ENGINE.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/firmware/src/pcie_axi/PIO_128_TX_ENGINE.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/firmware/src/pcie_axi/StreamToPicoBus.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/firmware/src/pcie_axi/TagFIFO.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/firmware/src/pcie_axi/CardInfo32.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/firmware/src/pcie_axi/PIO_EP.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/firmware/src/pcie_axi/Stream2PicoBus.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/firmware/src/pcie_axi/SystemMonitor32.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/firmware/src/pcie_axi/TestCounter32.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/firmware/xilinx/src/pcie3_7x_to_v1_6.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/firmware/src/pcie_axi/pcie_app_v6.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/firmware/src/pcie_axi/StreamWidthConversion.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/firmware/xilinx/src/xilinx_pcie_3_0_7vx.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../StreamLoopback128.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/firmware/src/pcie_axi/PicoFramework.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/firmware/src/pcie_axi/UserWrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/firmware/src/pcie_axi/RGBBlink.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/firmware/src/pcie_axi/Pico_Toplevel.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/firmware/src/pcie_axi/axi_defines.v">
+      <FileInfo SFType="VHeader">
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/firmware/src/PicoInterfaces.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/firmware/src/UtilFunc.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/firmware/xilinx/src/XilinxInterfaces.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/firmware/src/pcie_axi/AXIBuffer.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/firmware/src/pcie_axi/AXIToHMC.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/firmware/src/pcie_axi/AXIToHMCWrapper.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/firmware/src/pcie_axi/HMCReorder.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/firmware/src/pcie_axi/HMCTagManager.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/firmware/src/pcie_axi/PicoAXIDownsizer.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/firmware/src/pcie_axi/PicoAXIUpsizer.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/firmware/src/pcie_axi/PicoStreamToAXI.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/firmware/src/pcie_axi/PicoStreamToHMC.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/firmware/src/pcie_axi/StreamAXICtrl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/firmware/src/pcie_axi/asyncFifoBRAM.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/coregen_fifo_32x128/coregen_fifo_32x128.upgrade_log"/>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Pico_Toplevel"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/firmware/m510/src/M510_KU060_FFVA1156_E.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/firmware/m510/src/clocks.tcl">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2015"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="pcie3_ultrascale_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="coregen_fifo_32x128"/>
+</GenRun>

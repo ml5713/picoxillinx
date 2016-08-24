@@ -1,0 +1,279 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Thu May 26 22:36:31 2016
+| Host         : pico-X8DTN running 64-bit Ubuntu Trusty Tahr (development branch)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'coregen_fifo_32x128'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of coregen_fifo_32x128 from xilinx.com:ip:fifo_generator:8.1 to xilinx.com:ip:fifo_generator:12.0 (Rev. 4)
+
+After upgrade, an IP may have parameter differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality.
+
+2. Warnings
+-----------
+
+WARNING: The upgraded user parameter set contained parameters that could not be mapped on to the upgraded IP. When checking the upgrade script, note that parameter names are case sensitive.
+
+
+3. Customization warnings
+-------------------------
+
+WARNING: Parameter 'enable_read_channel' is no longer present on the upgraded IP 'coregen_fifo_32x128', and cannot be set to 'false'
+
+WARNING: Parameter 'axi_data_width' is no longer present on the upgraded IP 'coregen_fifo_32x128', and cannot be set to '64'
+
+WARNING: Parameter 'enable_tdest' is no longer present on the upgraded IP 'coregen_fifo_32x128', and cannot be set to 'false'
+
+WARNING: Parameter 'enable_buser' is no longer present on the upgraded IP 'coregen_fifo_32x128', and cannot be set to 'false'
+
+WARNING: Parameter 'use_clock_enable' is no longer present on the upgraded IP 'coregen_fifo_32x128', and cannot be set to 'false'
+
+WARNING: Parameter 'enable_handshake_flag_options_rdch' is no longer present on the upgraded IP 'coregen_fifo_32x128', and cannot be set to 'false'
+
+WARNING: Parameter 'enable_ruser' is no longer present on the upgraded IP 'coregen_fifo_32x128', and cannot be set to 'false'
+
+WARNING: Parameter 'enable_handshake_flag_options_rach' is no longer present on the upgraded IP 'coregen_fifo_32x128', and cannot be set to 'false'
+
+WARNING: Parameter 'axi_type' is no longer present on the upgraded IP 'coregen_fifo_32x128', and cannot be set to 'AXI4_Stream'
+
+WARNING: Parameter 'enable_wuser' is no longer present on the upgraded IP 'coregen_fifo_32x128', and cannot be set to 'false'
+
+WARNING: Parameter 'enable_handshake_flag_options_axis' is no longer present on the upgraded IP 'coregen_fifo_32x128', and cannot be set to 'false'
+
+WARNING: Parameter 'enable_handshake_flag_options_wdch' is no longer present on the upgraded IP 'coregen_fifo_32x128', and cannot be set to 'false'
+
+WARNING: Parameter 'enable_tid' is no longer present on the upgraded IP 'coregen_fifo_32x128', and cannot be set to 'false'
+
+WARNING: Parameter 'enable_tuser' is no longer present on the upgraded IP 'coregen_fifo_32x128', and cannot be set to 'false'
+
+WARNING: Parameter 'enable_handshake_flag_options_wach' is no longer present on the upgraded IP 'coregen_fifo_32x128', and cannot be set to 'false'
+
+WARNING: Parameter 'enable_tkeep' is no longer present on the upgraded IP 'coregen_fifo_32x128', and cannot be set to 'false'
+
+WARNING: Parameter 'axi_address_width' is no longer present on the upgraded IP 'coregen_fifo_32x128', and cannot be set to '32'
+
+WARNING: Parameter 'tdata_width' is no longer present on the upgraded IP 'coregen_fifo_32x128', and cannot be set to '64'
+
+WARNING: Parameter 'enable_aruser' is no longer present on the upgraded IP 'coregen_fifo_32x128', and cannot be set to 'false'
+
+WARNING: Parameter 'enable_tdata' is no longer present on the upgraded IP 'coregen_fifo_32x128', and cannot be set to 'false'
+
+WARNING: Parameter 'enable_handshake_flag_options_wrch' is no longer present on the upgraded IP 'coregen_fifo_32x128', and cannot be set to 'false'
+
+WARNING: Parameter 'enable_write_channel' is no longer present on the upgraded IP 'coregen_fifo_32x128', and cannot be set to 'false'
+
+WARNING: Parameter 'enable_awuser' is no longer present on the upgraded IP 'coregen_fifo_32x128', and cannot be set to 'false'
+
+WARNING: Parameter 'enable_tstrobe' is no longer present on the upgraded IP 'coregen_fifo_32x128', and cannot be set to 'false'
+
+WARNING: An attempt to modify the value of disabled parameter 'TKEEP_WIDTH' from '1' to '4' has been ignored for IP 'coregen_fifo_32x128'
+
+WARNING: An attempt to modify the value of disabled parameter 'TSTRB_WIDTH' from '1' to '4' has been ignored for IP 'coregen_fifo_32x128'
+
+WARNING: An attempt to modify the value of disabled parameter 'TDEST_WIDTH' from '0' to '4' has been ignored for IP 'coregen_fifo_32x128'
+
+WARNING: An attempt to modify the value of disabled parameter 'TID_WIDTH' from '0' to '8' has been ignored for IP 'coregen_fifo_32x128'
+
+WARNING: An attempt to modify the value of disabled parameter 'Programmable_Empty_Type_axis' from 'No_Programmable_Empty_Threshold' to 'Empty' has been ignored for IP 'coregen_fifo_32x128'
+
+WARNING: An attempt to modify the value of disabled parameter 'Programmable_Full_Type_axis' from 'No_Programmable_Full_Threshold' to 'Full' has been ignored for IP 'coregen_fifo_32x128'
+
+WARNING: An attempt to modify the value of disabled parameter 'Programmable_Empty_Type_rdch' from 'No_Programmable_Empty_Threshold' to 'Empty' has been ignored for IP 'coregen_fifo_32x128'
+
+WARNING: An attempt to modify the value of disabled parameter 'Programmable_Full_Type_rdch' from 'No_Programmable_Full_Threshold' to 'Full' has been ignored for IP 'coregen_fifo_32x128'
+
+WARNING: An attempt to modify the value of disabled parameter 'Programmable_Empty_Type_rach' from 'No_Programmable_Empty_Threshold' to 'Empty' has been ignored for IP 'coregen_fifo_32x128'
+
+WARNING: An attempt to modify the value of disabled parameter 'Programmable_Full_Type_rach' from 'No_Programmable_Full_Threshold' to 'Full' has been ignored for IP 'coregen_fifo_32x128'
+
+WARNING: An attempt to modify the value of disabled parameter 'Programmable_Empty_Type_wrch' from 'No_Programmable_Empty_Threshold' to 'Empty' has been ignored for IP 'coregen_fifo_32x128'
+
+WARNING: An attempt to modify the value of disabled parameter 'Programmable_Full_Type_wrch' from 'No_Programmable_Full_Threshold' to 'Full' has been ignored for IP 'coregen_fifo_32x128'
+
+WARNING: An attempt to modify the value of disabled parameter 'Programmable_Empty_Type_wdch' from 'No_Programmable_Empty_Threshold' to 'Empty' has been ignored for IP 'coregen_fifo_32x128'
+
+WARNING: An attempt to modify the value of disabled parameter 'Programmable_Full_Type_wdch' from 'No_Programmable_Full_Threshold' to 'Full' has been ignored for IP 'coregen_fifo_32x128'
+
+WARNING: An attempt to modify the value of disabled parameter 'Programmable_Empty_Type_wach' from 'No_Programmable_Empty_Threshold' to 'Empty' has been ignored for IP 'coregen_fifo_32x128'
+
+WARNING: An attempt to modify the value of disabled parameter 'Programmable_Full_Type_wach' from 'No_Programmable_Full_Threshold' to 'Full' has been ignored for IP 'coregen_fifo_32x128'
+
+WARNING: An attempt to modify the value of disabled parameter 'RUSER_Width' from '0' to '1' has been ignored for IP 'coregen_fifo_32x128'
+
+WARNING: An attempt to modify the value of disabled parameter 'ARUSER_Width' from '0' to '1' has been ignored for IP 'coregen_fifo_32x128'
+
+WARNING: An attempt to modify the value of disabled parameter 'BUSER_Width' from '0' to '1' has been ignored for IP 'coregen_fifo_32x128'
+
+WARNING: An attempt to modify the value of disabled parameter 'WUSER_Width' from '0' to '1' has been ignored for IP 'coregen_fifo_32x128'
+
+WARNING: An attempt to modify the value of disabled parameter 'AWUSER_Width' from '0' to '1' has been ignored for IP 'coregen_fifo_32x128'
+
+WARNING: An attempt to modify the value of disabled parameter 'ID_WIDTH' from '0' to '4' has been ignored for IP 'coregen_fifo_32x128'
+
+
+4. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  Please consult the warnings from the previous sections, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv xilinx.com:ip:fifo_generator:12.0 -user_name coregen_fifo_32x128
+set_property -dict "\
+  CONFIG.add_ngc_constraint_axi false \
+  CONFIG.empty_threshold_assert_value_wdch 1022 \
+  CONFIG.register_slice_mode_wdch Fully_Registered \
+  CONFIG.full_threshold_assert_value_rach 1023 \
+  CONFIG.input_depth_rach 16 \
+  CONFIG.programmable_full_type No_Programmable_Full_Threshold \
+  CONFIG.enable_tready true \
+  CONFIG.empty_threshold_assert_value_wach 1022 \
+  CONFIG.inject_sbit_error_wrch false \
+  CONFIG.register_slice_mode_wach Fully_Registered \
+  CONFIG.tuser_width 4 \
+  CONFIG.almost_empty_flag false \
+  CONFIG.fifo_application_type_rdch Data_FIFO \
+  CONFIG.input_data_width 128 \
+  CONFIG.programmable_empty_type_rdch Empty \
+  CONFIG.enable_data_counts_axis false \
+  CONFIG.fifo_application_type_rach Data_FIFO \
+  CONFIG.programmable_empty_type_rach Empty \
+  CONFIG.write_clock_frequency 1 \
+  CONFIG.full_threshold_assert_value_axis 1023 \
+  CONFIG.input_depth_axis 1024 \
+  CONFIG.data_count false \
+  CONFIG.tdest_width 4 \
+  CONFIG.enable_ecc_wrch false \
+  CONFIG.underflow_flag false \
+  CONFIG.enable_data_counts_wdch false \
+  CONFIG.use_dout_reset false \
+  CONFIG.almost_full_flag false \
+  CONFIG.inject_dbit_error_wrch false \
+  CONFIG.read_data_count false \
+  CONFIG.programmable_full_type_wrch Full \
+  CONFIG.full_threshold_assert_value_wdch 1023 \
+  CONFIG.input_depth_wdch 1024 \
+  CONFIG.enable_common_overflow false \
+  CONFIG.write_data_count_width 6 \
+  CONFIG.wach_type FIFO \
+  CONFIG.enable_data_counts_wach false \
+  CONFIG.fifo_application_type_axis Data_FIFO \
+  CONFIG.programmable_empty_type_axis Empty \
+  CONFIG.underflow_sense_axi Active_High \
+  CONFIG.wrch_type FIFO \
+  CONFIG.full_threshold_assert_value_wach 1023 \
+  CONFIG.input_depth_wach 16 \
+  CONFIG.underflow_flag_axi false \
+  CONFIG.reset_pin true \
+  CONFIG.fifo_implementation_rdch Common_Clock_Block_RAM \
+  CONFIG.reset_type Asynchronous_Reset \
+  CONFIG.fifo_application_type_wdch Data_FIFO \
+  CONFIG.programmable_empty_type_wdch Empty \
+  CONFIG.overflow_flag_axi false \
+  CONFIG.fifo_implementation_rach Common_Clock_Block_RAM \
+  CONFIG.fifo_application_type_wach Data_FIFO \
+  CONFIG.programmable_empty_type_wach Empty \
+  CONFIG.rdch_type FIFO \
+  CONFIG.inject_sbit_error_rdch false \
+  CONFIG.overflow_sense Active_High \
+  CONFIG.axis_type FIFO \
+  CONFIG.component_name coregen_fifo_32x128 \
+  CONFIG.empty_threshold_assert_value_wrch 1022 \
+  CONFIG.register_slice_mode_wrch Fully_Registered \
+  CONFIG.inject_sbit_error_rach false \
+  CONFIG.enable_ecc false \
+  CONFIG.fifo_implementation_axis Common_Clock_Block_RAM \
+  CONFIG.overflow_flag false \
+  CONFIG.enable_ecc_rdch false \
+  CONFIG.use_extra_logic true \
+  CONFIG.full_flags_reset_value 1 \
+  CONFIG.inject_dbit_error_rdch false \
+  CONFIG.tid_width 8 \
+  CONFIG.data_count_width 6 \
+  CONFIG.clock_enable_type Slave_Interface_Clock_Enable \
+  CONFIG.programmable_full_type_rdch Full \
+  CONFIG.enable_ecc_rach false \
+  CONFIG.fifo_implementation_wdch Common_Clock_Block_RAM \
+  CONFIG.disable_timing_violations_axi false \
+  CONFIG.inject_sbit_error_axis false \
+  CONFIG.inject_dbit_error_rach false \
+  CONFIG.awuser_width 1 \
+  CONFIG.programmable_full_type_rach Full \
+  CONFIG.disable_timing_violations false \
+  CONFIG.fifo_implementation_wach Common_Clock_Block_RAM \
+  CONFIG.enable_data_counts_wrch false \
+  CONFIG.empty_threshold_negate_value 5 \
+  CONFIG.inject_sbit_error_wdch false \
+  CONFIG.valid_sense Active_High \
+  CONFIG.performance_options First_Word_Fall_Through \
+  CONFIG.enable_tlast false \
+  CONFIG.wdch_type FIFO \
+  CONFIG.full_threshold_assert_value_wrch 1023 \
+  CONFIG.input_depth_wrch 16 \
+  CONFIG.inject_dbit_error false \
+  CONFIG.enable_reset_synchronization true \
+  CONFIG.underflow_sense Active_High \
+  CONFIG.enable_ecc_axis false \
+  CONFIG.output_depth 32 \
+  CONFIG.inject_sbit_error_wach false \
+  CONFIG.inject_dbit_error_axis false \
+  CONFIG.full_threshold_negate_value 30 \
+  CONFIG.programmable_empty_type No_Programmable_Empty_Threshold \
+  CONFIG.programmable_full_type_axis Full \
+  CONFIG.enable_read_pointer_increment_by2 false \
+  CONFIG.enable_ecc_wdch false \
+  CONFIG.aruser_width 1 \
+  CONFIG.overflow_sense_axi Active_High \
+  CONFIG.fifo_application_type_wrch Data_FIFO \
+  CONFIG.programmable_empty_type_wrch Empty \
+  CONFIG.wuser_width 1 \
+  CONFIG.inject_dbit_error_wdch false \
+  CONFIG.empty_threshold_assert_value_rdch 1022 \
+  CONFIG.read_clock_frequency 1 \
+  CONFIG.register_slice_mode_rdch Fully_Registered \
+  CONFIG.tkeep_width 4 \
+  CONFIG.fifo_implementation Common_Clock_Distributed_RAM \
+  CONFIG.programmable_full_type_wdch Full \
+  CONFIG.enable_ecc_wach false \
+  CONFIG.enable_common_underflow false \
+  CONFIG.inject_dbit_error_wach false \
+  CONFIG.empty_threshold_assert_value_rach 1022 \
+  CONFIG.register_slice_mode_rach Fully_Registered \
+  CONFIG.programmable_full_type_wach Full \
+  CONFIG.tstrb_width 4 \
+  CONFIG.valid_flag false \
+  CONFIG.dout_reset_value 0 \
+  CONFIG.write_acknowledge_sense Active_High \
+  CONFIG.write_acknowledge_flag false \
+  CONFIG.buser_width 1 \
+  CONFIG.read_data_count_width 6 \
+  CONFIG.empty_threshold_assert_value 4 \
+  CONFIG.inject_sbit_error false \
+  CONFIG.ruser_width 1 \
+  CONFIG.output_data_width 128 \
+  CONFIG.interface_type Native \
+  CONFIG.enable_data_counts_rdch false \
+  CONFIG.empty_threshold_assert_value_axis 1022 \
+  CONFIG.register_slice_mode_axis Fully_Registered \
+  CONFIG.clock_type_axi Common_Clock \
+  CONFIG.rach_type FIFO \
+  CONFIG.write_data_count false \
+  CONFIG.fifo_implementation_wrch Common_Clock_Block_RAM \
+  CONFIG.full_threshold_assert_value 31 \
+  CONFIG.full_threshold_assert_value_rdch 1023 \
+  CONFIG.id_width 4 \
+  CONFIG.input_depth 32 \
+  CONFIG.input_depth_rdch 1024 \
+  CONFIG.use_embedded_registers false \
+  CONFIG.enable_data_counts_rach false " [get_ips coregen_fifo_32x128]
+
+

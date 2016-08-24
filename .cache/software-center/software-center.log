@@ -1,0 +1,117 @@
+2015-03-09 18:12:50,142 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2015-03-09 18:12:50,748 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2015-03-09 18:12:50,804 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2015-03-09 18:12:50,807 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2015-03-09 18:12:50,815 - softwarecenter.fixme - WARNING - logs to the root logger: '('/usr/lib/python2.7/dist-packages/gi/importer.py', 51, 'find_module')'
+2015-03-09 18:12:50,815 - root - ERROR - Could not find any typelib for LaunchpadIntegration
+2015-03-09 18:12:50,899 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-03-09 18:12:51,754 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'SoftwareCenterAgentAPI', 'exhibits', '{"lang": "en", "series": "trusty"}']'
+2015-03-09 18:12:51,754 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:connecting to https://software-center.ubuntu.com/api/2.0/exhibits/en/trusty/: Connection refused
+'
+2015-03-09 18:12:52,115 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'RatingsAndReviewsAPI', 'review_stats']'
+2015-03-09 18:12:52,115 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:connecting to http://reviews.ubuntu.com/reviews/api/1.0/review-stats/any/any/: Connection refused
+'
+2015-03-09 18:12:54,099 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'SoftwareCenterAgentAPI', 'available_apps', '{"lang": "en", "series": "trusty", "arch": "amd64"}']'
+2015-03-09 18:12:54,099 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:connecting to http://software-center.ubuntu.com/api/2.0/applications/en/ubuntu/trusty/amd64/: Connection refused
+'
+2015-03-09 18:12:54,100 - softwarecenter.db.update - WARNING - update_from_software_center_agent: error: 'WARNING:__main__:connecting to http://software-center.ubuntu.com/api/2.0/applications/en/ubuntu/trusty/amd64/: Connection refused\n'
+2015-03-09 18:12:54,115 - softwarecenter.db.utils - INFO - software-center-agent finished with status 1
+2016-03-16 05:36:51,932 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2016-03-16 05:36:52,439 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2016-03-16 05:36:52,496 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2016-03-16 05:36:52,498 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2016-03-16 05:36:52,539 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2016-03-16 05:36:52,596 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'RatingsAndReviewsAPI', 'review_stats']'
+2016-03-16 05:36:52,596 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:no data
+'
+2016-03-16 05:36:53,606 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'SoftwareCenterAgentAPI', 'exhibits', '{"lang": "en", "series": "trusty"}']'
+2016-03-16 05:36:53,606 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:no data
+'
+2016-03-16 05:36:54,211 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'SoftwareCenterRecommenderAPI', 'recommend_app', '{"pkgname": "dkms"}']'
+2016-03-16 05:36:54,212 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:no data
+'
+2016-03-16 05:36:54,212 - softwarecenter.db.categories - WARNING - Error while accessing the recommender service: WARNING:__main__:no data
+
+2016-03-16 05:36:54,212 - softwarecenter.ui.gtk3.widgets.recommendations - WARNING - Error while accessing the recommender agent: WARNING:__main__:no data
+
+2016-03-16 05:36:55,917 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'SoftwareCenterAgentAPI', 'available_apps', '{"lang": "en", "series": "trusty", "arch": "amd64"}']'
+2016-03-16 05:36:55,918 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:no data
+'
+2016-03-16 05:36:55,918 - softwarecenter.db.update - WARNING - update_from_software_center_agent: error: 'WARNING:__main__:no data\n'
+2016-03-16 05:36:55,952 - softwarecenter.db.utils - INFO - software-center-agent finished with status 1
+2016-03-16 05:37:05,174 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2016-03-16 05:37:06,036 - softwarecenter.utils - WARNING - Could not determine the installed desktop file path for app-install desktop file: ''
+2016-03-16 05:37:06,036 - softwarecenter.backend.zeitgeist_logger - WARNING - Invalid desktop file provided, impossible to log event
+2016-03-16 05:37:09,800 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2016-03-16 05:37:09,946 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2016-03-16 05:37:09,980 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2016-03-16 05:37:09,981 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2016-03-16 05:37:10,009 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2016-03-16 05:37:10,114 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'RatingsAndReviewsAPI', 'review_stats']'
+2016-03-16 05:37:10,114 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:no data
+'
+2016-03-16 05:37:10,976 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'SoftwareCenterAgentAPI', 'exhibits', '{"lang": "en", "series": "trusty"}']'
+2016-03-16 05:37:10,976 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:no data
+'
+2016-03-16 05:37:11,618 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'SoftwareCenterRecommenderAPI', 'recommend_app', '{"pkgname": "picocomputing"}']'
+2016-03-16 05:37:11,618 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:no data
+'
+2016-03-16 05:37:11,618 - softwarecenter.db.categories - WARNING - Error while accessing the recommender service: WARNING:__main__:no data
+
+2016-03-16 05:37:11,618 - softwarecenter.ui.gtk3.widgets.recommendations - WARNING - Error while accessing the recommender agent: WARNING:__main__:no data
+
+2016-03-16 05:37:12,205 - softwarecenter.db.pkginfo_impl.aptcache - ERROR - simulate failed
+None
+2016-03-16 05:37:13,954 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'SoftwareCenterAgentAPI', 'available_apps', '{"lang": "en", "series": "trusty", "arch": "amd64"}']'
+2016-03-16 05:37:13,954 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:no data
+'
+2016-03-16 05:37:13,955 - softwarecenter.db.update - WARNING - update_from_software_center_agent: error: 'WARNING:__main__:no data\n'
+2016-03-16 05:37:13,989 - softwarecenter.db.utils - INFO - software-center-agent finished with status 1
+2016-03-16 05:38:27,721 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2016-03-16 05:38:28,605 - softwarecenter.utils - WARNING - Could not determine the installed desktop file path for app-install desktop file: 'None'
+2016-03-16 05:38:28,605 - softwarecenter.backend.zeitgeist_logger - WARNING - Invalid desktop file provided, impossible to log event
+2016-07-22 02:04:23,322 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2016-07-22 02:04:23,812 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2016-07-22 02:04:23,868 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2016-07-22 02:04:23,871 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2016-07-22 02:04:23,908 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2016-07-22 02:04:23,976 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'RatingsAndReviewsAPI', 'review_stats']'
+2016-07-22 02:04:23,976 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:no data
+'
+2016-07-22 02:04:25,469 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'SoftwareCenterRecommenderAPI', 'recommend_app', '{"pkgname": "picocomputing"}']'
+2016-07-22 02:04:25,469 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:no data
+'
+2016-07-22 02:04:25,469 - softwarecenter.db.categories - WARNING - Error while accessing the recommender service: WARNING:__main__:no data
+
+2016-07-22 02:04:25,470 - softwarecenter.ui.gtk3.widgets.recommendations - WARNING - Error while accessing the recommender agent: WARNING:__main__:no data
+
+2016-07-22 02:04:27,606 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'SoftwareCenterAgentAPI', 'available_apps', '{"lang": "en", "series": "trusty", "arch": "amd64"}']'
+2016-07-22 02:04:27,606 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:no data
+'
+2016-07-22 02:04:27,606 - softwarecenter.db.update - WARNING - update_from_software_center_agent: error: 'WARNING:__main__:no data\n'
+2016-07-22 02:04:27,636 - softwarecenter.db.utils - INFO - software-center-agent finished with status 1
+2016-07-22 02:06:00,480 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2016-07-22 16:09:32,435 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2016-07-22 16:09:32,917 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2016-07-22 16:09:32,972 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2016-07-22 16:09:32,974 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2016-07-22 16:09:33,014 - softwarecenter.ui.gtk3.app - ERROR - show_available_packages: can not open ['/home/micron/Downloads/Xilinx_Vivado_SDK_2016.2_0605_1_Lin64.bin'], error:
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/ui/gtk3/app.py", line 1296, in show_available_packages
+    search_text, app = parse_packages_args(packages)
+  File "/usr/share/software-center/softwarecenter/ui/gtk3/app.py", line 200, in parse_packages_args
+    app = DebFileApplication(request)
+  File "/usr/share/software-center/softwarecenter/db/debfile.py", line 50, in __init__
+    raise DebFileOpenError("Could not open %r." % debfile, debfile)
+DebFileOpenError: Could not open '/home/micron/Downloads/Xilinx_Vivado_SDK_2016.2_0605_1_Lin64.bin'.
+2016-07-22 16:09:33,030 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2016-07-22 16:09:33,704 - softwarecenter.backend.reviews - WARNING - error creating bsddb: '(22, 'Invalid argument -- BDB0054 illegal flag combination specified to DB_ENV->open')' (corrupted?)
+2016-07-22 16:09:33,705 - softwarecenter.backend.reviews - ERROR - trying to repair DB failed
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 358, in _save_review_stats_cache_blocking
+    self._dump_bsddbm_for_unity(outfile, outdir)
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 377, in _dump_bsddbm_for_unity
+    0600)
+DBInvalidArgError: (22, 'Invalid argument -- BDB0054 illegal flag combination specified to DB_ENV->open')
+2016-07-22 16:09:37,097 - softwarecenter.ui.gtk3.views.lobbyview - WARNING - skipping exhibit for: 'u'leadwerks\r\nleadwerks-indie'' not available
+2016-07-22 16:09:38,435 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0

@@ -1,0 +1,435 @@
+2016-07-22 16:10:39,685 DEBUG: com.xilinx.installer.api.e:? - Log file location: /home/micron/.Xilinx/xinstall/xinstall_1469200234172.log
+2016-07-22 16:10:39,687 DEBUG: com.xilinx.installer.api.e:? - Memory usage -- Used memory: 2515 MB. Total memory: 32077 MB
+Recent cpu usage for system: 1%
+2016-07-22 16:10:39,693 DEBUG: com.xilinx.installer.api.d:? - This is a fresh installation.
+2016-07-22 16:10:39,696 DEBUG: com.xilinx.installer.registry.lin.a:? - Uninstall reg: /home/micron/.Xilinx/registry/installedSW.xml
+2016-07-22 16:10:39,866 DEBUG: com.xilinx.installer.api.e:? - PAYLOAD_LOCATION_FROM_USER is not set.
+2016-07-22 16:10:39,866 DEBUG: com.xilinx.installer.api.e:? - Payload was not found in the image, /tmp/selfgz343026136/payload does NOT exist.
+2016-07-22 16:10:39,866 DEBUG: com.xilinx.installer.api.e:? - Payload location could not be set at this point.
+2016-07-22 16:10:39,866 DEBUG: com.xilinx.installer.gui.p:? - Class to load: com.xilinx.installer.gui.panel.WelcomePanel, refKey: WelcomePanel_Install
+2016-07-22 16:10:39,882 DEBUG: com.xilinx.installer.gui.p:? - Class to load: com.xilinx.installer.gui.panel.installtype.InstallationTypeTwoOptionsPanel, refKey: InstallationTypeWithLoginPanel_Install
+2016-07-22 16:10:39,971 DEBUG: com.xilinx.installer.gui.p:? - Class to load: com.xilinx.installer.gui.panel.eula.EULAsPanel, refKey: EULAPanel_Install
+2016-07-22 16:10:40,020 DEBUG: com.xilinx.installer.gui.p:? - Class to load: com.xilinx.installer.gui.panel.packages.simple.PackagesPanel, refKey: PackagePanel_Install
+2016-07-22 16:10:40,039 DEBUG: com.xilinx.installer.gui.p:? - Class to load: com.xilinx.installer.gui.panel.packages.simple.ModulesPanel, refKey: ModulesPanel_Install
+2016-07-22 16:10:40,084 DEBUG: p.f:? - Module: Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 44 Total archive numbers: 44
+2016-07-22 16:10:40,085 DEBUG: p.f:? - Module: System Generator for DSP dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 1 Total archive numbers: 45
+2016-07-22 16:10:40,085 DEBUG: p.f:? - Module: Vivado High Level Synthesis dest: /opt/Xilinx/Vivado_HLS/2016.2 Archive numbers in module: 11 Total archive numbers: 56
+2016-07-22 16:10:40,085 DEBUG: p.f:? - Module: Vivado Design Suite dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 56
+2016-07-22 16:10:40,085 DEBUG: p.f:? - Module: DocNav dest: /opt/Xilinx/DocNav Archive numbers in module: 2 Total archive numbers: 58
+2016-07-22 16:10:40,086 DEBUG: p.f:? - Module: Xilinx Information Center dest: /opt/Xilinx/xic Archive numbers in module: 6 Total archive numbers: 64
+2016-07-22 16:10:40,086 DEBUG: p.f:? - Module: Zynq-7000 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 14 Total archive numbers: 78
+2016-07-22 16:10:40,086 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 14 Total archive numbers: 92
+2016-07-22 16:10:40,087 DEBUG: p.f:? - Module: Zynq-7000 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 92
+2016-07-22 16:10:40,087 DEBUG: p.f:? - Module: Zynq UltraScale+ MPSoC dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 18 Total archive numbers: 107
+2016-07-22 16:10:40,087 DEBUG: p.f:? - Module: SoCs dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 107
+2016-07-22 16:10:40,087 DEBUG: p.f:? - Module: Artix-7 Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 11 Total archive numbers: 113
+2016-07-22 16:10:40,088 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 14 Total archive numbers: 113
+2016-07-22 16:10:40,088 DEBUG: p.f:? - Module: Artix-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 113
+2016-07-22 16:10:40,088 DEBUG: p.f:? - Module: Kintex-7 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 11 Total archive numbers: 119
+2016-07-22 16:10:40,088 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 14 Total archive numbers: 119
+2016-07-22 16:10:40,088 DEBUG: p.f:? - Module: Kintex-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 119
+2016-07-22 16:10:40,089 DEBUG: p.f:? - Module: Virtex-7 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 10 Total archive numbers: 124
+2016-07-22 16:10:40,089 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 14 Total archive numbers: 124
+2016-07-22 16:10:40,089 DEBUG: p.f:? - Module: Virtex-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 124
+2016-07-22 16:10:40,089 DEBUG: p.f:? - Module: 7 Series dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 124
+2016-07-22 16:10:40,089 DEBUG: p.f:? - Module: Kintex UltraScale dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 18 Total archive numbers: 137
+2016-07-22 16:10:40,090 DEBUG: p.f:? - Module: Virtex UltraScale dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 15 Total archive numbers: 147
+2016-07-22 16:10:40,090 DEBUG: p.f:? - Module: UltraScale dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 147
+2016-07-22 16:10:40,090 DEBUG: p.f:? - Module: Kintex UltraScale+ dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 16 Total archive numbers: 156
+2016-07-22 16:10:40,090 DEBUG: p.f:? - Module: Virtex UltraScale+ dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 17 Total archive numbers: 166
+2016-07-22 16:10:40,090 DEBUG: p.f:? - Module: UltraScale+ dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 166
+2016-07-22 16:10:40,093 DEBUG: p.f:? - Download archive numbers: 164
+2016-07-22 16:10:40,094 DEBUG: p.f:? - Download archive numbers: 164
+2016-07-22 16:10:40,097 DEBUG: com.xilinx.installer.gui.p:? - Class to load: com.xilinx.installer.gui.panel.destination.DestinationPanel, refKey: DestinationPanel_Install
+2016-07-22 16:10:40,110 DEBUG: com.xilinx.installer.gui.p:? - Class to load: com.xilinx.installer.gui.panel.summary.SummaryPanel, refKey: SummaryPanel_Install
+2016-07-22 16:10:40,112 DEBUG: com.xilinx.installer.gui.p:? - Class to load: com.xilinx.installer.gui.panel.progress.ModernProgressPanel, refKey: ProgressPanel_Install
+2016-07-22 16:10:41,662 DEBUG: k.b:? - Could not auto detect proxy settings
+2016-07-22 16:10:41,670 DEBUG: k.b:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2016-07-22 16:10:41,674 DEBUG: k.b:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2016-07-22 16:10:41,674 DEBUG: k.l:? - Download to /tmp/TMP_LD_LIB_PATH2016-07-22-16-10-34-1469200234/1469200241662/installClientInfo.dat
+2016-07-22 16:10:41,674 DEBUG: k.l:? - File not exists or incomplete file /tmp/TMP_LD_LIB_PATH2016-07-22-16-10-34-1469200234/1469200241662/installClientInfo.dat,  deleting and starting download from scratch.
+2016-07-22 16:10:41,676 DEBUG: k.l:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2016-07-22 16:10:41,862 DEBUG: k.l:? - Successfully downloaded http://www.xilinx.com/direct/swhelp/installClientInfo.dat. Downloaded 1629 bytes, elapsedTime: 0:0:0:0
+2016-07-22 16:10:41,863 INFO : k.b:? - Internet connection validated, can connect to internet.
+2016-07-22 16:10:41,863 DEBUG: k.b:? - Loading install client info from: /tmp/TMP_LD_LIB_PATH2016-07-22-16-10-34-1469200234/1469200241662/installClientInfo.dat
+2016-07-22 16:11:05,140 DEBUG: com.xilinx.installer.gui.panel.installtype.InstallationTypeTwoOptionsPanel:? - The install web client version 2016.2 is valid.
+2016-07-22 16:11:05,144 DEBUG: com.xilinx.installer.gui.x:? - Start to test user login with new setting
+2016-07-22 16:11:05,186 DEBUG: com.xilinx.installer.gui.x:? - testUserLoginWithNewSetting waiting for login results
+2016-07-22 16:11:05,190 DEBUG: com.xilinx.installer.gui.x$a:? - VALIDATE_LOGIN_CREDENTIALS
+2016-07-22 16:11:05,226 DEBUG: b.c:? - Post url (encrypted passwd): https://secure.xilinx.com/webreg/oms_sso/authenticator?xilinxUserId=sdenholm
+2016-07-22 16:11:07,415 DEBUG: b.c:? - rspStatusCode: 200 rspReason: OK
+2016-07-22 16:11:07,417 DEBUG: b.c:? - Authentication finally, close http client
+2016-07-22 16:11:07,452 DEBUG: com.xilinx.installer.gui.x:? - testUserLoginWithNewSetting got login results
+2016-07-22 16:11:07,454 DEBUG: com.xilinx.installer.gui.panel.installtype.InstallationTypeTwoOptionsPanel:? - The install web client version 2016.2 is valid.
+2016-07-22 16:11:25,212 DEBUG: p.f:? - Module: Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 44 Total archive numbers: 44
+2016-07-22 16:11:25,213 DEBUG: p.f:? - Module: Vivado High Level Synthesis dest: /opt/Xilinx/Vivado_HLS/2016.2 Archive numbers in module: 11 Total archive numbers: 55
+2016-07-22 16:11:25,213 DEBUG: p.f:? - Module: DocNav dest: /opt/Xilinx/DocNav Archive numbers in module: 2 Total archive numbers: 57
+2016-07-22 16:11:25,213 DEBUG: p.f:? - Module: Xilinx Information Center dest: /opt/Xilinx/xic Archive numbers in module: 6 Total archive numbers: 63
+2016-07-22 16:11:25,213 DEBUG: p.f:? - Module: Zynq-7000 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 72
+2016-07-22 16:11:25,214 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 81
+2016-07-22 16:11:25,214 DEBUG: p.f:? - Module: Zynq-7000 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 81
+2016-07-22 16:11:25,214 DEBUG: p.f:? - Module: Artix-7 Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 85
+2016-07-22 16:11:25,214 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 85
+2016-07-22 16:11:25,214 DEBUG: p.f:? - Module: Artix-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 85
+2016-07-22 16:11:25,215 DEBUG: p.f:? - Module: Kintex-7 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 7 Total archive numbers: 87
+2016-07-22 16:11:25,215 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 87
+2016-07-22 16:11:25,215 DEBUG: p.f:? - Module: Kintex-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 87
+2016-07-22 16:11:25,215 DEBUG: p.f:? - Module: Kintex UltraScale dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 10 Total archive numbers: 94
+2016-07-22 16:11:25,216 DEBUG: p.f:? - Download archive numbers: 92
+2016-07-22 16:11:25,216 DEBUG: p.f:? - Download archive numbers: 92
+2016-07-22 16:11:30,573 DEBUG: p.f:? - Module: Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 44 Total archive numbers: 44
+2016-07-22 16:11:30,574 DEBUG: p.f:? - Module: Vivado High Level Synthesis dest: /opt/Xilinx/Vivado_HLS/2016.2 Archive numbers in module: 11 Total archive numbers: 55
+2016-07-22 16:11:30,575 DEBUG: p.f:? - Module: Software Development Kit (SDK) dest: /opt/Xilinx/SDK/2016.2 Archive numbers in module: 99 Total archive numbers: 154
+2016-07-22 16:11:30,575 DEBUG: p.f:? - Module: DocNav dest: /opt/Xilinx/DocNav Archive numbers in module: 2 Total archive numbers: 156
+2016-07-22 16:11:30,576 DEBUG: p.f:? - Module: Xilinx Information Center dest: /opt/Xilinx/xic Archive numbers in module: 6 Total archive numbers: 162
+2016-07-22 16:11:30,576 DEBUG: p.f:? - Module: Zynq-7000 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 171
+2016-07-22 16:11:30,577 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 180
+2016-07-22 16:11:30,577 DEBUG: p.f:? - Module: Zynq-7000 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 180
+2016-07-22 16:11:30,577 DEBUG: p.f:? - Module: Artix-7 Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 184
+2016-07-22 16:11:30,578 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 184
+2016-07-22 16:11:30,578 DEBUG: p.f:? - Module: Artix-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 184
+2016-07-22 16:11:30,579 DEBUG: p.f:? - Module: Kintex-7 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 7 Total archive numbers: 186
+2016-07-22 16:11:30,579 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 186
+2016-07-22 16:11:30,580 DEBUG: p.f:? - Module: Kintex-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 186
+2016-07-22 16:11:30,580 DEBUG: p.f:? - Module: Kintex UltraScale dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 10 Total archive numbers: 193
+2016-07-22 16:11:30,583 DEBUG: p.f:? - Download archive numbers: 154
+2016-07-22 16:11:30,584 DEBUG: p.f:? - Download archive numbers: 154
+2016-07-22 16:11:48,469 DEBUG: p.f:? - Module: Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 44 Total archive numbers: 44
+2016-07-22 16:11:48,469 DEBUG: p.f:? - Module: Vivado High Level Synthesis dest: /opt/Xilinx/Vivado_HLS/2016.2 Archive numbers in module: 11 Total archive numbers: 55
+2016-07-22 16:11:48,470 DEBUG: p.f:? - Module: DocNav dest: /opt/Xilinx/DocNav Archive numbers in module: 2 Total archive numbers: 57
+2016-07-22 16:11:48,470 DEBUG: p.f:? - Module: Xilinx Information Center dest: /opt/Xilinx/xic Archive numbers in module: 6 Total archive numbers: 63
+2016-07-22 16:11:48,471 DEBUG: p.f:? - Module: Zynq-7000 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 72
+2016-07-22 16:11:48,471 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 81
+2016-07-22 16:11:48,472 DEBUG: p.f:? - Module: Zynq-7000 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 81
+2016-07-22 16:11:48,472 DEBUG: p.f:? - Module: Artix-7 Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 85
+2016-07-22 16:11:48,473 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 85
+2016-07-22 16:11:48,473 DEBUG: p.f:? - Module: Artix-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 85
+2016-07-22 16:11:48,474 DEBUG: p.f:? - Module: Kintex-7 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 7 Total archive numbers: 87
+2016-07-22 16:11:48,474 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 87
+2016-07-22 16:11:48,475 DEBUG: p.f:? - Module: Kintex-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 87
+2016-07-22 16:11:48,475 DEBUG: p.f:? - Module: Kintex UltraScale dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 10 Total archive numbers: 94
+2016-07-22 16:11:48,476 DEBUG: p.f:? - Download archive numbers: 92
+2016-07-22 16:11:48,477 DEBUG: p.f:? - Download archive numbers: 92
+2016-07-22 16:11:49,261 DEBUG: p.f:? - Module: Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 44 Total archive numbers: 44
+2016-07-22 16:11:49,262 DEBUG: p.f:? - Module: Vivado High Level Synthesis dest: /opt/Xilinx/Vivado_HLS/2016.2 Archive numbers in module: 11 Total archive numbers: 55
+2016-07-22 16:11:49,262 DEBUG: p.f:? - Module: Software Development Kit (SDK) dest: /opt/Xilinx/SDK/2016.2 Archive numbers in module: 99 Total archive numbers: 154
+2016-07-22 16:11:49,263 DEBUG: p.f:? - Module: DocNav dest: /opt/Xilinx/DocNav Archive numbers in module: 2 Total archive numbers: 156
+2016-07-22 16:11:49,263 DEBUG: p.f:? - Module: Xilinx Information Center dest: /opt/Xilinx/xic Archive numbers in module: 6 Total archive numbers: 162
+2016-07-22 16:11:49,264 DEBUG: p.f:? - Module: Zynq-7000 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 171
+2016-07-22 16:11:49,264 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 180
+2016-07-22 16:11:49,265 DEBUG: p.f:? - Module: Zynq-7000 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 180
+2016-07-22 16:11:49,265 DEBUG: p.f:? - Module: Artix-7 Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 184
+2016-07-22 16:11:49,265 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 184
+2016-07-22 16:11:49,266 DEBUG: p.f:? - Module: Artix-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 184
+2016-07-22 16:11:49,266 DEBUG: p.f:? - Module: Kintex-7 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 7 Total archive numbers: 186
+2016-07-22 16:11:49,267 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 186
+2016-07-22 16:11:49,268 DEBUG: p.f:? - Module: Kintex-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 186
+2016-07-22 16:11:49,268 DEBUG: p.f:? - Module: Kintex UltraScale dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 10 Total archive numbers: 193
+2016-07-22 16:11:49,269 DEBUG: p.f:? - Download archive numbers: 154
+2016-07-22 16:11:49,270 DEBUG: p.f:? - Download archive numbers: 154
+2016-07-22 16:11:52,966 DEBUG: p.f:? - Module: Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 44 Total archive numbers: 44
+2016-07-22 16:11:52,967 DEBUG: p.f:? - Module: Vivado High Level Synthesis dest: /opt/Xilinx/Vivado_HLS/2016.2 Archive numbers in module: 11 Total archive numbers: 55
+2016-07-22 16:11:52,967 DEBUG: p.f:? - Module: Software Development Kit (SDK) dest: /opt/Xilinx/SDK/2016.2 Archive numbers in module: 99 Total archive numbers: 154
+2016-07-22 16:11:52,968 DEBUG: p.f:? - Module: DocNav dest: /opt/Xilinx/DocNav Archive numbers in module: 2 Total archive numbers: 156
+2016-07-22 16:11:52,968 DEBUG: p.f:? - Module: Xilinx Information Center dest: /opt/Xilinx/xic Archive numbers in module: 6 Total archive numbers: 162
+2016-07-22 16:11:52,968 DEBUG: p.f:? - Module: Zynq-7000 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 171
+2016-07-22 16:11:52,969 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 180
+2016-07-22 16:11:52,969 DEBUG: p.f:? - Module: Zynq-7000 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 180
+2016-07-22 16:11:52,969 DEBUG: p.f:? - Module: Artix-7 Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 184
+2016-07-22 16:11:52,970 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 184
+2016-07-22 16:11:52,970 DEBUG: p.f:? - Module: Artix-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 184
+2016-07-22 16:11:52,971 DEBUG: p.f:? - Module: Kintex-7 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 7 Total archive numbers: 186
+2016-07-22 16:11:52,971 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 186
+2016-07-22 16:11:52,971 DEBUG: p.f:? - Module: Kintex-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 186
+2016-07-22 16:11:52,972 DEBUG: p.f:? - Module: Kintex UltraScale dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 10 Total archive numbers: 193
+2016-07-22 16:11:52,973 DEBUG: p.f:? - Download archive numbers: 154
+2016-07-22 16:11:52,976 DEBUG: p.f:? - Download archive numbers: 154
+2016-07-22 16:11:52,977 DEBUG: p.f:? - Module: Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 44 Total archive numbers: 44
+2016-07-22 16:11:52,978 DEBUG: p.f:? - Module: Vivado High Level Synthesis dest: /opt/Xilinx/Vivado_HLS/2016.2 Archive numbers in module: 11 Total archive numbers: 55
+2016-07-22 16:11:52,978 DEBUG: p.f:? - Module: Software Development Kit (SDK) dest: /opt/Xilinx/SDK/2016.2 Archive numbers in module: 99 Total archive numbers: 154
+2016-07-22 16:11:52,978 DEBUG: p.f:? - Module: DocNav dest: /opt/Xilinx/DocNav Archive numbers in module: 2 Total archive numbers: 156
+2016-07-22 16:11:52,978 DEBUG: p.f:? - Module: Xilinx Information Center dest: /opt/Xilinx/xic Archive numbers in module: 6 Total archive numbers: 162
+2016-07-22 16:11:52,978 DEBUG: p.f:? - Module: Zynq-7000 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 171
+2016-07-22 16:11:52,979 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 180
+2016-07-22 16:11:52,979 DEBUG: p.f:? - Module: Zynq-7000 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 180
+2016-07-22 16:11:52,979 DEBUG: p.f:? - Module: Artix-7 Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 184
+2016-07-22 16:11:52,979 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 184
+2016-07-22 16:11:52,979 DEBUG: p.f:? - Module: Artix-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 184
+2016-07-22 16:11:52,979 DEBUG: p.f:? - Module: Kintex-7 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 7 Total archive numbers: 186
+2016-07-22 16:11:52,980 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 186
+2016-07-22 16:11:52,980 DEBUG: p.f:? - Module: Kintex-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 186
+2016-07-22 16:11:52,980 DEBUG: p.f:? - Module: Kintex UltraScale dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 10 Total archive numbers: 193
+2016-07-22 16:11:52,981 DEBUG: p.f:? - Download archive numbers: 154
+2016-07-22 16:11:52,981 DEBUG: p.f:? - Download archive numbers: 154
+2016-07-22 16:11:52,982 DEBUG: p.f:? - Module: Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 44 Total archive numbers: 44
+2016-07-22 16:11:52,982 DEBUG: p.f:? - Module: Vivado High Level Synthesis dest: /opt/Xilinx/Vivado_HLS/2016.2 Archive numbers in module: 11 Total archive numbers: 55
+2016-07-22 16:11:52,983 DEBUG: p.f:? - Module: Software Development Kit (SDK) dest: /opt/Xilinx/SDK/2016.2 Archive numbers in module: 99 Total archive numbers: 154
+2016-07-22 16:11:52,983 DEBUG: p.f:? - Module: DocNav dest: /opt/Xilinx/DocNav Archive numbers in module: 2 Total archive numbers: 156
+2016-07-22 16:11:52,983 DEBUG: p.f:? - Module: Xilinx Information Center dest: /opt/Xilinx/xic Archive numbers in module: 6 Total archive numbers: 162
+2016-07-22 16:11:52,983 DEBUG: p.f:? - Module: Zynq-7000 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 171
+2016-07-22 16:11:52,983 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 180
+2016-07-22 16:11:52,983 DEBUG: p.f:? - Module: Zynq-7000 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 180
+2016-07-22 16:11:52,984 DEBUG: p.f:? - Module: Artix-7 Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 184
+2016-07-22 16:11:52,984 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 184
+2016-07-22 16:11:52,984 DEBUG: p.f:? - Module: Artix-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 184
+2016-07-22 16:11:52,984 DEBUG: p.f:? - Module: Kintex-7 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 7 Total archive numbers: 186
+2016-07-22 16:11:52,984 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 186
+2016-07-22 16:11:52,984 DEBUG: p.f:? - Module: Kintex-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 186
+2016-07-22 16:11:52,984 DEBUG: p.f:? - Module: Kintex UltraScale dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 10 Total archive numbers: 193
+2016-07-22 16:11:52,985 DEBUG: p.f:? - Download archive numbers: 154
+2016-07-22 16:11:52,986 DEBUG: p.f:? - Download archive numbers: 154
+2016-07-22 16:12:12,081 DEBUG: p.f:? - Module: Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 44 Total archive numbers: 44
+2016-07-22 16:12:12,081 DEBUG: p.f:? - Module: Vivado High Level Synthesis dest: /opt/Xilinx/Vivado_HLS/2016.2 Archive numbers in module: 11 Total archive numbers: 55
+2016-07-22 16:12:12,082 DEBUG: p.f:? - Module: Software Development Kit (SDK) dest: /opt/Xilinx/SDK/2016.2 Archive numbers in module: 99 Total archive numbers: 154
+2016-07-22 16:12:12,082 DEBUG: p.f:? - Module: DocNav dest: /opt/Xilinx/DocNav Archive numbers in module: 2 Total archive numbers: 156
+2016-07-22 16:12:12,082 DEBUG: p.f:? - Module: Xilinx Information Center dest: /opt/Xilinx/xic Archive numbers in module: 6 Total archive numbers: 162
+2016-07-22 16:12:12,082 DEBUG: p.f:? - Module: Zynq-7000 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 171
+2016-07-22 16:12:12,082 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 180
+2016-07-22 16:12:12,083 DEBUG: p.f:? - Module: Zynq-7000 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 180
+2016-07-22 16:12:12,083 DEBUG: p.f:? - Module: Artix-7 Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 184
+2016-07-22 16:12:12,083 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 184
+2016-07-22 16:12:12,083 DEBUG: p.f:? - Module: Artix-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 184
+2016-07-22 16:12:12,083 DEBUG: p.f:? - Module: Kintex-7 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 7 Total archive numbers: 186
+2016-07-22 16:12:12,084 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 186
+2016-07-22 16:12:12,084 DEBUG: p.f:? - Module: Kintex-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 186
+2016-07-22 16:12:12,084 DEBUG: p.f:? - Module: Kintex UltraScale dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 10 Total archive numbers: 193
+2016-07-22 16:12:12,085 DEBUG: p.f:? - Download archive numbers: 154
+2016-07-22 16:12:12,085 DEBUG: p.f:? - Download archive numbers: 154
+2016-07-22 16:12:12,086 DEBUG: p.f:? - Module: Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 44 Total archive numbers: 44
+2016-07-22 16:12:12,086 DEBUG: p.f:? - Module: Vivado High Level Synthesis dest: /opt/Xilinx/Vivado_HLS/2016.2 Archive numbers in module: 11 Total archive numbers: 55
+2016-07-22 16:12:12,087 DEBUG: p.f:? - Module: Software Development Kit (SDK) dest: /opt/Xilinx/SDK/2016.2 Archive numbers in module: 99 Total archive numbers: 154
+2016-07-22 16:12:12,087 DEBUG: p.f:? - Module: DocNav dest: /opt/Xilinx/DocNav Archive numbers in module: 2 Total archive numbers: 156
+2016-07-22 16:12:12,087 DEBUG: p.f:? - Module: Xilinx Information Center dest: /opt/Xilinx/xic Archive numbers in module: 6 Total archive numbers: 162
+2016-07-22 16:12:12,087 DEBUG: p.f:? - Module: Zynq-7000 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 171
+2016-07-22 16:12:12,087 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 180
+2016-07-22 16:12:12,088 DEBUG: p.f:? - Module: Zynq-7000 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 180
+2016-07-22 16:12:12,088 DEBUG: p.f:? - Module: Artix-7 Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 184
+2016-07-22 16:12:12,088 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 184
+2016-07-22 16:12:12,088 DEBUG: p.f:? - Module: Artix-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 184
+2016-07-22 16:12:12,088 DEBUG: p.f:? - Module: Kintex-7 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 7 Total archive numbers: 186
+2016-07-22 16:12:12,088 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 186
+2016-07-22 16:12:12,089 DEBUG: p.f:? - Module: Kintex-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 186
+2016-07-22 16:12:12,089 DEBUG: p.f:? - Module: Kintex UltraScale dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 10 Total archive numbers: 193
+2016-07-22 16:12:12,089 DEBUG: p.f:? - Download archive numbers: 154
+2016-07-22 16:12:12,090 DEBUG: p.f:? - Download archive numbers: 154
+2016-07-22 16:12:16,224 DEBUG: p.f:? - Module: Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 44 Total archive numbers: 44
+2016-07-22 16:12:16,224 DEBUG: p.f:? - Module: Vivado High Level Synthesis dest: /opt/Xilinx/Vivado_HLS/2016.2 Archive numbers in module: 11 Total archive numbers: 55
+2016-07-22 16:12:16,225 DEBUG: p.f:? - Module: Software Development Kit (SDK) dest: /opt/Xilinx/SDK/2016.2 Archive numbers in module: 99 Total archive numbers: 154
+2016-07-22 16:12:16,225 DEBUG: p.f:? - Module: DocNav dest: /opt/Xilinx/DocNav Archive numbers in module: 2 Total archive numbers: 156
+2016-07-22 16:12:16,226 DEBUG: p.f:? - Module: Xilinx Information Center dest: /opt/Xilinx/xic Archive numbers in module: 6 Total archive numbers: 162
+2016-07-22 16:12:16,226 DEBUG: p.f:? - Module: Zynq-7000 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 171
+2016-07-22 16:12:16,226 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 180
+2016-07-22 16:12:16,227 DEBUG: p.f:? - Module: Zynq-7000 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 180
+2016-07-22 16:12:16,227 DEBUG: p.f:? - Module: Artix-7 Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 184
+2016-07-22 16:12:16,227 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 184
+2016-07-22 16:12:16,228 DEBUG: p.f:? - Module: Artix-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 184
+2016-07-22 16:12:16,228 DEBUG: p.f:? - Module: Kintex-7 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 7 Total archive numbers: 186
+2016-07-22 16:12:16,228 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 186
+2016-07-22 16:12:16,229 DEBUG: p.f:? - Module: Kintex-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 186
+2016-07-22 16:12:16,229 DEBUG: p.f:? - Module: Kintex UltraScale dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 10 Total archive numbers: 193
+2016-07-22 16:12:16,231 DEBUG: p.f:? - Download archive numbers: 154
+2016-07-22 16:12:16,232 DEBUG: p.f:? - Download archive numbers: 154
+2016-07-22 16:12:16,639 DEBUG: p.f:? - Module: Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 44 Total archive numbers: 44
+2016-07-22 16:12:16,640 DEBUG: p.f:? - Module: Vivado High Level Synthesis dest: /opt/Xilinx/Vivado_HLS/2016.2 Archive numbers in module: 11 Total archive numbers: 55
+2016-07-22 16:12:16,640 DEBUG: p.f:? - Module: Software Development Kit (SDK) dest: /opt/Xilinx/SDK/2016.2 Archive numbers in module: 99 Total archive numbers: 154
+2016-07-22 16:12:16,641 DEBUG: p.f:? - Module: DocNav dest: /opt/Xilinx/DocNav Archive numbers in module: 2 Total archive numbers: 156
+2016-07-22 16:12:16,641 DEBUG: p.f:? - Module: Xilinx Information Center dest: /opt/Xilinx/xic Archive numbers in module: 6 Total archive numbers: 162
+2016-07-22 16:12:16,641 DEBUG: p.f:? - Module: Zynq-7000 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 171
+2016-07-22 16:12:16,642 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 180
+2016-07-22 16:12:16,642 DEBUG: p.f:? - Module: Zynq-7000 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 180
+2016-07-22 16:12:16,642 DEBUG: p.f:? - Module: Artix-7 Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 184
+2016-07-22 16:12:16,643 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 184
+2016-07-22 16:12:16,643 DEBUG: p.f:? - Module: Artix-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 184
+2016-07-22 16:12:16,644 DEBUG: p.f:? - Module: Kintex-7 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 7 Total archive numbers: 186
+2016-07-22 16:12:16,644 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 186
+2016-07-22 16:12:16,644 DEBUG: p.f:? - Module: Kintex-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 186
+2016-07-22 16:12:16,645 DEBUG: p.f:? - Module: Kintex UltraScale dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 10 Total archive numbers: 193
+2016-07-22 16:12:16,646 DEBUG: p.f:? - Download archive numbers: 154
+2016-07-22 16:12:16,647 DEBUG: p.f:? - Download archive numbers: 154
+2016-07-22 16:12:16,775 DEBUG: p.f:? - Module: Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 44 Total archive numbers: 44
+2016-07-22 16:12:16,775 DEBUG: p.f:? - Module: Vivado High Level Synthesis dest: /opt/Xilinx/Vivado_HLS/2016.2 Archive numbers in module: 11 Total archive numbers: 55
+2016-07-22 16:12:16,776 DEBUG: p.f:? - Module: Software Development Kit (SDK) dest: /opt/Xilinx/SDK/2016.2 Archive numbers in module: 99 Total archive numbers: 154
+2016-07-22 16:12:16,776 DEBUG: p.f:? - Module: DocNav dest: /opt/Xilinx/DocNav Archive numbers in module: 2 Total archive numbers: 156
+2016-07-22 16:12:16,777 DEBUG: p.f:? - Module: Xilinx Information Center dest: /opt/Xilinx/xic Archive numbers in module: 6 Total archive numbers: 162
+2016-07-22 16:12:16,777 DEBUG: p.f:? - Module: Zynq-7000 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 171
+2016-07-22 16:12:16,777 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 180
+2016-07-22 16:12:16,778 DEBUG: p.f:? - Module: Zynq-7000 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 180
+2016-07-22 16:12:16,778 DEBUG: p.f:? - Module: Artix-7 Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 184
+2016-07-22 16:12:16,778 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 184
+2016-07-22 16:12:16,779 DEBUG: p.f:? - Module: Artix-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 184
+2016-07-22 16:12:16,779 DEBUG: p.f:? - Module: Kintex-7 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 7 Total archive numbers: 186
+2016-07-22 16:12:16,779 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 186
+2016-07-22 16:12:16,780 DEBUG: p.f:? - Module: Kintex-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 186
+2016-07-22 16:12:16,780 DEBUG: p.f:? - Module: Kintex UltraScale dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 10 Total archive numbers: 193
+2016-07-22 16:12:16,782 DEBUG: p.f:? - Download archive numbers: 154
+2016-07-22 16:12:16,783 DEBUG: p.f:? - Download archive numbers: 154
+2016-07-22 16:12:16,943 DEBUG: p.f:? - Module: Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 44 Total archive numbers: 44
+2016-07-22 16:12:16,943 DEBUG: p.f:? - Module: Vivado High Level Synthesis dest: /opt/Xilinx/Vivado_HLS/2016.2 Archive numbers in module: 11 Total archive numbers: 55
+2016-07-22 16:12:16,944 DEBUG: p.f:? - Module: Software Development Kit (SDK) dest: /opt/Xilinx/SDK/2016.2 Archive numbers in module: 99 Total archive numbers: 154
+2016-07-22 16:12:16,944 DEBUG: p.f:? - Module: DocNav dest: /opt/Xilinx/DocNav Archive numbers in module: 2 Total archive numbers: 156
+2016-07-22 16:12:16,945 DEBUG: p.f:? - Module: Xilinx Information Center dest: /opt/Xilinx/xic Archive numbers in module: 6 Total archive numbers: 162
+2016-07-22 16:12:16,945 DEBUG: p.f:? - Module: Zynq-7000 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 171
+2016-07-22 16:12:16,945 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 180
+2016-07-22 16:12:16,946 DEBUG: p.f:? - Module: Zynq-7000 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 180
+2016-07-22 16:12:16,946 DEBUG: p.f:? - Module: Artix-7 Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 184
+2016-07-22 16:12:16,946 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 184
+2016-07-22 16:12:16,947 DEBUG: p.f:? - Module: Artix-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 184
+2016-07-22 16:12:16,947 DEBUG: p.f:? - Module: Kintex-7 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 7 Total archive numbers: 186
+2016-07-22 16:12:16,947 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 186
+2016-07-22 16:12:16,948 DEBUG: p.f:? - Module: Kintex-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 186
+2016-07-22 16:12:16,948 DEBUG: p.f:? - Module: Kintex UltraScale dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 10 Total archive numbers: 193
+2016-07-22 16:12:16,949 DEBUG: p.f:? - Download archive numbers: 154
+2016-07-22 16:12:16,951 DEBUG: p.f:? - Download archive numbers: 154
+2016-07-22 16:12:17,375 DEBUG: p.f:? - Module: Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 44 Total archive numbers: 44
+2016-07-22 16:12:17,375 DEBUG: p.f:? - Module: Vivado High Level Synthesis dest: /opt/Xilinx/Vivado_HLS/2016.2 Archive numbers in module: 11 Total archive numbers: 55
+2016-07-22 16:12:17,376 DEBUG: p.f:? - Module: Software Development Kit (SDK) dest: /opt/Xilinx/SDK/2016.2 Archive numbers in module: 99 Total archive numbers: 154
+2016-07-22 16:12:17,376 DEBUG: p.f:? - Module: DocNav dest: /opt/Xilinx/DocNav Archive numbers in module: 2 Total archive numbers: 156
+2016-07-22 16:12:17,376 DEBUG: p.f:? - Module: Xilinx Information Center dest: /opt/Xilinx/xic Archive numbers in module: 6 Total archive numbers: 162
+2016-07-22 16:12:17,377 DEBUG: p.f:? - Module: Zynq-7000 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 171
+2016-07-22 16:12:17,377 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 180
+2016-07-22 16:12:17,377 DEBUG: p.f:? - Module: Zynq-7000 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 180
+2016-07-22 16:12:17,378 DEBUG: p.f:? - Module: Artix-7 Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 184
+2016-07-22 16:12:17,378 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 184
+2016-07-22 16:12:17,378 DEBUG: p.f:? - Module: Artix-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 184
+2016-07-22 16:12:17,379 DEBUG: p.f:? - Module: Kintex-7 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 7 Total archive numbers: 186
+2016-07-22 16:12:17,379 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 186
+2016-07-22 16:12:17,379 DEBUG: p.f:? - Module: Kintex-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 186
+2016-07-22 16:12:17,379 DEBUG: p.f:? - Module: Kintex UltraScale dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 10 Total archive numbers: 193
+2016-07-22 16:12:17,381 DEBUG: p.f:? - Download archive numbers: 154
+2016-07-22 16:12:17,382 DEBUG: p.f:? - Download archive numbers: 154
+2016-07-22 16:12:17,518 DEBUG: p.f:? - Module: Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 44 Total archive numbers: 44
+2016-07-22 16:12:17,519 DEBUG: p.f:? - Module: Vivado High Level Synthesis dest: /opt/Xilinx/Vivado_HLS/2016.2 Archive numbers in module: 11 Total archive numbers: 55
+2016-07-22 16:12:17,519 DEBUG: p.f:? - Module: Software Development Kit (SDK) dest: /opt/Xilinx/SDK/2016.2 Archive numbers in module: 99 Total archive numbers: 154
+2016-07-22 16:12:17,519 DEBUG: p.f:? - Module: DocNav dest: /opt/Xilinx/DocNav Archive numbers in module: 2 Total archive numbers: 156
+2016-07-22 16:12:17,519 DEBUG: p.f:? - Module: Xilinx Information Center dest: /opt/Xilinx/xic Archive numbers in module: 6 Total archive numbers: 162
+2016-07-22 16:12:17,519 DEBUG: p.f:? - Module: Zynq-7000 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 171
+2016-07-22 16:12:17,520 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 180
+2016-07-22 16:12:17,520 DEBUG: p.f:? - Module: Zynq-7000 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 180
+2016-07-22 16:12:17,520 DEBUG: p.f:? - Module: Artix-7 Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 184
+2016-07-22 16:12:17,521 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 184
+2016-07-22 16:12:17,521 DEBUG: p.f:? - Module: Artix-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 184
+2016-07-22 16:12:17,521 DEBUG: p.f:? - Module: Kintex-7 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 7 Total archive numbers: 186
+2016-07-22 16:12:17,521 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 186
+2016-07-22 16:12:17,522 DEBUG: p.f:? - Module: Kintex-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 186
+2016-07-22 16:12:17,522 DEBUG: p.f:? - Module: Kintex UltraScale dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 10 Total archive numbers: 193
+2016-07-22 16:12:17,523 DEBUG: p.f:? - Download archive numbers: 154
+2016-07-22 16:12:17,525 DEBUG: p.f:? - Download archive numbers: 154
+2016-07-22 16:12:17,663 DEBUG: p.f:? - Module: Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 44 Total archive numbers: 44
+2016-07-22 16:12:17,663 DEBUG: p.f:? - Module: Vivado High Level Synthesis dest: /opt/Xilinx/Vivado_HLS/2016.2 Archive numbers in module: 11 Total archive numbers: 55
+2016-07-22 16:12:17,663 DEBUG: p.f:? - Module: Software Development Kit (SDK) dest: /opt/Xilinx/SDK/2016.2 Archive numbers in module: 99 Total archive numbers: 154
+2016-07-22 16:12:17,663 DEBUG: p.f:? - Module: DocNav dest: /opt/Xilinx/DocNav Archive numbers in module: 2 Total archive numbers: 156
+2016-07-22 16:12:17,663 DEBUG: p.f:? - Module: Xilinx Information Center dest: /opt/Xilinx/xic Archive numbers in module: 6 Total archive numbers: 162
+2016-07-22 16:12:17,664 DEBUG: p.f:? - Module: Zynq-7000 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 171
+2016-07-22 16:12:17,664 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 180
+2016-07-22 16:12:17,664 DEBUG: p.f:? - Module: Zynq-7000 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 180
+2016-07-22 16:12:17,665 DEBUG: p.f:? - Module: Artix-7 Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 184
+2016-07-22 16:12:17,665 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 184
+2016-07-22 16:12:17,665 DEBUG: p.f:? - Module: Artix-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 184
+2016-07-22 16:12:17,666 DEBUG: p.f:? - Module: Kintex-7 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 7 Total archive numbers: 186
+2016-07-22 16:12:17,666 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 186
+2016-07-22 16:12:17,666 DEBUG: p.f:? - Module: Kintex-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 186
+2016-07-22 16:12:17,666 DEBUG: p.f:? - Module: Kintex UltraScale dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 10 Total archive numbers: 193
+2016-07-22 16:12:17,668 DEBUG: p.f:? - Download archive numbers: 154
+2016-07-22 16:12:17,669 DEBUG: p.f:? - Download archive numbers: 154
+2016-07-22 16:12:17,903 DEBUG: p.f:? - Module: Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 44 Total archive numbers: 44
+2016-07-22 16:12:17,903 DEBUG: p.f:? - Module: Vivado High Level Synthesis dest: /opt/Xilinx/Vivado_HLS/2016.2 Archive numbers in module: 11 Total archive numbers: 55
+2016-07-22 16:12:17,903 DEBUG: p.f:? - Module: Software Development Kit (SDK) dest: /opt/Xilinx/SDK/2016.2 Archive numbers in module: 99 Total archive numbers: 154
+2016-07-22 16:12:17,903 DEBUG: p.f:? - Module: DocNav dest: /opt/Xilinx/DocNav Archive numbers in module: 2 Total archive numbers: 156
+2016-07-22 16:12:17,904 DEBUG: p.f:? - Module: Xilinx Information Center dest: /opt/Xilinx/xic Archive numbers in module: 6 Total archive numbers: 162
+2016-07-22 16:12:17,904 DEBUG: p.f:? - Module: Zynq-7000 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 171
+2016-07-22 16:12:17,904 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 180
+2016-07-22 16:12:17,904 DEBUG: p.f:? - Module: Zynq-7000 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 180
+2016-07-22 16:12:17,905 DEBUG: p.f:? - Module: Artix-7 Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 184
+2016-07-22 16:12:17,905 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 184
+2016-07-22 16:12:17,905 DEBUG: p.f:? - Module: Artix-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 184
+2016-07-22 16:12:17,906 DEBUG: p.f:? - Module: Kintex-7 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 7 Total archive numbers: 186
+2016-07-22 16:12:17,906 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 186
+2016-07-22 16:12:17,906 DEBUG: p.f:? - Module: Kintex-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 186
+2016-07-22 16:12:17,907 DEBUG: p.f:? - Module: Kintex UltraScale dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 10 Total archive numbers: 193
+2016-07-22 16:12:17,908 DEBUG: p.f:? - Download archive numbers: 154
+2016-07-22 16:12:17,909 DEBUG: p.f:? - Download archive numbers: 154
+2016-07-22 16:12:18,599 DEBUG: p.f:? - Module: Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 44 Total archive numbers: 44
+2016-07-22 16:12:18,600 DEBUG: p.f:? - Module: Vivado High Level Synthesis dest: /opt/Xilinx/Vivado_HLS/2016.2 Archive numbers in module: 11 Total archive numbers: 55
+2016-07-22 16:12:18,600 DEBUG: p.f:? - Module: Software Development Kit (SDK) dest: /opt/Xilinx/SDK/2016.2 Archive numbers in module: 99 Total archive numbers: 154
+2016-07-22 16:12:18,600 DEBUG: p.f:? - Module: DocNav dest: /opt/Xilinx/DocNav Archive numbers in module: 2 Total archive numbers: 156
+2016-07-22 16:12:18,601 DEBUG: p.f:? - Module: Xilinx Information Center dest: /opt/Xilinx/xic Archive numbers in module: 6 Total archive numbers: 162
+2016-07-22 16:12:18,601 DEBUG: p.f:? - Module: Zynq-7000 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 171
+2016-07-22 16:12:18,601 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 180
+2016-07-22 16:12:18,602 DEBUG: p.f:? - Module: Zynq-7000 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 180
+2016-07-22 16:12:18,602 DEBUG: p.f:? - Module: Artix-7 Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 184
+2016-07-22 16:12:18,602 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 184
+2016-07-22 16:12:18,603 DEBUG: p.f:? - Module: Artix-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 184
+2016-07-22 16:12:18,603 DEBUG: p.f:? - Module: Kintex-7 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 7 Total archive numbers: 186
+2016-07-22 16:12:18,603 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 186
+2016-07-22 16:12:18,603 DEBUG: p.f:? - Module: Kintex-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 186
+2016-07-22 16:12:18,604 DEBUG: p.f:? - Module: Kintex UltraScale dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 10 Total archive numbers: 193
+2016-07-22 16:12:18,605 DEBUG: p.f:? - Download archive numbers: 154
+2016-07-22 16:12:18,606 DEBUG: p.f:? - Download archive numbers: 154
+2016-07-22 16:12:18,823 DEBUG: p.f:? - Module: Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 44 Total archive numbers: 44
+2016-07-22 16:12:18,823 DEBUG: p.f:? - Module: Vivado High Level Synthesis dest: /opt/Xilinx/Vivado_HLS/2016.2 Archive numbers in module: 11 Total archive numbers: 55
+2016-07-22 16:12:18,823 DEBUG: p.f:? - Module: Software Development Kit (SDK) dest: /opt/Xilinx/SDK/2016.2 Archive numbers in module: 99 Total archive numbers: 154
+2016-07-22 16:12:18,823 DEBUG: p.f:? - Module: DocNav dest: /opt/Xilinx/DocNav Archive numbers in module: 2 Total archive numbers: 156
+2016-07-22 16:12:18,823 DEBUG: p.f:? - Module: Xilinx Information Center dest: /opt/Xilinx/xic Archive numbers in module: 6 Total archive numbers: 162
+2016-07-22 16:12:18,824 DEBUG: p.f:? - Module: Zynq-7000 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 171
+2016-07-22 16:12:18,824 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 180
+2016-07-22 16:12:18,824 DEBUG: p.f:? - Module: Zynq-7000 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 180
+2016-07-22 16:12:18,825 DEBUG: p.f:? - Module: Artix-7 Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 184
+2016-07-22 16:12:18,825 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 184
+2016-07-22 16:12:18,825 DEBUG: p.f:? - Module: Artix-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 184
+2016-07-22 16:12:18,826 DEBUG: p.f:? - Module: Kintex-7 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 7 Total archive numbers: 186
+2016-07-22 16:12:18,826 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 186
+2016-07-22 16:12:18,826 DEBUG: p.f:? - Module: Kintex-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 186
+2016-07-22 16:12:18,827 DEBUG: p.f:? - Module: Kintex UltraScale dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 10 Total archive numbers: 193
+2016-07-22 16:12:18,828 DEBUG: p.f:? - Download archive numbers: 154
+2016-07-22 16:12:18,829 DEBUG: p.f:? - Download archive numbers: 154
+2016-07-22 16:12:19,063 DEBUG: p.f:? - Module: Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 44 Total archive numbers: 44
+2016-07-22 16:12:19,063 DEBUG: p.f:? - Module: Vivado High Level Synthesis dest: /opt/Xilinx/Vivado_HLS/2016.2 Archive numbers in module: 11 Total archive numbers: 55
+2016-07-22 16:12:19,063 DEBUG: p.f:? - Module: Software Development Kit (SDK) dest: /opt/Xilinx/SDK/2016.2 Archive numbers in module: 99 Total archive numbers: 154
+2016-07-22 16:12:19,063 DEBUG: p.f:? - Module: DocNav dest: /opt/Xilinx/DocNav Archive numbers in module: 2 Total archive numbers: 156
+2016-07-22 16:12:19,064 DEBUG: p.f:? - Module: Xilinx Information Center dest: /opt/Xilinx/xic Archive numbers in module: 6 Total archive numbers: 162
+2016-07-22 16:12:19,064 DEBUG: p.f:? - Module: Zynq-7000 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 171
+2016-07-22 16:12:19,064 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 180
+2016-07-22 16:12:19,065 DEBUG: p.f:? - Module: Zynq-7000 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 180
+2016-07-22 16:12:19,065 DEBUG: p.f:? - Module: Artix-7 Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 184
+2016-07-22 16:12:19,065 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 184
+2016-07-22 16:12:19,065 DEBUG: p.f:? - Module: Artix-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 184
+2016-07-22 16:12:19,066 DEBUG: p.f:? - Module: Kintex-7 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 7 Total archive numbers: 186
+2016-07-22 16:12:19,066 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 186
+2016-07-22 16:12:19,066 DEBUG: p.f:? - Module: Kintex-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 186
+2016-07-22 16:12:19,067 DEBUG: p.f:? - Module: Kintex UltraScale dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 10 Total archive numbers: 193
+2016-07-22 16:12:19,068 DEBUG: p.f:? - Download archive numbers: 154
+2016-07-22 16:12:19,069 DEBUG: p.f:? - Download archive numbers: 154
+2016-07-22 16:12:19,302 DEBUG: p.f:? - Module: Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 44 Total archive numbers: 44
+2016-07-22 16:12:19,303 DEBUG: p.f:? - Module: Vivado High Level Synthesis dest: /opt/Xilinx/Vivado_HLS/2016.2 Archive numbers in module: 11 Total archive numbers: 55
+2016-07-22 16:12:19,303 DEBUG: p.f:? - Module: Software Development Kit (SDK) dest: /opt/Xilinx/SDK/2016.2 Archive numbers in module: 99 Total archive numbers: 154
+2016-07-22 16:12:19,303 DEBUG: p.f:? - Module: DocNav dest: /opt/Xilinx/DocNav Archive numbers in module: 2 Total archive numbers: 156
+2016-07-22 16:12:19,303 DEBUG: p.f:? - Module: Xilinx Information Center dest: /opt/Xilinx/xic Archive numbers in module: 6 Total archive numbers: 162
+2016-07-22 16:12:19,303 DEBUG: p.f:? - Module: Zynq-7000 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 171
+2016-07-22 16:12:19,304 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 180
+2016-07-22 16:12:19,304 DEBUG: p.f:? - Module: Zynq-7000 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 180
+2016-07-22 16:12:19,304 DEBUG: p.f:? - Module: Artix-7 Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 184
+2016-07-22 16:12:19,305 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 184
+2016-07-22 16:12:19,305 DEBUG: p.f:? - Module: Artix-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 184
+2016-07-22 16:12:19,305 DEBUG: p.f:? - Module: Kintex-7 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 7 Total archive numbers: 186
+2016-07-22 16:12:19,305 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 186
+2016-07-22 16:12:19,306 DEBUG: p.f:? - Module: Kintex-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 186
+2016-07-22 16:12:19,306 DEBUG: p.f:? - Module: Kintex UltraScale dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 10 Total archive numbers: 193
+2016-07-22 16:12:19,307 DEBUG: p.f:? - Download archive numbers: 154
+2016-07-22 16:12:19,308 DEBUG: p.f:? - Download archive numbers: 154
+2016-07-22 16:12:19,559 DEBUG: p.f:? - Module: Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 44 Total archive numbers: 44
+2016-07-22 16:12:19,559 DEBUG: p.f:? - Module: Vivado High Level Synthesis dest: /opt/Xilinx/Vivado_HLS/2016.2 Archive numbers in module: 11 Total archive numbers: 55
+2016-07-22 16:12:19,559 DEBUG: p.f:? - Module: Software Development Kit (SDK) dest: /opt/Xilinx/SDK/2016.2 Archive numbers in module: 99 Total archive numbers: 154
+2016-07-22 16:12:19,560 DEBUG: p.f:? - Module: DocNav dest: /opt/Xilinx/DocNav Archive numbers in module: 2 Total archive numbers: 156
+2016-07-22 16:12:19,560 DEBUG: p.f:? - Module: Xilinx Information Center dest: /opt/Xilinx/xic Archive numbers in module: 6 Total archive numbers: 162
+2016-07-22 16:12:19,560 DEBUG: p.f:? - Module: Zynq-7000 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 171
+2016-07-22 16:12:19,560 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 180
+2016-07-22 16:12:19,561 DEBUG: p.f:? - Module: Zynq-7000 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 180
+2016-07-22 16:12:19,561 DEBUG: p.f:? - Module: Artix-7 Vivado dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 9 Total archive numbers: 184
+2016-07-22 16:12:19,561 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 184
+2016-07-22 16:12:19,562 DEBUG: p.f:? - Module: Artix-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 184
+2016-07-22 16:12:19,562 DEBUG: p.f:? - Module: Kintex-7 Vivado Devices dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 7 Total archive numbers: 186
+2016-07-22 16:12:19,562 DEBUG: p.f:? - Module: ISE dest: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE Archive numbers in module: 9 Total archive numbers: 186
+2016-07-22 16:12:19,562 DEBUG: p.f:? - Module: Kintex-7 dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 0 Total archive numbers: 186
+2016-07-22 16:12:19,563 DEBUG: p.f:? - Module: Kintex UltraScale dest: /opt/Xilinx/Vivado/2016.2 Archive numbers in module: 10 Total archive numbers: 193
+2016-07-22 16:12:19,564 DEBUG: p.f:? - Download archive numbers: 154
+2016-07-22 16:12:19,565 DEBUG: p.f:? - Download archive numbers: 154

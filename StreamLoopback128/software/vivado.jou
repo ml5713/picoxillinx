@@ -1,0 +1,37 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Fri Aug 19 16:58:04 2016
+# Process ID: 2243
+# Current directory: /home/micron/StreamLoopback128/software
+# Command line: vivado
+# Log file: /home/micron/StreamLoopback128/software/vivado.log
+# Journal file: /home/micron/StreamLoopback128/software/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.xpr
+update_compile_order -fileset sources_1
+open_run impl_1
+close_design
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+open_run impl_1
+close_design
+close_project
+create_project project_jim /home/micron/jim/project_jim -part xc7vx485tffg1157-1
+add_files /home/micron/StreamLoopback128
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+close_project
+open_project /home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project /home/micron/emanuele/emanueleExample/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.xpr
+update_compile_order -fileset sources_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+open_run impl_1

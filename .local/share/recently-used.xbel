@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/micron/Desktop/Untitled%20Folder/PicoGettingStarted.pdf" added="2016-07-22T09:03:12Z" modified="2016-07-22T09:03:12Z" visited="2016-07-22T09:03:12Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2016-07-22T09:03:12Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/micron/Desktop/Untitled%20Folder/picocomputing_5.5.0.0_all.deb" added="2016-07-22T09:04:22Z" modified="2016-07-22T09:04:22Z" visited="2016-07-22T09:04:23Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-deb"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/software-center %u&apos;" modified="2016-07-22T09:04:22Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/micron/StreamLoopback128/software/Makefile" added="2016-07-22T09:08:54Z" modified="2016-07-22T09:15:46Z" visited="2016-07-22T09:08:55Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-makefile"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-07-22T09:15:46Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/micron/.bashrc" added="2016-07-22T09:10:47Z" modified="2016-07-22T17:17:35Z" visited="2016-07-22T09:10:48Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-07-22T17:17:35Z" count="11"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///etc/bash.bashrc" added="2016-07-22T09:11:56Z" modified="2016-07-22T09:11:56Z" visited="2016-07-22T09:11:56Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-07-22T09:11:56Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/micron/Desktop/PicoGettingStarted.pdf" added="2016-07-22T09:31:06Z" modified="2016-07-22T15:01:43Z" visited="2016-07-22T09:31:06Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2016-07-22T15:01:43Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/micron/Desktop/hmc_controller_ip_user_guide.pdf" added="2016-07-22T09:31:47Z" modified="2016-07-22T09:31:47Z" visited="2016-07-22T09:31:47Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2016-07-22T09:31:47Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/micron/Downloads/Xilinx_Vivado_SDK_2016.2_0605_1_Lin64.bin" added="2016-07-22T15:07:23Z" modified="2016-07-22T15:09:32Z" visited="2016-07-22T15:07:23Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-07-22T15:07:23Z" count="1"/>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/software-center %u&apos;" modified="2016-07-22T15:09:32Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/micron/Desktop/Xilinx_Connect_Later.html" added="2016-07-22T15:23:39Z" modified="2016-07-22T16:29:12Z" visited="2016-07-22T15:23:40Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;firefox %u&apos;" modified="2016-07-22T16:29:12Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/micron/Downloads/Xilinx.lic" added="2016-07-22T15:26:34Z" modified="2016-07-22T16:33:53Z" visited="2016-07-22T15:26:34Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-07-22T16:33:53Z" count="3"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-07-22T16:31:56Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/micron/Desktop/Xilinx_Connect_Later2.html" added="2016-07-22T15:56:39Z" modified="2016-07-22T15:56:39Z" visited="2016-07-22T15:56:39Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;firefox %u&apos;" modified="2016-07-22T15:56:39Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///opt/Xilinx/Vivado/2016.2/settings64.sh" added="2016-07-22T16:27:08Z" modified="2016-07-22T16:27:08Z" visited="2016-07-22T16:27:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-07-22T16:27:08Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/micron/StreamLoopback128/software/StreamLoopback128.cpp" added="2016-07-22T17:12:08Z" modified="2016-07-27T12:07:10Z" visited="2016-07-22T17:12:09Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-c++src"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-07-27T12:07:10Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

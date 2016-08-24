@@ -1,0 +1,5 @@
+TARGET = StreamLoopback128
+USER_SOURCES =	StreamLoopback128.cpp
+
+include /usr/src/picocomputing-5.5.0.0/software/Makefile.common
+#include $(PICOBASE)/software/Makefile.common
