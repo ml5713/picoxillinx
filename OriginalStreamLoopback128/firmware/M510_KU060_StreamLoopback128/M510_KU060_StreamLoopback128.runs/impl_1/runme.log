@@ -1,0 +1,739 @@
+
+*** Running vivado
+    with args -log Pico_Toplevel.vdi -applog -m64 -messageDb vivado.pb -mode batch -source Pico_Toplevel.tcl -notrace
+
+
+****** Vivado v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source Pico_Toplevel.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-454] Reading design checkpoint '/home/micron/OriginalStreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/coregen_fifo_32x128/coregen_fifo_32x128.dcp' for cell 'PicoFramework/app/FrameworkPicoBus/s126i_stream/s0_desc_fifo'
+INFO: [Project 1-454] Reading design checkpoint '/home/micron/OriginalStreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/pcie3_ultrascale_0/pcie3_ultrascale_0.dcp' for cell 'PicoFramework/core/pcie3_ultrascale_0_i'
+INFO: [Netlist 29-17] Analyzing 65 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.2
+INFO: [Device 21-403] Loading part xcku060-ffva1156-2-e
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-264] Inserting BUFG_GT_SYNC for bufg: PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/phy_clk_i/bufg_gt_coreclk
+INFO: [Opt 31-264] Inserting BUFG_GT_SYNC for bufg: PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/phy_clk_i/bufg_gt_pclk
+INFO: [Opt 31-264] Inserting BUFG_GT_SYNC for bufg: PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/phy_clk_i/bufg_gt_userclk
+INFO: [Opt 31-264] Inserting BUFG_GT_SYNC for bufg: PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/bufg_mcap_clk
+INFO: [Opt 31-264] Inserting BUFG_GT_SYNC for bufg: PicoFramework/core/pcie3_ultrascale_0_i/inst/bufg_gt_sysclk
+INFO: [Opt 31-263] Collapsing BUFG_gt_syncs for bufg_gt_sync: PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/gt_wizard.gtwizard_top_i/pcie3_ultrascale_0_gt_i/inst/gen_gtwizard_gthe3_top.pcie3_ultrascale_0_gt_gtwizard_gthe3_inst/gen_gtwizard_gthe3.gen_channel_container[25].gen_enabled_channel.gthe3_channel_wrapper_inst/channel_inst/BUFG_GT_SYNC
+INFO: [Opt 31-263] Collapsing BUFG_gt_syncs for bufg_gt_sync: PicoFramework/core/pcie3_ultrascale_0_i/inst/sync_sys_clk
+Parsing XDC File [/home/micron/OriginalStreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/coregen_fifo_32x128/coregen_fifo_32x128/coregen_fifo_32x128.xdc] for cell 'PicoFramework/app/PIO_EP/rem_seq_fifo/U0'
+Finished Parsing XDC File [/home/micron/OriginalStreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/coregen_fifo_32x128/coregen_fifo_32x128/coregen_fifo_32x128.xdc] for cell 'PicoFramework/app/PIO_EP/rem_seq_fifo/U0'
+Parsing XDC File [/home/micron/OriginalStreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/coregen_fifo_32x128/coregen_fifo_32x128/coregen_fifo_32x128.xdc] for cell 'PicoFramework/app/FrameworkPicoBus/s126i_stream/s0_desc_fifo/U0'
+Finished Parsing XDC File [/home/micron/OriginalStreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/coregen_fifo_32x128/coregen_fifo_32x128/coregen_fifo_32x128.xdc] for cell 'PicoFramework/app/FrameworkPicoBus/s126i_stream/s0_desc_fifo/U0'
+Parsing XDC File [/home/micron/OriginalStreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/coregen_fifo_32x128/coregen_fifo_32x128/coregen_fifo_32x128.xdc] for cell 'PicoFramework/app/FrameworkPicoBus/s126o_stream/s0_desc_fifo/U0'
+Finished Parsing XDC File [/home/micron/OriginalStreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/coregen_fifo_32x128/coregen_fifo_32x128/coregen_fifo_32x128.xdc] for cell 'PicoFramework/app/FrameworkPicoBus/s126o_stream/s0_desc_fifo/U0'
+Parsing XDC File [/home/micron/OriginalStreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/coregen_fifo_32x128/coregen_fifo_32x128/coregen_fifo_32x128.xdc] for cell 'UserWrapper/stream_in[0].gen_stream_in/s0_desc_fifo/U0'
+Finished Parsing XDC File [/home/micron/OriginalStreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/coregen_fifo_32x128/coregen_fifo_32x128/coregen_fifo_32x128.xdc] for cell 'UserWrapper/stream_in[0].gen_stream_in/s0_desc_fifo/U0'
+Parsing XDC File [/home/micron/OriginalStreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/coregen_fifo_32x128/coregen_fifo_32x128/coregen_fifo_32x128.xdc] for cell 'UserWrapper/stream_out[0].gen_stream_out/s0_desc_fifo/U0'
+Finished Parsing XDC File [/home/micron/OriginalStreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/coregen_fifo_32x128/coregen_fifo_32x128/coregen_fifo_32x128.xdc] for cell 'UserWrapper/stream_out[0].gen_stream_out/s0_desc_fifo/U0'
+Parsing XDC File [/home/micron/OriginalStreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/pcie3_ultrascale_0/ip_0/synth/pcie3_ultrascale_0_gt.xdc] for cell 'PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/gt_wizard.gtwizard_top_i/pcie3_ultrascale_0_gt_i/inst'
+Finished Parsing XDC File [/home/micron/OriginalStreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/pcie3_ultrascale_0/ip_0/synth/pcie3_ultrascale_0_gt.xdc] for cell 'PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/gt_wizard.gtwizard_top_i/pcie3_ultrascale_0_gt_i/inst'
+Parsing XDC File [/home/micron/OriginalStreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/pcie3_ultrascale_0/source/pcie3_ultrascale_0-PCIE_X0Y0.xdc] for cell 'PicoFramework/core/pcie3_ultrascale_0_i/inst'
+Finished Parsing XDC File [/home/micron/OriginalStreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/pcie3_ultrascale_0/source/pcie3_ultrascale_0-PCIE_X0Y0.xdc] for cell 'PicoFramework/core/pcie3_ultrascale_0_i/inst'
+Parsing XDC File [/home/micron/OriginalStreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/m510/src/M510_KU060_FFVA1156_E.xdc]
+WARNING: [Constraints 18-4434] Global Clock Buffer 'PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/phy_clk_i/bufg_gt_pclk' is LOCed to site 'BUFG_GT_X1Y36'. Using a LOC constraint to assign the placement of a Global Clock Buffer can result in sub-optimal placement results in UltraScale. [/home/micron/OriginalStreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/m510/src/M510_KU060_FFVA1156_E.xdc:118]
+Resolution: Remove the LOC constraint and use the CLOCK_REGION constraint to assign a Global Clock Buffer to a CLOCK_REGION.
+WARNING: [Constraints 18-4434] Global Clock Buffer 'PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/phy_clk_i/bufg_gt_userclk' is LOCed to site 'BUFG_GT_X1Y37'. Using a LOC constraint to assign the placement of a Global Clock Buffer can result in sub-optimal placement results in UltraScale. [/home/micron/OriginalStreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/m510/src/M510_KU060_FFVA1156_E.xdc:119]
+Resolution: Remove the LOC constraint and use the CLOCK_REGION constraint to assign a Global Clock Buffer to a CLOCK_REGION.
+WARNING: [Constraints 18-4434] Global Clock Buffer 'PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/phy_clk_i/bufg_gt_coreclk' is LOCed to site 'BUFG_GT_X1Y38'. Using a LOC constraint to assign the placement of a Global Clock Buffer can result in sub-optimal placement results in UltraScale. [/home/micron/OriginalStreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/m510/src/M510_KU060_FFVA1156_E.xdc:120]
+Resolution: Remove the LOC constraint and use the CLOCK_REGION constraint to assign a Global Clock Buffer to a CLOCK_REGION.
+Finished Parsing XDC File [/home/micron/OriginalStreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/m510/src/M510_KU060_FFVA1156_E.xdc]
+Sourcing Tcl File [/home/micron/OriginalStreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/m510/src/clocks.tcl]
+Finished Sourcing Tcl File [/home/micron/OriginalStreamLoopback128/firmware/M510_KU060_StreamLoopback128/firmware/m510/src/clocks.tcl]
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/micron/OriginalStreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/coregen_fifo_32x128/coregen_fifo_32x128.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/micron/OriginalStreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/coregen_fifo_32x128/coregen_fifo_32x128.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/micron/OriginalStreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/coregen_fifo_32x128/coregen_fifo_32x128.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/micron/OriginalStreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/coregen_fifo_32x128/coregen_fifo_32x128.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/micron/OriginalStreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/coregen_fifo_32x128/coregen_fifo_32x128.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/micron/OriginalStreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.srcs/sources_1/ip/pcie3_ultrascale_0/pcie3_ultrascale_0.dcp'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-264] Inserting BUFG_GT_SYNC for bufg: PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/phy_clk_i/bufg_gt_coreclk
+INFO: [Opt 31-264] Inserting BUFG_GT_SYNC for bufg: PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/phy_clk_i/bufg_gt_pclk
+INFO: [Opt 31-264] Inserting BUFG_GT_SYNC for bufg: PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/phy_clk_i/bufg_gt_userclk
+INFO: [Opt 31-264] Inserting BUFG_GT_SYNC for bufg: PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/bufg_mcap_clk
+INFO: [Opt 31-264] Inserting BUFG_GT_SYNC for bufg: PicoFramework/core/pcie3_ultrascale_0_i/inst/bufg_gt_sysclk
+INFO: [Opt 31-263] Collapsing BUFG_gt_syncs for bufg_gt_sync: PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/gt_wizard.gtwizard_top_i/pcie3_ultrascale_0_gt_i/inst/gen_gtwizard_gthe3_top.pcie3_ultrascale_0_gt_gtwizard_gthe3_inst/gen_gtwizard_gthe3.gen_channel_container[25].gen_enabled_channel.gthe3_channel_wrapper_inst/channel_inst/BUFG_GT_SYNC
+INFO: [Opt 31-263] Collapsing BUFG_gt_syncs for bufg_gt_sync: PicoFramework/core/pcie3_ultrascale_0_i/inst/sync_sys_clk
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 64 instances were transformed.
+  IBUF => IBUF_ANALOG: 1 instances
+  IBUFGDS => IBUFDS (DIFFINBUF, IBUFCTRL): 1 instances
+  RAM32M16 => RAM32M16 (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 50 instances
+  RAM64M8 => RAM64M8 (RAMD64E, RAMD64E, RAMD64E, RAMD64E, RAMD64E, RAMD64E, RAMD64E, RAMD64E): 4 instances
+  RAM64X1D => RAM64X1D (RAMD64E, RAMD64E): 8 instances
+
+link_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1621.398 ; gain = 653.805 ; free physical = 24800 ; free virtual = 36025
+INFO: [Vivado_Tcl 4-424] Cannot write hardware definition file as there are no IPI block design hardware handoff files present
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xcku060'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xcku060'
+INFO: [Common 17-86] Your Implementation license expires in 29 day(s)
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00.24 ; elapsed = 00:00:00.18 . Memory (MB): peak = 1694.434 ; gain = 65.031 ; free physical = 24798 ; free virtual = 36023
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-2] Deriving generated clocks
+
+Starting Logic Optimization Task
+INFO: [Mig 66-107] No memory instances. Ignoring
+Implement Debug Cores | Checksum: 2176c1f18
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 10 inverter(s) to 664 load pin(s).
+INFO: [Opt 31-264] Inserting BUFG_GT_SYNC for bufg: PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/phy_clk_i/bufg_gt_coreclk
+INFO: [Opt 31-264] Inserting BUFG_GT_SYNC for bufg: PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/phy_clk_i/bufg_gt_pclk
+INFO: [Opt 31-264] Inserting BUFG_GT_SYNC for bufg: PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/phy_clk_i/bufg_gt_userclk
+INFO: [Opt 31-264] Inserting BUFG_GT_SYNC for bufg: PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/bufg_mcap_clk
+INFO: [Opt 31-264] Inserting BUFG_GT_SYNC for bufg: PicoFramework/core/pcie3_ultrascale_0_i/inst/bufg_gt_sysclk
+INFO: [Opt 31-263] Collapsing BUFG_gt_syncs for bufg_gt_sync: PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/gt_wizard.gtwizard_top_i/pcie3_ultrascale_0_gt_i/inst/gen_gtwizard_gthe3_top.pcie3_ultrascale_0_gt_gtwizard_gthe3_inst/gen_gtwizard_gthe3.gen_channel_container[25].gen_enabled_channel.gthe3_channel_wrapper_inst/channel_inst/BUFG_GT_SYNC
+INFO: [Opt 31-263] Collapsing BUFG_gt_syncs for bufg_gt_sync: PicoFramework/core/pcie3_ultrascale_0_i/inst/sync_sys_clk
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 11ac6cb25
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2030.980 ; gain = 0.000 ; free physical = 24494 ; free virtual = 35719
+
+Phase 2 Constant Propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-10] Eliminated 20 cells.
+Phase 2 Constant Propagation | Checksum: 238781f5d
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2030.980 ; gain = 0.000 ; free physical = 24491 ; free virtual = 35716
+
+Phase 3 Sweep
+INFO: [Opt 31-12] Eliminated 3437 unconnected nets.
+INFO: [Opt 31-11] Eliminated 1446 unconnected cells.
+Phase 3 Sweep | Checksum: 154462b91
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2030.980 ; gain = 0.000 ; free physical = 24491 ; free virtual = 35716
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2030.980 ; gain = 0.000 ; free physical = 24491 ; free virtual = 35716
+Ending Logic Optimization Task | Checksum: 154462b91
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2030.980 ; gain = 0.000 ; free physical = 24491 ; free virtual = 35716
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 1 BRAM(s) out of a total of 32 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 5 WE to EN ports
+Number of BRAM Ports augmented: 1 newly gated: 18 Total Ports: 64
+Ending PowerOpt Patch Enables Task | Checksum: 1b8992bf8
+
+Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.06 . Memory (MB): peak = 2407.168 ; gain = 0.000 ; free physical = 24216 ; free virtual = 35441
+Ending Power Optimization Task | Checksum: 1b8992bf8
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 2407.168 ; gain = 376.188 ; free physical = 24216 ; free virtual = 35441
+INFO: [Common 17-83] Releasing license: Implementation
+58 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:18 . Memory (MB): peak = 2407.168 ; gain = 785.770 ; free physical = 24216 ; free virtual = 35441
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.25 ; elapsed = 00:00:00.08 . Memory (MB): peak = 2407.168 ; gain = 0.000 ; free physical = 24211 ; free virtual = 35441
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /home/micron/OriginalStreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.runs/impl_1/Pico_Toplevel_drc_opted.rpt.
+INFO: [Chipscope 16-241] No debug cores found in the current design.
+Before running the implement_debug_core command, either use the Set Up Debug wizard (GUI mode)
+or use the create_debug_core and connect_debug_core Tcl commands to insert debug cores into the design.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xcku060'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xcku060'
+INFO: [Common 17-86] Your Implementation license expires in 29 day(s)
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [DRC 23-20] Rule violation (PORTPROP-10) Incorrect IOStandard on MCAP reset - The PCI Express reset pin sys_reset_n is driven by an IOB with a 1.8V IO standard.  This is incompatible with the 3.3V signal that is generated by the reset pin of the PCI Express edge connector.  If this pin cannot be driven at 3.3V, your  design will require an external level shifter to convert the incoming 3.3V reset signal from the edge connector to the 1.8V at the FPGA pin.
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 1 Advisories
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 8 CPUs
+
+Phase 1 Placer Initialization
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.04 . Memory (MB): peak = 2407.168 ; gain = 0.000 ; free physical = 24206 ; free virtual = 35436
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-264] Inserting BUFG_GT_SYNC for bufg: PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/phy_clk_i/bufg_gt_coreclk
+INFO: [Opt 31-264] Inserting BUFG_GT_SYNC for bufg: PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/phy_clk_i/bufg_gt_pclk
+INFO: [Opt 31-264] Inserting BUFG_GT_SYNC for bufg: PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/phy_clk_i/bufg_gt_userclk
+INFO: [Opt 31-264] Inserting BUFG_GT_SYNC for bufg: PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/bufg_mcap_clk
+INFO: [Opt 31-264] Inserting BUFG_GT_SYNC for bufg: PicoFramework/core/pcie3_ultrascale_0_i/inst/bufg_gt_sysclk
+INFO: [Opt 31-263] Collapsing BUFG_gt_syncs for bufg_gt_sync: PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/gt_wizard.gtwizard_top_i/pcie3_ultrascale_0_gt_i/inst/gen_gtwizard_gthe3_top.pcie3_ultrascale_0_gt_gtwizard_gthe3_inst/gen_gtwizard_gthe3.gen_channel_container[25].gen_enabled_channel.gthe3_channel_wrapper_inst/channel_inst/BUFG_GT_SYNC
+INFO: [Opt 31-263] Collapsing BUFG_gt_syncs for bufg_gt_sync: PicoFramework/core/pcie3_ultrascale_0_i/inst/sync_sys_clk
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2407.168 ; gain = 0.000 ; free physical = 24206 ; free virtual = 35436
+
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device
+
+Phase 1.1.1 ParallelPlaceIOClockAndInitTop
+
+Phase 1.1.1.1 Pre-Place Cells
+Phase 1.1.1.1 Pre-Place Cells | Checksum: be3ee644
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 2407.168 ; gain = 0.000 ; free physical = 24206 ; free virtual = 35436
+
+Phase 1.1.1.2 Constructing HAPIClkRuleMgr
+Phase 1.1.1.2 Constructing HAPIClkRuleMgr | Checksum: be3ee644
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2407.168 ; gain = 0.000 ; free physical = 24206 ; free virtual = 35436
+
+Phase 1.1.1.3 IOBufferPlacementChecker
+
+Phase 1.1.1.4 IOLockPlacementChecker
+
+Phase 1.1.1.6 DSPChecker
+
+Phase 1.1.1.5 ClockRegionPlacementChecker
+Phase 1.1.1.6 DSPChecker | Checksum: be3ee644
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 2407.168 ; gain = 0.000 ; free physical = 24198 ; free virtual = 35428
+
+Phase 1.1.1.7 V7IOVoltageChecker
+Phase 1.1.1.4 IOLockPlacementChecker | Checksum: be3ee644
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 2407.168 ; gain = 0.000 ; free physical = 24198 ; free virtual = 35428
+
+Phase 1.1.1.8 CheckerForMandatoryPrePlacedCells
+Phase 1.1.1.3 IOBufferPlacementChecker | Checksum: be3ee644
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 2407.168 ; gain = 0.000 ; free physical = 24198 ; free virtual = 35428
+
+Phase 1.1.1.9 DisallowedInsts
+Phase 1.1.1.7 V7IOVoltageChecker | Checksum: be3ee644
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 2407.168 ; gain = 0.000 ; free physical = 24198 ; free virtual = 35428
+
+Phase 1.1.1.10 OverlappingPBlocksChecker
+Phase 1.1.1.5 ClockRegionPlacementChecker | Checksum: be3ee644
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 2407.168 ; gain = 0.000 ; free physical = 24198 ; free virtual = 35428
+
+Phase 1.1.1.11 CheckerForUnsupportedConstraints
+Phase 1.1.1.8 CheckerForMandatoryPrePlacedCells | Checksum: be3ee644
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 2407.168 ; gain = 0.000 ; free physical = 24198 ; free virtual = 35428
+
+Phase 1.1.1.12 CascadeElementConstraintsChecker
+Phase 1.1.1.9 DisallowedInsts | Checksum: be3ee644
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 2407.168 ; gain = 0.000 ; free physical = 24198 ; free virtual = 35428
+
+Phase 1.1.1.13 Laguna PBlock Checker
+Phase 1.1.1.10 OverlappingPBlocksChecker | Checksum: be3ee644
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 2407.168 ; gain = 0.000 ; free physical = 24198 ; free virtual = 35428
+Phase 1.1.1.11 CheckerForUnsupportedConstraints | Checksum: be3ee644
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 2407.168 ; gain = 0.000 ; free physical = 24198 ; free virtual = 35428
+
+Phase 1.1.1.14 ShapesExcludeCompatibilityChecker
+Phase 1.1.1.12 CascadeElementConstraintsChecker | Checksum: be3ee644
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 2407.168 ; gain = 0.000 ; free physical = 24198 ; free virtual = 35428
+
+Phase 1.1.1.15 HdioRelatedChecker
+Phase 1.1.1.13 Laguna PBlock Checker | Checksum: be3ee644
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 2407.168 ; gain = 0.000 ; free physical = 24198 ; free virtual = 35428
+
+Phase 1.1.1.16 ShapePlacementValidityChecker
+Phase 1.1.1.14 ShapesExcludeCompatibilityChecker | Checksum: be3ee644
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 2407.168 ; gain = 0.000 ; free physical = 24198 ; free virtual = 35428
+
+Phase 1.1.1.17 IOStdCompatabilityChecker
+Phase 1.1.1.15 HdioRelatedChecker | Checksum: be3ee644
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 2407.168 ; gain = 0.000 ; free physical = 24198 ; free virtual = 35428
+Phase 1.1.1.17 IOStdCompatabilityChecker | Checksum: be3ee644
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 2407.168 ; gain = 0.000 ; free physical = 24198 ; free virtual = 35428
+Phase 1.1.1.16 ShapePlacementValidityChecker | Checksum: be3ee644
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:05 . Memory (MB): peak = 2407.168 ; gain = 0.000 ; free physical = 24180 ; free virtual = 35410
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 1.1.1.18 IO and Clk Clean Up
+
+Phase 1.1.1.18.1 Constructing HAPIClkRuleMgr
+Phase 1.1.1.18.1 Constructing HAPIClkRuleMgr | Checksum: be3ee644
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:09 . Memory (MB): peak = 2593.906 ; gain = 186.738 ; free physical = 23979 ; free virtual = 35209
+Phase 1.1.1.18 IO and Clk Clean Up | Checksum: be3ee644
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:09 . Memory (MB): peak = 2593.906 ; gain = 186.738 ; free physical = 23979 ; free virtual = 35209
+
+Phase 1.1.1.19 Implementation Feasibility check On IDelay
+Phase 1.1.1.19 Implementation Feasibility check On IDelay | Checksum: be3ee644
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:09 . Memory (MB): peak = 2593.906 ; gain = 186.738 ; free physical = 23979 ; free virtual = 35208
+
+Phase 1.1.1.20 Commit IO Placement
+Phase 1.1.1.20 Commit IO Placement | Checksum: 62c76c92
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:09 . Memory (MB): peak = 2593.906 ; gain = 186.738 ; free physical = 23979 ; free virtual = 35208
+Phase 1.1.1 ParallelPlaceIOClockAndInitTop | Checksum: 62c76c92
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:09 . Memory (MB): peak = 2593.906 ; gain = 186.738 ; free physical = 23979 ; free virtual = 35208
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: acbc4005
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:09 . Memory (MB): peak = 2593.906 ; gain = 186.738 ; free physical = 23979 ; free virtual = 35208
+
+Phase 1.2 Build Placer Netlist Model
+
+Phase 1.2.1 Place Init Design
+
+Phase 1.2.1.1 Make Others
+Phase 1.2.1.1 Make Others | Checksum: 161e08bc5
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:10 . Memory (MB): peak = 2593.906 ; gain = 186.738 ; free physical = 23975 ; free virtual = 35205
+
+Phase 1.2.1.2 Init Lut Pin Assignment
+Phase 1.2.1.2 Init Lut Pin Assignment | Checksum: 161e08bc5
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:10 . Memory (MB): peak = 2593.906 ; gain = 186.738 ; free physical = 23961 ; free virtual = 35191
+Phase 1.2.1 Place Init Design | Checksum: 178cf044c
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:13 . Memory (MB): peak = 2637.039 ; gain = 229.871 ; free physical = 23906 ; free virtual = 35135
+Phase 1.2 Build Placer Netlist Model | Checksum: 178cf044c
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:13 . Memory (MB): peak = 2637.039 ; gain = 229.871 ; free physical = 23906 ; free virtual = 35135
+
+Phase 1.3 Constrain Clocks/Macros
+Phase 1.3 Constrain Clocks/Macros | Checksum: 178cf044c
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:13 . Memory (MB): peak = 2637.039 ; gain = 229.871 ; free physical = 23906 ; free virtual = 35135
+Phase 1 Placer Initialization | Checksum: 178cf044c
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:13 . Memory (MB): peak = 2637.039 ; gain = 229.871 ; free physical = 23906 ; free virtual = 35135
+
+Phase 2 Global Placement
+Phase 2 Global Placement | Checksum: 1d0348ce4
+
+Time (s): cpu = 00:00:58 ; elapsed = 00:00:28 . Memory (MB): peak = 2770.340 ; gain = 363.172 ; free physical = 23834 ; free virtual = 35064
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 1d0348ce4
+
+Time (s): cpu = 00:00:59 ; elapsed = 00:00:28 . Memory (MB): peak = 2770.340 ; gain = 363.172 ; free physical = 23834 ; free virtual = 35064
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 20d4feab6
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:30 . Memory (MB): peak = 2770.340 ; gain = 363.172 ; free physical = 23834 ; free virtual = 35064
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 1680f3afd
+
+Time (s): cpu = 00:01:03 ; elapsed = 00:00:30 . Memory (MB): peak = 2770.340 ; gain = 363.172 ; free physical = 23834 ; free virtual = 35064
+
+Phase 3.4 updateClock Trees: DP
+Phase 3.4 updateClock Trees: DP | Checksum: 1680f3afd
+
+Time (s): cpu = 00:01:03 ; elapsed = 00:00:31 . Memory (MB): peak = 2770.340 ; gain = 363.172 ; free physical = 23828 ; free virtual = 35058
+
+Phase 3.5 IO Cut Optimizer
+Phase 3.5 IO Cut Optimizer | Checksum: 1b19be494
+
+Time (s): cpu = 00:01:04 ; elapsed = 00:00:31 . Memory (MB): peak = 2770.340 ; gain = 363.172 ; free physical = 23828 ; free virtual = 35058
+
+Phase 3.6 Timing Path Optimizer
+Phase 3.6 Timing Path Optimizer | Checksum: 1b19be494
+
+Time (s): cpu = 00:01:04 ; elapsed = 00:00:31 . Memory (MB): peak = 2770.340 ; gain = 363.172 ; free physical = 23828 ; free virtual = 35058
+
+Phase 3.7 Fast Optimization
+Phase 3.7 Fast Optimization | Checksum: 1b19be494
+
+Time (s): cpu = 00:01:05 ; elapsed = 00:00:31 . Memory (MB): peak = 2770.340 ; gain = 363.172 ; free physical = 23827 ; free virtual = 35056
+
+Phase 3.8 Small Shape Detail Placement
+Phase 3.8 Small Shape Detail Placement | Checksum: 23dc23e10
+
+Time (s): cpu = 00:01:15 ; elapsed = 00:00:37 . Memory (MB): peak = 2770.340 ; gain = 363.172 ; free physical = 23819 ; free virtual = 35049
+
+Phase 3.9 Re-assign LUT pins
+Phase 3.9 Re-assign LUT pins | Checksum: 2140ef691
+
+Time (s): cpu = 00:01:15 ; elapsed = 00:00:37 . Memory (MB): peak = 2770.340 ; gain = 363.172 ; free physical = 23819 ; free virtual = 35049
+
+Phase 3.10 Pipeline Register Optimization
+Phase 3.10 Pipeline Register Optimization | Checksum: 2140ef691
+
+Time (s): cpu = 00:01:15 ; elapsed = 00:00:37 . Memory (MB): peak = 2770.340 ; gain = 363.172 ; free physical = 23819 ; free virtual = 35049
+
+Phase 3.11 Fast Optimization
+Phase 3.11 Fast Optimization | Checksum: 2140ef691
+
+Time (s): cpu = 00:01:18 ; elapsed = 00:00:38 . Memory (MB): peak = 2770.340 ; gain = 363.172 ; free physical = 23816 ; free virtual = 35046
+Phase 3 Detail Placement | Checksum: 2140ef691
+
+Time (s): cpu = 00:01:18 ; elapsed = 00:00:38 . Memory (MB): peak = 2770.340 ; gain = 363.172 ; free physical = 23816 ; free virtual = 35046
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 updateClock Trees: PCOPT
+Phase 4.1.1 updateClock Trees: PCOPT | Checksum: 103d66b06
+
+Time (s): cpu = 00:01:28 ; elapsed = 00:00:42 . Memory (MB): peak = 2779.594 ; gain = 372.426 ; free physical = 23784 ; free virtual = 35014
+
+Phase 4.1.2 Post Placement Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=-32.856. For the most accurate timing information please run report_timing.
+Phase 4.1.2 Post Placement Optimization | Checksum: c892d959
+
+Time (s): cpu = 00:01:39 ; elapsed = 00:00:52 . Memory (MB): peak = 2779.594 ; gain = 372.426 ; free physical = 23784 ; free virtual = 35013
+Phase 4.1 Post Commit Optimization | Checksum: c892d959
+
+Time (s): cpu = 00:01:39 ; elapsed = 00:00:52 . Memory (MB): peak = 2779.594 ; gain = 372.426 ; free physical = 23784 ; free virtual = 35013
+
+Phase 4.2 Sweep Clock Roots: Post-Placement
+Phase 4.2 Sweep Clock Roots: Post-Placement | Checksum: c892d959
+
+Time (s): cpu = 00:01:40 ; elapsed = 00:00:52 . Memory (MB): peak = 2805.742 ; gain = 398.574 ; free physical = 23780 ; free virtual = 35009
+
+Phase 4.3 Uram Pipeline Register Optimization
+Phase 4.3 Uram Pipeline Register Optimization | Checksum: c892d959
+
+Time (s): cpu = 00:01:40 ; elapsed = 00:00:53 . Memory (MB): peak = 2805.742 ; gain = 398.574 ; free physical = 23780 ; free virtual = 35009
+
+Phase 4.4 Post Placement Cleanup
+Phase 4.4 Post Placement Cleanup | Checksum: c892d959
+
+Time (s): cpu = 00:01:41 ; elapsed = 00:00:53 . Memory (MB): peak = 2805.742 ; gain = 398.574 ; free physical = 23780 ; free virtual = 35009
+
+Phase 4.5 Placer Reporting
+Phase 4.5 Placer Reporting | Checksum: 1bd724c0f
+
+Time (s): cpu = 00:01:41 ; elapsed = 00:00:53 . Memory (MB): peak = 2805.742 ; gain = 398.574 ; free physical = 23780 ; free virtual = 35009
+
+Phase 4.6 Final Placement Cleanup
+Phase 4.6 Final Placement Cleanup | Checksum: 1fe7e1c35
+
+Time (s): cpu = 00:01:41 ; elapsed = 00:00:53 . Memory (MB): peak = 2805.742 ; gain = 398.574 ; free physical = 23780 ; free virtual = 35009
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 1fe7e1c35
+
+Time (s): cpu = 00:01:42 ; elapsed = 00:00:53 . Memory (MB): peak = 2805.742 ; gain = 398.574 ; free physical = 23780 ; free virtual = 35009
+Ending Placer Task | Checksum: 196bcf228
+
+Time (s): cpu = 00:01:42 ; elapsed = 00:00:54 . Memory (MB): peak = 2805.742 ; gain = 398.574 ; free physical = 23780 ; free virtual = 35010
+INFO: [Common 17-83] Releasing license: Implementation
+84 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:01:43 ; elapsed = 00:00:54 . Memory (MB): peak = 2805.742 ; gain = 398.574 ; free physical = 23780 ; free virtual = 35010
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.56 . Memory (MB): peak = 2805.742 ; gain = 0.000 ; free physical = 23762 ; free virtual = 35010
+report_io: Time (s): cpu = 00:00:00.23 ; elapsed = 00:00:00.24 . Memory (MB): peak = 2805.746 ; gain = 0.000 ; free physical = 23771 ; free virtual = 35007
+report_utilization: Time (s): cpu = 00:00:00.19 ; elapsed = 00:00:00.22 . Memory (MB): peak = 2805.746 ; gain = 0.000 ; free physical = 23771 ; free virtual = 35007
+report_control_sets: Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.12 . Memory (MB): peak = 2805.746 ; gain = 0.000 ; free physical = 23771 ; free virtual = 35006
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xcku060'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xcku060'
+INFO: [Common 17-86] Your Implementation license expires in 29 day(s)
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [DRC 23-20] Rule violation (PORTPROP-10) Incorrect IOStandard on MCAP reset - The PCI Express reset pin sys_reset_n is driven by an IOB with a 1.8V IO standard.  This is incompatible with the 3.3V signal that is generated by the reset pin of the PCI Express edge connector.  If this pin cannot be driven at 3.3V, your  design will require an external level shifter to convert the incoming 3.3V reset signal from the edge connector to the 1.8V at the FPGA pin.
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 1 Advisories
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 8 CPUs
+Checksum: PlaceDB: 536f33b ConstDB: 0 ShapeSum: 9ca68c37 RouteDB: f4df72b6
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 45c61e27
+
+Time (s): cpu = 00:00:47 ; elapsed = 00:00:29 . Memory (MB): peak = 3035.027 ; gain = 197.270 ; free physical = 23542 ; free virtual = 34778
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: c0c9808b
+
+Time (s): cpu = 00:00:47 ; elapsed = 00:00:29 . Memory (MB): peak = 3035.027 ; gain = 197.270 ; free physical = 23542 ; free virtual = 34778
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: c0c9808b
+
+Time (s): cpu = 00:00:47 ; elapsed = 00:00:29 . Memory (MB): peak = 3035.027 ; gain = 197.270 ; free physical = 23503 ; free virtual = 34739
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: c0c9808b
+
+Time (s): cpu = 00:00:47 ; elapsed = 00:00:29 . Memory (MB): peak = 3035.027 ; gain = 197.270 ; free physical = 23503 ; free virtual = 34739
+
+Phase 2.4 Global Clock Net Routing
+ Number of Nodes with overlaps = 0
+Phase 2.4 Global Clock Net Routing | Checksum: 20b87664b
+
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:33 . Memory (MB): peak = 3098.273 ; gain = 260.516 ; free physical = 23432 ; free virtual = 34668
+
+Phase 2.5 Update Timing
+Phase 2.5 Update Timing | Checksum: 2e3783993
+
+Time (s): cpu = 00:01:04 ; elapsed = 00:00:35 . Memory (MB): peak = 3098.273 ; gain = 260.516 ; free physical = 23432 ; free virtual = 34668
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-31.319| TNS=-462.907| WHS=-0.154 | THS=-21.302|
+
+Phase 2 Router Initialization | Checksum: 216c0b055
+
+Time (s): cpu = 00:01:10 ; elapsed = 00:00:37 . Memory (MB): peak = 3098.273 ; gain = 260.516 ; free physical = 23432 ; free virtual = 34669
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 2e64ed915
+
+Time (s): cpu = 00:01:20 ; elapsed = 00:00:39 . Memory (MB): peak = 3098.273 ; gain = 260.516 ; free physical = 23401 ; free virtual = 34637
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 3435
+ Number of Nodes with overlaps = 305
+ Number of Nodes with overlaps = 14
+ Number of Nodes with overlaps = 0
+
+Phase 4.1.1 Update Timing
+Phase 4.1.1 Update Timing | Checksum: 2020acb1d
+
+Time (s): cpu = 00:01:55 ; elapsed = 00:00:47 . Memory (MB): peak = 3098.273 ; gain = 260.516 ; free physical = 23401 ; free virtual = 34637
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-32.139| TNS=-2639.827| WHS=0.002  | THS=0.000  |
+
+
+Phase 4.1.2 GlobIterForTiming
+
+Phase 4.1.2.1 Update Timing
+Phase 4.1.2.1 Update Timing | Checksum: 28db082b6
+
+Time (s): cpu = 00:01:58 ; elapsed = 00:00:48 . Memory (MB): peak = 3098.273 ; gain = 260.516 ; free physical = 23401 ; free virtual = 34637
+
+Phase 4.1.2.2 Fast Budgeting
+Phase 4.1.2.2 Fast Budgeting | Checksum: 2a4abe804
+
+Time (s): cpu = 00:01:58 ; elapsed = 00:00:49 . Memory (MB): peak = 3098.273 ; gain = 260.516 ; free physical = 23401 ; free virtual = 34637
+Phase 4.1.2 GlobIterForTiming | Checksum: 269f531cc
+
+Time (s): cpu = 00:02:00 ; elapsed = 00:00:50 . Memory (MB): peak = 3098.273 ; gain = 260.516 ; free physical = 23401 ; free virtual = 34637
+Phase 4.1 Global Iteration 0 | Checksum: 269f531cc
+
+Time (s): cpu = 00:02:00 ; elapsed = 00:00:50 . Memory (MB): peak = 3098.273 ; gain = 260.516 ; free physical = 23401 ; free virtual = 34637
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 651
+ Number of Nodes with overlaps = 36
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 0
+
+Phase 4.2.1 Update Timing
+Phase 4.2.1 Update Timing | Checksum: ec8645fa
+
+Time (s): cpu = 00:02:08 ; elapsed = 00:00:53 . Memory (MB): peak = 3098.273 ; gain = 260.516 ; free physical = 23419 ; free virtual = 34655
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-32.261| TNS=-2732.347| WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 22fe2fbca
+
+Time (s): cpu = 00:02:08 ; elapsed = 00:00:54 . Memory (MB): peak = 3098.273 ; gain = 260.516 ; free physical = 23419 ; free virtual = 34655
+Phase 4 Rip-up And Reroute | Checksum: 22fe2fbca
+
+Time (s): cpu = 00:02:08 ; elapsed = 00:00:54 . Memory (MB): peak = 3098.273 ; gain = 260.516 ; free physical = 23419 ; free virtual = 34655
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 21ba7ccae
+
+Time (s): cpu = 00:02:12 ; elapsed = 00:00:55 . Memory (MB): peak = 3098.273 ; gain = 260.516 ; free physical = 23419 ; free virtual = 34655
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-32.139| TNS=-2639.827| WHS=0.002  | THS=0.000  |
+
+ Number of Nodes with overlaps = 0
+Phase 5.1 Delay CleanUp | Checksum: 21dd6eb62
+
+Time (s): cpu = 00:02:21 ; elapsed = 00:00:59 . Memory (MB): peak = 3213.789 ; gain = 376.031 ; free physical = 23293 ; free virtual = 34529
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 21dd6eb62
+
+Time (s): cpu = 00:02:21 ; elapsed = 00:00:59 . Memory (MB): peak = 3213.789 ; gain = 376.031 ; free physical = 23293 ; free virtual = 34529
+Phase 5 Delay and Skew Optimization | Checksum: 21dd6eb62
+
+Time (s): cpu = 00:02:21 ; elapsed = 00:00:59 . Memory (MB): peak = 3213.789 ; gain = 376.031 ; free physical = 23293 ; free virtual = 34529
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 1f0ccf201
+
+Time (s): cpu = 00:02:25 ; elapsed = 00:01:01 . Memory (MB): peak = 3213.789 ; gain = 376.031 ; free physical = 23293 ; free virtual = 34529
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-32.065| TNS=-1705.980| WHS=0.002  | THS=0.000  |
+
+
+Phase 6.1.2 Lut RouteThru Assignment for hold
+Phase 6.1.2 Lut RouteThru Assignment for hold | Checksum: 2423052a4
+
+Time (s): cpu = 00:02:33 ; elapsed = 00:01:08 . Memory (MB): peak = 3290.789 ; gain = 453.031 ; free physical = 23233 ; free virtual = 34469
+Phase 6.1 Hold Fix Iter | Checksum: 2423052a4
+
+Time (s): cpu = 00:02:33 ; elapsed = 00:01:08 . Memory (MB): peak = 3290.789 ; gain = 453.031 ; free physical = 23233 ; free virtual = 34469
+Phase 6 Post Hold Fix | Checksum: 244108f84
+
+Time (s): cpu = 00:02:33 ; elapsed = 00:01:09 . Memory (MB): peak = 3290.789 ; gain = 453.031 ; free physical = 23233 ; free virtual = 34469
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.979825 %
+  Global Horizontal Routing Utilization  = 0.960486 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Congestion Report
+North Dir 1x1 Area, Max Cong = 68.6441%, No Congested Regions.
+South Dir 1x1 Area, Max Cong = 86.4979%, Congestion bounded by tiles (Lower Left Tile -> Upper Right Tile):
+   INT_X87Y52 -> INT_X87Y52
+East Dir 1x1 Area, Max Cong = 72.1154%, No Congested Regions.
+West Dir 1x1 Area, Max Cong = 75%, No Congested Regions.
+
+------------------------------
+Reporting congestion hotspots
+------------------------------
+Direction: North
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0
+Direction: South
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 2
+Direction: East
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 1
+Direction: West
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 1
+
+Phase 7 Route finalize | Checksum: 2947b5cec
+
+Time (s): cpu = 00:02:36 ; elapsed = 00:01:09 . Memory (MB): peak = 3290.789 ; gain = 453.031 ; free physical = 23233 ; free virtual = 34469
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 2947b5cec
+
+Time (s): cpu = 00:02:36 ; elapsed = 00:01:09 . Memory (MB): peak = 3290.789 ; gain = 453.031 ; free physical = 23233 ; free virtual = 34469
+
+Phase 9 Depositing Routes
+INFO: [Route 35-467] Router swapped GT pin PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/gt_wizard.gtwizard_top_i/pcie3_ultrascale_0_gt_i/inst/gen_gtwizard_gthe3_top.pcie3_ultrascale_0_gt_gtwizard_gthe3_inst/gen_gtwizard_gthe3.gen_common.gen_common_container[24].gen_enabled_common.gthe3_common_wrapper_inst/common_inst/gthe3_common_gen.GTHE3_COMMON_PRIM_INST/GTREFCLK01 to physical pin GTHE3_COMMON_X1Y0/COM2_REFCLKOUT5
+INFO: [Route 35-467] Router swapped GT pin PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/gt_wizard.gtwizard_top_i/pcie3_ultrascale_0_gt_i/inst/gen_gtwizard_gthe3_top.pcie3_ultrascale_0_gt_gtwizard_gthe3_inst/gen_gtwizard_gthe3.gen_channel_container[24].gen_enabled_channel.gthe3_channel_wrapper_inst/channel_inst/gthe3_channel_gen.gen_gthe3_channel_inst[0].GTHE3_CHANNEL_PRIM_INST/GTREFCLK0 to physical pin GTHE3_CHANNEL_X1Y0/SOUTHREFCLK1
+INFO: [Route 35-467] Router swapped GT pin PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/gt_wizard.gtwizard_top_i/pcie3_ultrascale_0_gt_i/inst/gen_gtwizard_gthe3_top.pcie3_ultrascale_0_gt_gtwizard_gthe3_inst/gen_gtwizard_gthe3.gen_channel_container[24].gen_enabled_channel.gthe3_channel_wrapper_inst/channel_inst/gthe3_channel_gen.gen_gthe3_channel_inst[1].GTHE3_CHANNEL_PRIM_INST/GTREFCLK0 to physical pin GTHE3_CHANNEL_X1Y1/SOUTHREFCLK1
+INFO: [Route 35-467] Router swapped GT pin PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/gt_wizard.gtwizard_top_i/pcie3_ultrascale_0_gt_i/inst/gen_gtwizard_gthe3_top.pcie3_ultrascale_0_gt_gtwizard_gthe3_inst/gen_gtwizard_gthe3.gen_channel_container[24].gen_enabled_channel.gthe3_channel_wrapper_inst/channel_inst/gthe3_channel_gen.gen_gthe3_channel_inst[2].GTHE3_CHANNEL_PRIM_INST/GTREFCLK0 to physical pin GTHE3_CHANNEL_X1Y2/SOUTHREFCLK1
+INFO: [Route 35-467] Router swapped GT pin PicoFramework/core/pcie3_ultrascale_0_i/inst/gt_top_i/gt_wizard.gtwizard_top_i/pcie3_ultrascale_0_gt_i/inst/gen_gtwizard_gthe3_top.pcie3_ultrascale_0_gt_gtwizard_gthe3_inst/gen_gtwizard_gthe3.gen_channel_container[24].gen_enabled_channel.gthe3_channel_wrapper_inst/channel_inst/gthe3_channel_gen.gen_gthe3_channel_inst[3].GTHE3_CHANNEL_PRIM_INST/GTREFCLK0 to physical pin GTHE3_CHANNEL_X1Y3/SOUTHREFCLK1
+Phase 9 Depositing Routes | Checksum: 2947b5cec
+
+Time (s): cpu = 00:02:37 ; elapsed = 00:01:10 . Memory (MB): peak = 3290.789 ; gain = 453.031 ; free physical = 23233 ; free virtual = 34469
+
+Phase 10 Post Router Timing
+
+Phase 10.1 Update Timing
+Phase 10.1 Update Timing | Checksum: 2f7b2e498
+
+Time (s): cpu = 00:02:40 ; elapsed = 00:01:12 . Memory (MB): peak = 3290.789 ; gain = 453.031 ; free physical = 23233 ; free virtual = 34469
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-32.065| TNS=-1705.980| WHS=0.029  | THS=0.000  |
+
+WARNING: [Route 35-328] Router estimated timing not met.
+Resolution: For a complete and accurate timing signoff, report_timing_summary must be run after route_design. Alternatively, route_design can be run with the -timing_summary option to enable a complete timing signoff at the end of route_design.
+Phase 10 Post Router Timing | Checksum: 2f7b2e498
+
+Time (s): cpu = 00:02:40 ; elapsed = 00:01:12 . Memory (MB): peak = 3290.789 ; gain = 453.031 ; free physical = 23233 ; free virtual = 34469
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:02:41 ; elapsed = 00:01:12 . Memory (MB): peak = 3290.789 ; gain = 453.031 ; free physical = 23233 ; free virtual = 34469
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+104 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:02:42 ; elapsed = 00:01:13 . Memory (MB): peak = 3290.789 ; gain = 485.043 ; free physical = 23233 ; free virtual = 34469
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.72 . Memory (MB): peak = 3322.805 ; gain = 0.000 ; free physical = 23208 ; free virtual = 34469
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /home/micron/OriginalStreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.runs/impl_1/Pico_Toplevel_drc_routed.rpt.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Temperature grade: E, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+Attempting to get a license for feature 'Implementation' and/or device 'xcku060'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xcku060'
+INFO: [Common 17-86] Your Implementation license expires in 29 day(s)
+Running DRC as a precondition to command write_bitstream
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [DRC 23-20] Rule violation (PORTPROP-10) Incorrect IOStandard on MCAP reset - The PCI Express reset pin sys_reset_n is driven by an IOB with a 1.8V IO standard.  This is incompatible with the 3.3V signal that is generated by the reset pin of the PCI Express edge connector.  If this pin cannot be driven at 3.3V, your  design will require an external level shifter to convert the incoming 3.3V reset signal from the edge connector to the 1.8V at the FPGA pin.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 1 Advisories
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Designutils 20-2272] Running write_bitstream with 8 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Bitstream compression saved 158223776 bits.
+Writing bitstream ./Pico_Toplevel.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-118] WebTalk data collection is enabled (User setting is ON. Install Setting is ON.).
+INFO: [Common 17-186] '/home/micron/OriginalStreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.runs/impl_1/usage_statistics_webtalk.xml' has been successfully sent to Xilinx on Fri Aug 26 12:36:27 2016. For additional details about this file, please refer to the WebTalk help file at /opt/Xilinx/Vivado/2016.2/doc/webtalk_introduction.html.
+INFO: [Common 17-83] Releasing license: Implementation
+write_bitstream: Time (s): cpu = 00:00:25 ; elapsed = 00:00:18 . Memory (MB): peak = 3476.113 ; gain = 97.281 ; free physical = 23069 ; free virtual = 34329
+INFO: [Vivado_Tcl 4-395] Unable to parse hwdef file Pico_Toplevel.hwdef
+INFO: [Common 17-206] Exiting Vivado at Fri Aug 26 12:36:27 2016...

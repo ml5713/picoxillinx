@@ -41,11 +41,13 @@ module StreamLoopback128 (
     
     // this is a running sum of the input stream.
     reg [31:0]  sum;
+       reg [31:0]  coun;
+     reg [31:0]  average;
     // this is a copy of the low 32 bits of the last input value, because we want to echo it.
     reg [31:0]  last_input;
-
+    initial coun = 1;
     // the output data is a concatenation of the current sum, the last input value, and a signature.
-    assign s1o_data = {32'h42424242, 32'hdeadbeef, sum[31:0], last_input[31:0]};
+    assign s1o_data = {coun, average, sum[31:0], last_input[31:0]};
     
     // all we are doing is computing a checksum on the input data (sum) and 
     // registering the piece of input data that we just received (last_input) 
@@ -54,8 +56,10 @@ module StreamLoopback128 (
         if (rst) begin
             sum         <= 0;
         end else if (s1i_valid && s1i_rdy) begin
+              coun         <= coun + 1;
             sum         <= sum + s1i_data[31:0];
             last_input  <= s1i_data[31:0];
+            average<=sum/coun;
         end
     end
     
