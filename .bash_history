@@ -708,3 +708,85 @@ ls
 cd OriginalStreamLoopback128/
 ls
 sudo /opt/Xilinx/Vivado/2016.2/bin/vivado
+ls
+git remote add origin https://github.com/ml5713/picoxillinx.git
+sudo apt-get install git
+git remote add origin https://github.com/ml5713/picoxillinx.git
+git push -u origin master
+echo "# picoxillinx" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/ml5713/picoxillinx.git
+git push -u origin master
+echo "# picoxillinx" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:ml5713/picoxillinx.git
+git push -u origin master
+git remote add origin git@github.com:ml5713/picoxillinx.git
+ls
+git commit -m "first commit"
+ml5713
+git remote add origin git@github.com:ml5713/picoxillinx.git
+git push -u origin master
+git init
+git commit -m "first commit"
+git config --global user.name "ml5713"
+git commit -m "first commit"
+git remote add origin git@github.com:ml5713/picoxillinx.git
+git push -u origin master
+git commit -m "fix human error"git add -A
+git add -A
+git commit -m "fix human error"
+git push
+ls
+cd OriginalStreamLoopback128/
+ls
+sudo /opt/Xilinx/Vivado/2016.2/bin/vivado
+ls -la
+cd .Xilinx/
+ls
+nano Xilinx.lic 
+exit
+cd /opt/Xilinx
+ls
+cd Vivado
+ls
+ls -la
+exit
+nano .bashrc
+exit
+xterm &
+nano .bashrc
+exit
+sudo /opt/Xilinx/Vivado/2016.2/bin/vivado
+nano .bashrc
+exit
+sudo /opt/Xilinx/Vivado/2016.2/bin/vivado
+echo $LM_LICENSE_FILE 
+echo $XILINXD_LICENSE_FILE 
+nano .bashrc
+echo chicken.doc.ic.ac.uk
+ping chicken.doc.ic.ac.uk
+exit
+echo $LM_LICENSE_FILE 
+sudo /opt/Xilinx/Vivado/2016.2/bin/vivado
+/opt/Xilinx/Vivado/2016.2/bin/vivado
+exit
+ls
+cd .Xilinx/
+ls
+cd /opt/Xilinx/
+ls
+cd Vivado
+ls
+cd 2016.2/
+ls
+cd ~/.Xilinx/
+ls
+mv Xilinx.lic Xilinx-old.lic 
+mv ../Xilinx.lic Xilinx.lic
+sudo /opt/Xilinx/Vivado/2016.2/bin/vivado 
+exit

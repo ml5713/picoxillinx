@@ -2,8 +2,8 @@
 # Vivado v2016.2 (64-bit)
 # SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
 # IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
-# Start of session at: Fri Jul 22 23:55:23 2016
-# Process ID: 24176
+# Start of session at: Wed Aug 10 13:28:39 2016
+# Process ID: 16573
 # Current directory: /home/micron
 # Command line: vivado
 # Log file: /home/micron/vivado.log
@@ -11,12 +11,6 @@
 #-----------------------------------------------------------
 start_gui
 open_project /home/micron/StreamLoopback128/firmware/M510_KU060_StreamLoopback128/M510_KU060_StreamLoopback128.xpr
-Scanning sources...
-Finished scanning sources
-INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1704] No user IP repositories specified
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2016.2/data/ip'.
-open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 5962.109 ; gain = 197.242 ; free physical = 6961 ; free virtual = 37958
 update_compile_order -fileset sources_1
-exit
-INFO: [Common 17-206] Exiting Vivado at Fri Jul 22 23:56:24 2016...
+launch_simulation
+source Pico_Toplevel.tcl

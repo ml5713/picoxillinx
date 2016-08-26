@@ -18,14 +18,14 @@ $#
 
 # Command Line History (newest to oldest):
 :q
-:w! original_streamloopback128
 :wq
+:Q
+:w! original_streamloopback128
 :w! StreamLoopback128.cpp
 : StreamLoopback.cpp.
 :dG
 :gg
 :q!
-:Q
 :w original_streamloopback128
 :w original StreamLoopback128
 :'<,'>s/^/# /g
@@ -208,18 +208,22 @@ $#
 	        
 
 # File marks:
-'0  1  0  ~/StreamLoopback128/software/StreamLoopback128.cpp
-'1  70  6  ~/StreamLoopback128/software/StreamLoopback128.cpp
-'2  163  0  ~/StreamLoopback128/software/StreamLoopback128.cpp
-'3  83  0  ~/StreamLoopback128/software/StreamLoopback128.cpp
-'4  1  0  ~/StreamLoopback128/software/original_streamloopback128
-'5  241  0  ~/StreamLoopback128/software/StreamLoopback128.cpp
-'6  163  0  ~/StreamLoopback128/software/original_streamloopback128
-'7  187  4  ~/StreamLoopback128/software/StreamLoopback128.cpp
-'8  1  17  ~/StreamLoopback128/software/StreamLoopback128.cpp
-'9  1  5991  ~/StreamLoopback128/software/StreamLoopback128.cpp
+'0  161  0  ~/OriginalStreamLoopback128/software/StreamLoopback128.cpp
+'1  69  21  ~/OriginalStreamLoopback128/software/StreamLoopback128.cpp
+'2  1  0  ~/OriginalStreamLoopback128/software/StreamLoopback128.CPP
+'3  1  0  ~/StreamLoopback128/software/StreamLoopback128.cpp
+'4  70  6  ~/StreamLoopback128/software/StreamLoopback128.cpp
+'5  163  0  ~/StreamLoopback128/software/StreamLoopback128.cpp
+'6  83  0  ~/StreamLoopback128/software/StreamLoopback128.cpp
+'7  1  0  ~/StreamLoopback128/software/original_streamloopback128
+'8  241  0  ~/StreamLoopback128/software/StreamLoopback128.cpp
+'9  163  0  ~/StreamLoopback128/software/original_streamloopback128
 
 # Jumplist (newest first):
+-'  161  0  ~/OriginalStreamLoopback128/software/StreamLoopback128.cpp
+-'  1  0  ~/OriginalStreamLoopback128/software/StreamLoopback128.cpp
+-'  69  21  ~/OriginalStreamLoopback128/software/StreamLoopback128.cpp
+-'  1  0  ~/OriginalStreamLoopback128/software/StreamLoopback128.CPP
 -'  1  0  ~/StreamLoopback128/software/StreamLoopback128.cpp
 -'  70  6  ~/StreamLoopback128/software/StreamLoopback128.cpp
 -'  163  0  ~/StreamLoopback128/software/StreamLoopback128.cpp
@@ -314,11 +318,17 @@ $#
 -'  1  0  ~/StreamLoopback128/software/vivado.log
 -'  18  0  ~/StreamLoopback128/software/vivado.jou
 -'  1  0  ~/StreamLoopback128/software/vivado.jou
--'  41  0  ~/StreamLoopback128/software/vivado_3790.backup.log
--'  1  0  ~/StreamLoopback128/software/vivado_3790.backup.log
--'  25  0  ~/StreamLoopback128/software/vivado_3790.backup.jou
 
 # History of marks within files (newest to oldest):
+
+> ~/OriginalStreamLoopback128/software/StreamLoopback128.cpp
+	"	161	0
+	^	69	22
+	.	69	22
+	+	69	22
+
+> ~/OriginalStreamLoopback128/software/StreamLoopback128.CPP
+	"	1	0
 
 > ~/StreamLoopback128/software/StreamLoopback128.cpp
 	"	1	0

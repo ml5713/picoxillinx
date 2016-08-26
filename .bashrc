@@ -116,3 +116,5 @@ fi
 
 PICOBASE=/usr/src/picocomputing-5.5.0.0
 
+export LM_LICENSE_FILE=27000@chicken.doc.ic.ac.uk
+export XILINXD_LICENSE_FILE=27000@chicken.doc.ic.ac.uk

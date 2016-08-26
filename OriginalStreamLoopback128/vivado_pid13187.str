@@ -944,3 +944,4 @@ dismissDialog("Open Implemented Design"); // bL:g (cv:JFrame)
 // TclEventType: POWER_UPDATED
 dismissDialog("Open Report Power"); // bL:g (cv:JFrame)
 // TclEventType: TIMING_SUMMARY_UPDATED
+// [GUI Memory]: 211 MB (+606kb) [01:06:27]
