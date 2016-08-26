@@ -66,7 +66,7 @@ int main(int argc, char* argv[])
     
     // fill the buffer with data we'll recognize when it comes back.
     for (i=0; i < sizeof(wbuf)/sizeof(wbuf[0]); ++i)
-        wbuf[i] = 0x42000000 | i;
+        wbuf[i] = 0x00000000 | i;
     
     // We know that we want to send some data to the FPGA.  We have only allocated 4kB for our tx buffer (wbuf), 
     // so the most we can possibly send is 4kB. 
